@@ -1,0 +1,5 @@
+Migraciones gestionadas con Alembic. Para generar una nueva revisión tras
+modificar los modelos:
+
+    alembic revision --autogenerate -m "descripcion"
+    alembic upgrade head

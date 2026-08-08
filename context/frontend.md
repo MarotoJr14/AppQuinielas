@@ -13,6 +13,7 @@ El usuario deberá escoger el grupo en el que quiere hacer cualquier operación,
 2. [Pantallas login](#pantallas-login)
 3. [Widgets](#widgets)
 4. [Pantallas app](#pantallas-app)
+5. [Ejecutar scripts release](#ejecutar-scripts-release)
 
 ---
 
@@ -242,3 +243,50 @@ Pantalla accesible solo para el líder del grupo, prácticamente igual que la de
 Se trata de una especie de grupo de WhatsApp pero interno de la aplicación, para que se pueda mantener una buena comunicación entre los miembros del grupo en lo relativo a las quinielas. Cada mensaje del grupo implica la notificación correspondiente al resto de usuarios del grupo.
 
 Importante que se refresque automáticamente cada muy poco tiempo para que el usuario no tenga que entrar y salir o refrescar manualmente para ver nuevos mensajes.
+
+---
+
+## Ejecutar scripts release
+
+🍎 En Mac
+Abre Terminal, entra en la carpeta raíz del proyecto:
+
+cd /ruta/a/tu/proyecto
+
+Por ejemplo:
+
+cd ~/Desktop/quinielas
+
+La primera vez, asegúrate de que el script tiene permisos:
+
+chmod +x scripts/build_release_mac.sh
+
+Y ejecútalo:
+
+./scripts/build_release_mac.sh
+
+Te construirá el APK y el IPA.
+
+🪟 En Windows
+Abre CMD o PowerShell y entra en la raíz del proyecto:
+
+cd C:\ruta\a\tu\proyecto
+
+Por ejemplo:
+
+cd C:\Users\TuUsuario\Desktop\quinielas
+
+Después:
+
+.\scripts\build_release_windows.bat
+
+Te construirá el EXE.
+
+También puedes abrir directamente build_release_windows.bat con doble clic, pero prefiero ejecutarlo desde la terminal, porque si ocurre algún error podrás verlo.
+
+Resumen
+Sistema	Comando
+🍎 Mac	./scripts/build_release_mac.sh
+🪟 Windows	.\scripts\build_release_windows.bat
+
+Y ambos comandos debes ejecutarlos desde la raíz del proyecto Flutter, aunque técnicamente los scripts que te pasé ya hacen cd a la raíz automáticamente.

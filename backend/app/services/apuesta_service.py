@@ -48,7 +48,7 @@ class ApuestaService:
             jornada_id=datos.jornada_id,
             grupo_id=datos.grupo_id,
             usuario_elige8_id=datos.usuario_elige8_id,
-            estado=EstadoApuestaEnum.pendiente,
+            estado=EstadoApuestaEnum.abierta,
         )
         db.add(apuesta)
         db.commit()
@@ -59,7 +59,11 @@ class ApuestaService:
         return apuesta_repository.get_or_404(db, apuesta_id)
 
     def listar_cola_grupo(self, db: Session, grupo_id: int) -> list[Apuesta]:
-        apuestas = apuesta_repository.list_por_grupo_estado(db, grupo_id, EstadoApuestaEnum.pendiente)
+        apuestas = apuesta_repository.list_por_grupo_estados(
+            db,
+            grupo_id,
+            [EstadoApuestaEnum.abierta, EstadoApuestaEnum.cerrada],
+        )
         return sorted(apuestas, key=lambda a: a.jornada.fecha_cierre)
 
     def listar_historial_grupo(self, db: Session, grupo_id: int) -> list[Apuesta]:
@@ -94,6 +98,13 @@ class ApuestaService:
                     beneficio += premios.get(categoria, 0.0)
         return round(beneficio, 2)
 
+    def actualizar_beneficios_jornada(self, db: Session, jornada_id: int):
+        apuestas = apuesta_repository.list_por_jornada(db, jornada_id)
+        for apuesta in apuestas:
+            apuesta.beneficio = self.calcular_beneficio(db, apuesta)
+            db.add(apuesta)
+        db.commit()
+
     def actualizar_precio_y_beneficio(self, db: Session, apuesta_id: int) -> Apuesta:
         apuesta = apuesta_repository.get_or_404(db, apuesta_id)
         apuesta.precio = self.calcular_precio(db, apuesta)
@@ -106,9 +117,19 @@ class ApuestaService:
     def cerrar(self, db: Session, usuario_id: int, apuesta_id: int) -> Apuesta:
         apuesta = apuesta_repository.get_or_404(db, apuesta_id)
         grupo_service.comprobar_lider(db, apuesta.grupo_id, usuario_id)
-        if apuesta.estado != EstadoApuestaEnum.pendiente:
+        if apuesta.estado != EstadoApuestaEnum.abierta:
             raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail="La quiniela ya está cerrada.")
         apuesta.estado = EstadoApuestaEnum.cerrada
+
+        partidos = partido_repository.list_por_jornada(db, apuesta.jornada_id)
+        if partidos:
+            algun_no_pendiente = any(p.estado != 'pendiente' for p in partidos)
+            todos_finalizados = all(p.estado == 'finalizado' for p in partidos)
+            if todos_finalizados:
+                apuesta.estado = EstadoApuestaEnum.cerrada
+            elif algun_no_pendiente:
+                apuesta.estado = EstadoApuestaEnum.cerrada
+
         apuesta.precio = self.calcular_precio(db, apuesta)
         db.add(apuesta)
         db.commit()

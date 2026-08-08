@@ -58,6 +58,8 @@ def contar_aciertos_fallos_pendientes(
         partido = partidos_por_id.get(pronostico.partido_id)
         if partido is None:
             continue
+        if partido.es_pleno_al_15 and es_elige8:
+            continue
         resultado = evaluar_pronostico(pronostico, partido, es_elige8)
         if resultado is None:
             pendientes += 1

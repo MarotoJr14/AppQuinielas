@@ -21,6 +21,11 @@ def listar(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
     return temporada_competicion_service.listar(db, skip, limit)
 
 
+@router.get("/por-temporada/{temporada_id}", response_model=list[TemporadaCompeticionRead])
+def listar_por_temporada(temporada_id: int, db: Session = Depends(get_db)):
+    return temporada_competicion_service.listar_por_temporada(db, temporada_id)
+
+
 @router.get("/{id}", response_model=TemporadaCompeticionRead)
 def obtener(id: int, db: Session = Depends(get_db)):
     return temporada_competicion_service.obtener(db, id)

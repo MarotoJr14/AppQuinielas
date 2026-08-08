@@ -1,0 +1,134 @@
+import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
+import 'package:provider/provider.dart';
+import '../../models/apuesta.dart';
+import '../../models/temporada_jornada.dart';
+import '../../state/auth_provider.dart';
+import '../../state/group_provider.dart';
+import '../../widgets/app_scaffold.dart';
+import '../../widgets/common.dart';
+import 'queue_detail_screen.dart';
+
+class QueueScreen extends StatefulWidget {
+  const QueueScreen({super.key});
+
+  @override
+  State<QueueScreen> createState() => _QueueScreenState();
+}
+
+class _QueueScreenState extends State<QueueScreen> {
+  bool _cargando = true;
+  String? _error;
+  final List<Apuesta> _apuestasEnCola = [];
+  List<Apuesta> _apuestas = [];
+  final Map<int, Jornada> _jornadas = {};
+  final Map<int, String> _competicionesPorJornada = {};
+  final _fmt = DateFormat('dd/MM/yyyy HH:mm');
+
+  @override
+  void initState() {
+    super.initState();
+    _cargar();
+  }
+
+  Future<void> _cargar() async {
+    setState(() {
+      _cargando = true;
+      _error = null;
+      _apuestasEnCola.clear();
+    });
+    try {
+      final auth = context.read<AuthProvider>();
+      final groupProvider = context.read<GroupProvider>();
+      final apuestas = await auth.apuestaService.listarEnCola(groupProvider.grupoActual!.id);
+      for (final a in apuestas) {
+        if (!_jornadas.containsKey(a.jornadaId)) {
+          _apuestasEnCola.add(a);
+          final jornada = await auth.jornadaService.obtener(a.jornadaId);
+          _jornadas[a.jornadaId] = jornada;
+          final competiciones = await auth.partidoService
+            .listarCompeticionesPorTemporada(jornada.temporadaId);
+          final partidos = await auth.partidoService
+              .listarPorJornada(jornada.id);
+          final nombres = partidos
+              .map((p) => competiciones
+                  .firstWhere((c) => c.id == p.competicionTemporadaId)
+                  .competicion!
+                  .nombre)
+              .toSet()
+              .toList();
+          _competicionesPorJornada[jornada.id] = nombres.join(' · ');
+        }
+      }
+      apuestas.sort((a, b) {
+        final ja = _jornadas[a.jornadaId]!.fechaCierre;
+        final jb = _jornadas[b.jornadaId]!.fechaCierre;
+        return ja.compareTo(jb);
+      });
+      setState(() => _apuestas = apuestas);
+    } catch (e) {
+      setState(() => _error = e.toString());
+    } finally {
+      setState(() => _cargando = false);
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return AppScaffold(
+      body: RefreshIndicator(
+        onRefresh: _cargar,
+        child: ListView(
+          children: [
+            Text('Quinielas en cola', style: Theme.of(context).textTheme.titleLarge),
+            const SizedBox(height: 4),
+            Text(
+              'Apuestas pendientes de pago, ordenadas por fecha límite.',
+              style: Theme.of(context).textTheme.bodySmall,
+            ),
+            const SizedBox(height: 16),
+            if (_cargando)
+              const CargandoWidget()
+            else if (_error != null)
+              ErrorBanner(mensaje: _error!, onReintentar: _cargar)
+            else if (_apuestas.isEmpty)
+              const EstadoVacio(
+                icono: Icons.inbox_outlined,
+                titulo: 'No hay quinielas en cola',
+                subtitulo: 'Crea una nueva quiniela desde el dashboard.',
+              )
+            else
+              for (final apuesta in _apuestas)
+                Card(
+                  margin: const EdgeInsets.only(bottom: 10),
+                  child: ListTile(
+                    leading: const Icon(Icons.pending_actions_outlined),
+                    title: Text(_jornadas[apuesta.jornadaId]?.nombre ?? 'Jornada #${apuesta.jornadaId}'),
+                    subtitle: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        if ((_competicionesPorJornada[apuesta.jornadaId] ?? '').isNotEmpty)
+                          Text(
+                            _competicionesPorJornada[apuesta.jornadaId]!,
+                          ),
+                        Text(
+                          'Cierra: ${_fmt.format(_jornadas[apuesta.jornadaId]!.fechaCierre)}',
+                          style: Theme.of(context).textTheme.bodySmall,
+                        ),
+                      ],
+                    ),
+                    trailing: Text(
+                      apuesta.precio != null ? '${apuesta.precio!.toStringAsFixed(2)} €' : '-',
+                      style: Theme.of(context).textTheme.titleSmall,
+                    ),
+                    onTap: () => Navigator.of(context)
+                        .push(MaterialPageRoute(builder: (_) => QueueDetailScreen(apuestaId: apuesta.id)))
+                        .then((_) => _cargar()),
+                  ),
+                ),
+          ],
+        ),
+      ),
+    );
+  }
+}

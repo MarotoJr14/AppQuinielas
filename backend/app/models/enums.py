@@ -17,8 +17,12 @@ class GolesEnum(str, enum.Enum):
 
 
 class EstadoApuestaEnum(str, enum.Enum):
-    pendiente = "pendiente"
+    abierta = "abierta"
     cerrada = "cerrada"
+
+
+class EstadoJornadaEnum(str, enum.Enum):
+    pendiente = "pendiente"
     en_curso = "en_curso"
     finalizada = "finalizada"
 
@@ -37,6 +41,13 @@ class OperacionEnum(str, enum.Enum):
     create = "create"
     update = "update"
     delete = "delete"
+
+
+class EstadoPartidoEnum(str, enum.Enum):
+    """Estado del partido."""
+    PENDIENTE = "pendiente"
+    EN_JUEGO = "en_juego"
+    FINALIZADO = "finalizado"
 
 
 class TablaEnum(str, enum.Enum):

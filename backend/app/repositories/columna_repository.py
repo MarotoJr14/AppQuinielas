@@ -13,6 +13,14 @@ class ColumnaRepository(BaseRepository[Columna]):
         stmt = select(Columna).where(Columna.apuesta_id == apuesta_id, Columna.usuario_id == usuario_id)
         return db.scalars(stmt).first()
 
+    def get_normal_por_apuesta_usuario(self, db: Session, apuesta_id: int, usuario_id: int) -> Columna | None:
+        stmt = select(Columna).where(
+            Columna.apuesta_id == apuesta_id,
+            Columna.usuario_id == usuario_id,
+            Columna.es_elige8.is_(False),
+        )
+        return db.scalars(stmt).first()
+
     def get_elige8(self, db: Session, apuesta_id: int) -> Columna | None:
         stmt = select(Columna).where(Columna.apuesta_id == apuesta_id, Columna.es_elige8.is_(True))
         return db.scalars(stmt).first()

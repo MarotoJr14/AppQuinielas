@@ -17,6 +17,9 @@ class TemporadaCompeticionService:
     def obtener(self, db: Session, id: int) -> TemporadaCompeticion:
         return temporada_competicion_repository.get_or_404(db, id)
 
+    def listar_por_temporada(self, db: Session, temporada_id: int) -> list[TemporadaCompeticion]:
+        return temporada_competicion_repository.list_por_temporada(db, temporada_id)
+
     def eliminar(self, db: Session, usuario_id: int, id: int) -> None:
         comprobar_admin(usuario_id)
         obj = temporada_competicion_repository.get_or_404(db, id)

@@ -26,6 +26,11 @@ def listar(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
     return equipo_temporada_competicion_service.listar(db, skip, limit)
 
 
+@router.get("/por-competicion-temporada/{temporada_competicion_id}", response_model=list[EquipoTemporadaCompeticionRead])
+def listar_por_competicion_temporada(temporada_competicion_id: int, db: Session = Depends(get_db)):
+    return equipo_temporada_competicion_service.listar_por_competicion_temporada(db, temporada_competicion_id)
+
+
 @router.delete("/{id}", status_code=status.HTTP_204_NO_CONTENT)
 def eliminar(id: int, usuario_id: int = Depends(get_current_user_id), db: Session = Depends(get_db)):
     equipo_temporada_competicion_service.eliminar(db, usuario_id, id)

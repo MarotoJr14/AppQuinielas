@@ -16,6 +16,9 @@ class EquipoTemporadaCompeticionService:
     def listar(self, db: Session, skip: int = 0, limit: int = 100) -> list[EquipoTemporadaCompeticion]:
         return equipo_temporada_competicion_repository.list(db, skip, limit)
 
+    def listar_por_competicion_temporada(self, db: Session, temporada_competicion_id: int) -> list[EquipoTemporadaCompeticion]:
+        return equipo_temporada_competicion_repository.list_por_competicion_temporada(db, temporada_competicion_id)
+
     def eliminar(self, db: Session, usuario_id: int, id: int) -> None:
         comprobar_admin(usuario_id)
         obj = equipo_temporada_competicion_repository.get_or_404(db, id)

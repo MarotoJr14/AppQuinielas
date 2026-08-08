@@ -3,10 +3,11 @@ from __future__ import annotations
 from datetime import datetime
 from typing import TYPE_CHECKING
 
-from sqlalchemy import DateTime, ForeignKey, String, UniqueConstraint
+from sqlalchemy import DateTime, Enum as SAEnum, ForeignKey, String, UniqueConstraint
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.db.base_class import Base, TimestampMixin
+from app.models.enums import EstadoJornadaEnum
 
 if TYPE_CHECKING:
     from app.models.temporada import Temporada
@@ -23,6 +24,11 @@ class Jornada(Base, TimestampMixin):
     temporada_id: Mapped[int] = mapped_column(ForeignKey("temporadas.id", ondelete="CASCADE"), nullable=False)
     nombre: Mapped[str] = mapped_column(String(150), nullable=False)
     fecha_cierre: Mapped[datetime] = mapped_column(DateTime(timezone=True), unique=True, nullable=False)
+    estado: Mapped[EstadoJornadaEnum] = mapped_column(
+        SAEnum(EstadoJornadaEnum, name="estado_jornada_enum"),
+        nullable=False,
+        default=EstadoJornadaEnum.pendiente,
+    )
 
     temporada: Mapped["Temporada"] = relationship(back_populates="jornadas")
     premios: Mapped[list["PremioJornada"]] = relationship(back_populates="jornada", cascade="all, delete-orphan")

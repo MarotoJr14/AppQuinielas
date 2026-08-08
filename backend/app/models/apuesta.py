@@ -29,7 +29,7 @@ class Apuesta(Base, TimestampMixin):
     estado: Mapped[EstadoApuestaEnum] = mapped_column(
         SAEnum(EstadoApuestaEnum, name="estado_apuesta_enum"),
         nullable=False,
-        default=EstadoApuestaEnum.pendiente,
+        default=EstadoApuestaEnum.abierta,
     )
     precio: Mapped[float | None] = mapped_column(Float, nullable=True)
     beneficio: Mapped[float | None] = mapped_column(Float, nullable=True)

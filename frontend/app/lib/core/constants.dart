@@ -7,7 +7,8 @@ class AppConstants {
   /// - Dispositivo físico / web: usar la IP o dominio real del backend.
   static const String apiBaseUrl = String.fromEnvironment(
     'API_BASE_URL',
-    defaultValue: 'http://10.0.2.2:8000/api/v1',
+    defaultValue: 'http://79.143.88.52:8000/api/v1',
+    /// (emulator) defaultValue: 'http://10.0.2.2:8000/api/v1',
   );
 
   static const String prefsTokenKey = 'auth_token';

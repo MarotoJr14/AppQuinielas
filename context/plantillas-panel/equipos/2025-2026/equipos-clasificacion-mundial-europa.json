@@ -1,0 +1,272 @@
+[
+  {
+    "nombre": "Albania",
+    "pais": "Albania",
+    "es_club": false
+  },
+  {
+    "nombre": "Alemania",
+    "pais": "Alemania",
+    "es_club": false
+  },
+  {
+    "nombre": "Andorra",
+    "pais": "Andorra",
+    "es_club": false
+  },
+  {
+    "nombre": "Armenia",
+    "pais": "Armenia",
+    "es_club": false
+  },
+  {
+    "nombre": "Austria",
+    "pais": "Austria",
+    "es_club": false
+  },
+  {
+    "nombre": "Azerbaiyán",
+    "pais": "Azerbaiyán",
+    "es_club": false
+  },
+  {
+    "nombre": "Bélgica",
+    "pais": "Bélgica",
+    "es_club": false
+  },
+  {
+    "nombre": "Bielorrusia",
+    "pais": "Bielorrusia",
+    "es_club": false
+  },
+  {
+    "nombre": "Bosnia y Herzegovina",
+    "pais": "Bosnia y Herzegovina",
+    "es_club": false
+  },
+  {
+    "nombre": "Bulgaria",
+    "pais": "Bulgaria",
+    "es_club": false
+  },
+  {
+    "nombre": "Chipre",
+    "pais": "Chipre",
+    "es_club": false
+  },
+  {
+    "nombre": "Croacia",
+    "pais": "Croacia",
+    "es_club": false
+  },
+  {
+    "nombre": "Dinamarca",
+    "pais": "Dinamarca",
+    "es_club": false
+  },
+  {
+    "nombre": "Escocia",
+    "pais": "Escocia",
+    "es_club": false
+  },
+  {
+    "nombre": "Eslovaquia",
+    "pais": "Eslovaquia",
+    "es_club": false
+  },
+  {
+    "nombre": "Eslovenia",
+    "pais": "Eslovenia",
+    "es_club": false
+  },
+  {
+    "nombre": "España",
+    "pais": "España",
+    "es_club": false
+  },
+  {
+    "nombre": "Estonia",
+    "pais": "Estonia",
+    "es_club": false
+  },
+  {
+    "nombre": "Finlandia",
+    "pais": "Finlandia",
+    "es_club": false
+  },
+  {
+    "nombre": "Francia",
+    "pais": "Francia",
+    "es_club": false
+  },
+  {
+    "nombre": "Gales",
+    "pais": "Gales",
+    "es_club": false
+  },
+  {
+    "nombre": "Georgia",
+    "pais": "Georgia",
+    "es_club": false
+  },
+  {
+    "nombre": "Gibraltar",
+    "pais": "Gibraltar",
+    "es_club": false
+  },
+  {
+    "nombre": "Grecia",
+    "pais": "Grecia",
+    "es_club": false
+  },
+  {
+    "nombre": "Hungría",
+    "pais": "Hungría",
+    "es_club": false
+  },
+  {
+    "nombre": "Inglaterra",
+    "pais": "Inglaterra",
+    "es_club": false
+  },
+  {
+    "nombre": "Irlanda",
+    "pais": "Irlanda",
+    "es_club": false
+  },
+  {
+    "nombre": "Irlanda del Norte",
+    "pais": "Irlanda del Norte",
+    "es_club": false
+  },
+  {
+    "nombre": "Islandia",
+    "pais": "Islandia",
+    "es_club": false
+  },
+  {
+    "nombre": "Islas Feroe",
+    "pais": "Islas Feroe",
+    "es_club": false
+  },
+  {
+    "nombre": "Israel",
+    "pais": "Israel",
+    "es_club": false
+  },
+  {
+    "nombre": "Italia",
+    "pais": "Italia",
+    "es_club": false
+  },
+  {
+    "nombre": "Kazajistán",
+    "pais": "Kazajistán",
+    "es_club": false
+  },
+  {
+    "nombre": "Kosovo",
+    "pais": "Kosovo",
+    "es_club": false
+  },
+  {
+    "nombre": "Letonia",
+    "pais": "Letonia",
+    "es_club": false
+  },
+  {
+    "nombre": "Liechtenstein",
+    "pais": "Liechtenstein",
+    "es_club": false
+  },
+  {
+    "nombre": "Lituania",
+    "pais": "Lituania",
+    "es_club": false
+  },
+  {
+    "nombre": "Luxemburgo",
+    "pais": "Luxemburgo",
+    "es_club": false
+  },
+  {
+    "nombre": "Macedonia del Norte",
+    "pais": "Macedonia del Norte",
+    "es_club": false
+  },
+  {
+    "nombre": "Malta",
+    "pais": "Malta",
+    "es_club": false
+  },
+  {
+    "nombre": "Moldavia",
+    "pais": "Moldavia",
+    "es_club": false
+  },
+  {
+    "nombre": "Montenegro",
+    "pais": "Montenegro",
+    "es_club": false
+  },
+  {
+    "nombre": "Noruega",
+    "pais": "Noruega",
+    "es_club": false
+  },
+  {
+    "nombre": "Países Bajos",
+    "pais": "Países Bajos",
+    "es_club": false
+  },
+  {
+    "nombre": "Polonia",
+    "pais": "Polonia",
+    "es_club": false
+  },
+  {
+    "nombre": "Portugal",
+    "pais": "Portugal",
+    "es_club": false
+  },
+  {
+    "nombre": "República Checa",
+    "pais": "República Checa",
+    "es_club": false
+  },
+  {
+    "nombre": "Rumanía",
+    "pais": "Rumanía",
+    "es_club": false
+  },
+  {
+    "nombre": "San Marino",
+    "pais": "San Marino",
+    "es_club": false
+  },
+  {
+    "nombre": "Serbia",
+    "pais": "Serbia",
+    "es_club": false
+  },
+  {
+    "nombre": "Suecia",
+    "pais": "Suecia",
+    "es_club": false
+  },
+  {
+    "nombre": "Suiza",
+    "pais": "Suiza",
+    "es_club": false
+  },
+  {
+    "nombre": "Turquía",
+    "pais": "Turquía",
+    "es_club": false
+  },
+  {
+    "nombre": "Ucrania",
+    "pais": "Ucrania",
+    "es_club": false
+  }
+]

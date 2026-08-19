@@ -1,0 +1,126 @@
+{
+  "nombre": "J34",
+  "fecha_cierre": "2026-01-13T20:30:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Copa del Rey",
+      "equipo_local": "Racing",
+      "equipo_visitante": "FC Barcelona",
+      "fecha_hora": "2026-01-15T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 2,
+      "competicion": "Copa del Rey",
+      "equipo_local": "Albacete",
+      "equipo_visitante": "Real Madrid",
+      "fecha_hora": "2026-01-14T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 3,
+      "competicion": "Copa del Rey",
+      "equipo_local": "Real Betis",
+      "equipo_visitante": "Elche",
+      "fecha_hora": "2026-01-14T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 4,
+      "competicion": "Copa del Rey",
+      "equipo_local": "Deportivo Alavés",
+      "equipo_visitante": "Rayo Vallecano",
+      "fecha_hora": "2026-01-14T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 5,
+      "competicion": "Copa del Rey",
+      "equipo_local": "Cultural Leonesa",
+      "equipo_visitante": "Athletic Club",
+      "fecha_hora": "2026-01-13T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 6,
+      "competicion": "Copa del Rey",
+      "equipo_local": "Burgos CF",
+      "equipo_visitante": "Valencia",
+      "fecha_hora": "2026-01-15T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 7,
+      "competicion": "Copa del Rey",
+      "equipo_local": "Real Sociedad",
+      "equipo_visitante": "Osasuna",
+      "fecha_hora": "2026-01-13T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 8,
+      "competicion": "Bundesliga",
+      "equipo_local": "B. Dortmund",
+      "equipo_visitante": "Werder Bremen",
+      "fecha_hora": "2026-01-13T20:30:00",
+      "canal": null
+    },
+    {
+      "orden": 9,
+      "competicion": "Bundesliga",
+      "equipo_local": "Hamburger SV",
+      "equipo_visitante": "B. Leverkusen",
+      "fecha_hora": "2026-01-13T20:30:00",
+      "canal": null
+    },
+    {
+      "orden": 10,
+      "competicion": "Bundesliga",
+      "equipo_local": "Wolfsburg",
+      "equipo_visitante": "FC St Pauli",
+      "fecha_hora": "2026-01-14T18:30:00",
+      "canal": null
+    },
+    {
+      "orden": 11,
+      "competicion": "Bundesliga",
+      "equipo_local": "Köln",
+      "equipo_visitante": "Bayern München",
+      "fecha_hora": "2026-01-14T20:30:00",
+      "canal": null
+    },
+    {
+      "orden": 12,
+      "competicion": "Bundesliga",
+      "equipo_local": "Hoffenheim",
+      "equipo_visitante": "B. Mönchengladbach",
+      "fecha_hora": "2026-01-14T20:30:00",
+      "canal": null
+    },
+    {
+      "orden": 13,
+      "competicion": "Bundesliga",
+      "equipo_local": "RB Leipzig",
+      "equipo_visitante": "SC Freiburg",
+      "fecha_hora": "2026-01-14T20:30:00",
+      "canal": null
+    },
+    {
+      "orden": 14,
+      "competicion": "Bundesliga",
+      "equipo_local": "FC Augsburg",
+      "equipo_visitante": "Union Berlin",
+      "fecha_hora": "2026-01-15T20:30:00",
+      "canal": null
+    },
+    {
+      "orden": 15,
+      "competicion": "Copa del Rey",
+      "equipo_local": "RC Deportivo",
+      "equipo_visitante": "Atlético de Madrid",
+      "fecha_hora": "2026-01-13T21:00:00",
+      "canal": null
+    }
+  ]
+}

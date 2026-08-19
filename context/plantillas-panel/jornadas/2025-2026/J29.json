@@ -1,0 +1,126 @@
+{
+  "nombre": "J29",
+  "fecha_cierre": "2025-12-18T21:00:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Conference League",
+      "equipo_local": "AZ Alkmaar",
+      "equipo_visitante": "Jagiellonia Bialystok",
+      "fecha_hora": "2025-12-18T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 2,
+      "competicion": "Conference League",
+      "equipo_local": "Shakhtar Donetsk",
+      "equipo_visitante": "HNK Rijeka",
+      "fecha_hora": "2025-12-18T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 3,
+      "competicion": "Conference League",
+      "equipo_local": "Slovan Bratislava",
+      "equipo_visitante": "Häcken",
+      "fecha_hora": "2025-12-18T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 4,
+      "competicion": "Conference League",
+      "equipo_local": "Sigma Olomouc",
+      "equipo_visitante": "Lech Poznan",
+      "fecha_hora": "2025-12-18T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 5,
+      "competicion": "Conference League",
+      "equipo_local": "Sparta Praha",
+      "equipo_visitante": "Aberdeen",
+      "fecha_hora": "2025-12-18T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 6,
+      "competicion": "Conference League",
+      "equipo_local": "Dynamo Kyiv",
+      "equipo_visitante": "Noah",
+      "fecha_hora": "2025-12-18T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 7,
+      "competicion": "Conference League",
+      "equipo_local": "Crystal Palace",
+      "equipo_visitante": "KuPS Kuopio",
+      "fecha_hora": "2025-12-18T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 8,
+      "competicion": "Conference League",
+      "equipo_local": "Shamrock Rovers",
+      "equipo_visitante": "Hamrun Spartans",
+      "fecha_hora": "2025-12-18T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 9,
+      "competicion": "Conference League",
+      "equipo_local": "Mainz 05",
+      "equipo_visitante": "Samsunspor",
+      "fecha_hora": "2025-12-18T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 10,
+      "competicion": "Conference League",
+      "equipo_local": "Strasbourg",
+      "equipo_visitante": "Breidablik",
+      "fecha_hora": "2025-12-18T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 11,
+      "competicion": "Conference League",
+      "equipo_local": "Celje",
+      "equipo_visitante": "Shelbourne",
+      "fecha_hora": "2025-12-18T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 12,
+      "competicion": "Conference League",
+      "equipo_local": "Zrinjski Mostar",
+      "equipo_visitante": "Rapid Wien",
+      "fecha_hora": "2025-12-18T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 13,
+      "competicion": "Conference League",
+      "equipo_local": "AEK Athens",
+      "equipo_visitante": "Universitatea Craiova",
+      "fecha_hora": "2025-12-18T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 14,
+      "competicion": "Conference League",
+      "equipo_local": "Lausanne Sports",
+      "equipo_visitante": "Fiorentina",
+      "fecha_hora": "2025-12-18T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 15,
+      "competicion": "Conference League",
+      "equipo_local": "Rayo Vallecano",
+      "equipo_visitante": "FC Drita",
+      "fecha_hora": "2025-12-18T21:00:00",
+      "canal": null
+    }
+  ]
+}

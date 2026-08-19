@@ -1,0 +1,126 @@
+{
+  "nombre": "J31",
+  "fecha_cierre": "2025-12-27T13:30:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Premier League",
+      "equipo_local": "Nottingham Forest",
+      "equipo_visitante": "Manchester City",
+      "fecha_hora": "2025-12-27T13:30:00",
+      "canal": null
+    },
+    {
+      "orden": 2,
+      "competicion": "Premier League",
+      "equipo_local": "Arsenal",
+      "equipo_visitante": "Brighton & Hove Albion",
+      "fecha_hora": "2025-12-27T16:00:00",
+      "canal": null
+    },
+    {
+      "orden": 3,
+      "competicion": "Premier League",
+      "equipo_local": "Brentford",
+      "equipo_visitante": "AFC Bournemouth",
+      "fecha_hora": "2025-12-27T16:00:00",
+      "canal": null
+    },
+    {
+      "orden": 4,
+      "competicion": "Premier League",
+      "equipo_local": "Burnley",
+      "equipo_visitante": "Everton",
+      "fecha_hora": "2025-12-27T16:00:00",
+      "canal": null
+    },
+    {
+      "orden": 5,
+      "competicion": "Premier League",
+      "equipo_local": "Liverpool",
+      "equipo_visitante": "Wolves",
+      "fecha_hora": "2025-12-27T16:00:00",
+      "canal": null
+    },
+    {
+      "orden": 6,
+      "competicion": "Premier League",
+      "equipo_local": "West Ham",
+      "equipo_visitante": "Fulham",
+      "fecha_hora": "2025-12-27T16:00:00",
+      "canal": null
+    },
+    {
+      "orden": 7,
+      "competicion": "Premier League",
+      "equipo_local": "Chelsea",
+      "equipo_visitante": "Aston Villa",
+      "fecha_hora": "2025-12-27T18:30:00",
+      "canal": null
+    },
+    {
+      "orden": 8,
+      "competicion": "Premier League",
+      "equipo_local": "Sunderland",
+      "equipo_visitante": "Leeds United",
+      "fecha_hora": "2025-12-28T15:00:00",
+      "canal": null
+    },
+    {
+      "orden": 9,
+      "competicion": "Premier League",
+      "equipo_local": "Crystal Palace",
+      "equipo_visitante": "Tottenham Hotspur",
+      "fecha_hora": "2025-12-28T17:30:00",
+      "canal": null
+    },
+    {
+      "orden": 10,
+      "competicion": "Serie A",
+      "equipo_local": "Udinese",
+      "equipo_visitante": "Lazio",
+      "fecha_hora": "2025-12-27T18:00:00",
+      "canal": null
+    },
+    {
+      "orden": 11,
+      "competicion": "Serie A",
+      "equipo_local": "Pisa SC",
+      "equipo_visitante": "Juventus",
+      "fecha_hora": "2025-12-27T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 12,
+      "competicion": "Serie A",
+      "equipo_local": "Milan",
+      "equipo_visitante": "Hellas Verona",
+      "fecha_hora": "2025-12-28T12:30:00",
+      "canal": null
+    },
+    {
+      "orden": 13,
+      "competicion": "Serie A",
+      "equipo_local": "Cremonese",
+      "equipo_visitante": "Napoli",
+      "fecha_hora": "2025-12-28T15:00:00",
+      "canal": null
+    },
+    {
+      "orden": 14,
+      "competicion": "Serie A",
+      "equipo_local": "Bologna",
+      "equipo_visitante": "Sassuolo",
+      "fecha_hora": "2025-12-28T18:00:00",
+      "canal": null
+    },
+    {
+      "orden": 15,
+      "competicion": "Serie A",
+      "equipo_local": "Atalanta",
+      "equipo_visitante": "Inter",
+      "fecha_hora": "2025-12-28T20:45:00",
+      "canal": null
+    }
+  ]
+}

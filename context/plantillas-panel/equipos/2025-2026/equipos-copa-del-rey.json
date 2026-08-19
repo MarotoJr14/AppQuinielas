@@ -1,0 +1,302 @@
+[
+  {
+    "nombre": "Portugalete",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Deportivo Alavés",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "CD Ebro",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Osasuna",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Numancia",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Mallorca",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Racing Ferrol",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Huesca",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "CD Guadalajara",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "AD Ceuta FC",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "CDA Navalcarnero",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Getafe",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Mirandés",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Real Sporting",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Cultural Leonesa",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "FC Andorra",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Real Murcia",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Cádiz",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "CF Talavera",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Málaga",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Eldense",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Almería",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Ourense CF",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Girona FC",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Reus FC Reddis",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Real Sociedad",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Pontevedra",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Eibar",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "CD Cieza",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Levante",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "CD Quintanar del Rey",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Elche",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Torrent CF",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Real Betis",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Atlético Antoniano",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Villarreal",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Atlético Baleares",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Espanyol",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "CE Sabadell",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "RC Deportivo",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Real Ávila",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Rayo Vallecano",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Leganés",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Albacete",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Ponferradina",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Racing",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "UE Sant Andreu",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Celta",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Real Zaragoza",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Burgos CF",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "CD Extremadura",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Sevilla",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "FC Cartagena",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Valencia",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Tenerife",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Granada",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Real Madrid",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Atlético de Madrid",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "FC Barcelona",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Athletic Club",
+    "pais": "España",
+    "es_club": true
+  }
+]

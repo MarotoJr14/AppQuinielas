@@ -1,0 +1,126 @@
+{
+  "nombre": "J27",
+  "fecha_cierre": "2025-12-09T21:00:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Champions League",
+      "equipo_local": "Atalanta",
+      "equipo_visitante": "Chelsea",
+      "fecha_hora": "2025-12-09T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 2,
+      "competicion": "Champions League",
+      "equipo_local": "FC Barcelona",
+      "equipo_visitante": "Eintracht Frankfurt",
+      "fecha_hora": "2025-12-09T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 3,
+      "competicion": "Champions League",
+      "equipo_local": "Inter",
+      "equipo_visitante": "Liverpool",
+      "fecha_hora": "2025-12-09T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 4,
+      "competicion": "Champions League",
+      "equipo_local": "Monaco",
+      "equipo_visitante": "Galatasaray SK",
+      "fecha_hora": "2025-12-09T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 5,
+      "competicion": "Champions League",
+      "equipo_local": "PSV",
+      "equipo_visitante": "Atlético de Madrid",
+      "fecha_hora": "2025-12-09T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 6,
+      "competicion": "Champions League",
+      "equipo_local": "Qarabag",
+      "equipo_visitante": "Ajax",
+      "fecha_hora": "2025-12-10T18:45:00",
+      "canal": null
+    },
+    {
+      "orden": 7,
+      "competicion": "Champions League",
+      "equipo_local": "Villarreal",
+      "equipo_visitante": "Kobenhavn",
+      "fecha_hora": "2025-12-10T18:45:00",
+      "canal": null
+    },
+    {
+      "orden": 8,
+      "competicion": "Champions League",
+      "equipo_local": "Athletic Club",
+      "equipo_visitante": "PSG",
+      "fecha_hora": "2025-12-10T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 9,
+      "competicion": "Champions League",
+      "equipo_local": "B. Leverkusen",
+      "equipo_visitante": "Newcastle",
+      "fecha_hora": "2025-12-10T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 10,
+      "competicion": "Champions League",
+      "equipo_local": "Benfica",
+      "equipo_visitante": "Napoli",
+      "fecha_hora": "2025-12-10T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 11,
+      "competicion": "Champions League",
+      "equipo_local": "B. Dortmund",
+      "equipo_visitante": "FK Bodo Glimt",
+      "fecha_hora": "2025-12-10T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 12,
+      "competicion": "Champions League",
+      "equipo_local": "Juventus",
+      "equipo_visitante": "Pafos",
+      "fecha_hora": "2025-12-10T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 13,
+      "competicion": "Europa League",
+      "equipo_local": "Dinamo Zagreb",
+      "equipo_visitante": "Real Betis",
+      "fecha_hora": "2025-12-11T18:45:00",
+      "canal": null
+    },
+    {
+      "orden": 14,
+      "competicion": "Europa League",
+      "equipo_local": "Celta",
+      "equipo_visitante": "Bologna",
+      "fecha_hora": "2025-12-11T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 15,
+      "competicion": "Champions League",
+      "equipo_local": "Real Madrid",
+      "equipo_visitante": "Manchester City",
+      "fecha_hora": "2025-12-10T21:00:00",
+      "canal": null
+    }
+  ]
+}

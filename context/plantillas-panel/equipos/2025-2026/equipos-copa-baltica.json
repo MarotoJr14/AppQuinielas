@@ -1,0 +1,22 @@
+[
+  {
+    "nombre": "Lituania",
+    "pais": "Lituania",
+    "es_club": false
+  },
+  {
+    "nombre": "Letonia",
+    "pais": "Letonia",
+    "es_club": false
+  },
+  {
+    "nombre": "Estonia",
+    "pais": "Estonia",
+    "es_club": false
+  },
+  {
+    "nombre": "Islas Feroe",
+    "pais": "Islas Feroe",
+    "es_club": false
+  }
+]

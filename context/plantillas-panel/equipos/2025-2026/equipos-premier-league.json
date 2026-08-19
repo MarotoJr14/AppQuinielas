@@ -1,0 +1,102 @@
+[
+  {
+    "nombre": "Arsenal",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "Manchester City",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "Manchester United",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "Aston Villa",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "Liverpool",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "AFC Bournemouth",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "Sunderland",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "Brighton & Hove Albion",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "Brentford",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "Chelsea",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "Fulham",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "Newcastle",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "Everton",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "Leeds United",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "Crystal Palace",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "Nottingham Forest",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "Tottenham Hotspur",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "West Ham",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "Burnley",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "Wolves",
+    "pais": "Inglaterra",
+    "es_club": true
+  }
+]

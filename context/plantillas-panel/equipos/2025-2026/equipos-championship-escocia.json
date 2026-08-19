@@ -1,0 +1,52 @@
+[
+  {
+    "nombre": "St. Johnstone",
+    "pais": "Escocia",
+    "es_club": true
+  },
+  {
+    "nombre": "Partick Thistle",
+    "pais": "Escocia",
+    "es_club": true
+  },
+  {
+    "nombre": "Arbroath",
+    "pais": "Escocia",
+    "es_club": true
+  },
+  {
+    "nombre": "Dunfermline Athletic FC",
+    "pais": "Escocia",
+    "es_club": true
+  },
+  {
+    "nombre": "Raith Rovers",
+    "pais": "Escocia",
+    "es_club": true
+  },
+  {
+    "nombre": "Queen's Park",
+    "pais": "Escocia",
+    "es_club": true
+  },
+  {
+    "nombre": "Ayr United",
+    "pais": "Escocia",
+    "es_club": true
+  },
+  {
+    "nombre": "Greenock Morton",
+    "pais": "Escocia",
+    "es_club": true
+  },
+  {
+    "nombre": "Airdrieonians",
+    "pais": "Escocia",
+    "es_club": true
+  },
+  {
+    "nombre": "Ross County FC",
+    "pais": "Escocia",
+    "es_club": true
+  }
+]

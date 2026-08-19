@@ -1,0 +1,182 @@
+[
+  {
+    "nombre": "Strasbourg",
+    "pais": "Francia",
+    "es_club": true
+  },
+  {
+    "nombre": "Raków Czestochowa",
+    "pais": "Polonia",
+    "es_club": true
+  },
+  {
+    "nombre": "AEK Athens",
+    "pais": "Grecia",
+    "es_club": true
+  },
+  {
+    "nombre": "Sparta Praha",
+    "pais": "República Checa",
+    "es_club": true
+  },
+  {
+    "nombre": "Rayo Vallecano",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Shakhtar Donetsk",
+    "pais": "Ucrania",
+    "es_club": true
+  },
+  {
+    "nombre": "Mainz 05",
+    "pais": "Alemania",
+    "es_club": true
+  },
+  {
+    "nombre": "AEK Larnaca",
+    "pais": "Chipre",
+    "es_club": true
+  },
+  {
+    "nombre": "Lausanne Sports",
+    "pais": "Suiza",
+    "es_club": true
+  },
+  {
+    "nombre": "Crystal Palace",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "Lech Poznan",
+    "pais": "Polonia",
+    "es_club": true
+  },
+  {
+    "nombre": "Samsunspor",
+    "pais": "Turquía",
+    "es_club": true
+  },
+  {
+    "nombre": "Celje",
+    "pais": "Eslovenia",
+    "es_club": true
+  },
+  {
+    "nombre": "AZ Alkmaar",
+    "pais": "Países Bajos",
+    "es_club": true
+  },
+  {
+    "nombre": "Fiorentina",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "HNK Rijeka",
+    "pais": "Croacia",
+    "es_club": true
+  },
+  {
+    "nombre": "Jagiellonia Bialystok",
+    "pais": "Polonia",
+    "es_club": true
+  },
+  {
+    "nombre": "Omonia Nicosia",
+    "pais": "Chipre",
+    "es_club": true
+  },
+  {
+    "nombre": "Noah",
+    "pais": "Armenia",
+    "es_club": true
+  },
+  {
+    "nombre": "FC Drita",
+    "pais": "Kosovo",
+    "es_club": true
+  },
+  {
+    "nombre": "KuPS Kuopio",
+    "pais": "Finlandia",
+    "es_club": true
+  },
+  {
+    "nombre": "KF Shkëndija",
+    "pais": "Macedonia del Norte",
+    "es_club": true
+  },
+  {
+    "nombre": "Zrinjski Mostar",
+    "pais": "Bosnia y Herzegovina",
+    "es_club": true
+  },
+  {
+    "nombre": "Sigma Olomouc",
+    "pais": "República Checa",
+    "es_club": true
+  },
+  {
+    "nombre": "Universitatea Craiova",
+    "pais": "Rumanía",
+    "es_club": true
+  },
+  {
+    "nombre": "Lincoln Red Imps",
+    "pais": "Gibraltar",
+    "es_club": true
+  },
+  {
+    "nombre": "Dynamo Kyiv",
+    "pais": "Ucrania",
+    "es_club": true
+  },
+  {
+    "nombre": "Legia Warszawa",
+    "pais": "Polonia",
+    "es_club": true
+  },
+  {
+    "nombre": "Slovan Bratislava",
+    "pais": "Eslovaquia",
+    "es_club": true
+  },
+  {
+    "nombre": "Breidablik",
+    "pais": "Islandia",
+    "es_club": true
+  },
+  {
+    "nombre": "Shamrock Rovers",
+    "pais": "Irlanda",
+    "es_club": true
+  },
+  {
+    "nombre": "Häcken",
+    "pais": "Suecia",
+    "es_club": true
+  },
+  {
+    "nombre": "Hamrun Spartans",
+    "pais": "Malta",
+    "es_club": true
+  },
+  {
+    "nombre": "Shelbourne",
+    "pais": "Irlanda",
+    "es_club": true
+  },
+  {
+    "nombre": "Aberdeen",
+    "pais": "Escocia",
+    "es_club": true
+  },
+  {
+    "nombre": "Rapid Wien",
+    "pais": "Austria",
+    "es_club": true
+  }
+]

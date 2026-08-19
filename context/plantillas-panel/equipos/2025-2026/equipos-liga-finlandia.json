@@ -1,0 +1,62 @@
+[
+  {
+    "nombre": "KuPS Kuopio",
+    "pais": "Finlandia",
+    "es_club": true
+  },
+  {
+    "nombre": "Inter Turku",
+    "pais": "Finlandia",
+    "es_club": true
+  },
+  {
+    "nombre": "VPS Vaasa",
+    "pais": "Finlandia",
+    "es_club": true
+  },
+  {
+    "nombre": "AC Oulu",
+    "pais": "Finlandia",
+    "es_club": true
+  },
+  {
+    "nombre": "Gnistan",
+    "pais": "Finlandia",
+    "es_club": true
+  },
+  {
+    "nombre": "HJK Helsinki",
+    "pais": "Finlandia",
+    "es_club": true
+  },
+  {
+    "nombre": "FC Lahti",
+    "pais": "Finlandia",
+    "es_club": true
+  },
+  {
+    "nombre": "TPS",
+    "pais": "Finlandia",
+    "es_club": true
+  },
+  {
+    "nombre": "Ilves",
+    "pais": "Finlandia",
+    "es_club": true
+  },
+  {
+    "nombre": "SJK",
+    "pais": "Finlandia",
+    "es_club": true
+  },
+  {
+    "nombre": "FF Jaro",
+    "pais": "Finlandia",
+    "es_club": true
+  },
+  {
+    "nombre": "IFK Mariehamn",
+    "pais": "Finlandia",
+    "es_club": true
+  }
+]

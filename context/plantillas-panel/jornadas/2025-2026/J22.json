@@ -1,0 +1,126 @@
+{
+  "nombre": "J22",
+  "fecha_cierre": "2025-11-22T14:00:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Primera División",
+      "equipo_local": "Deportivo Alavés",
+      "equipo_visitante": "Celta",
+      "fecha_hora": "2025-11-22T14:00:00",
+      "canal": null
+    },
+    {
+      "orden": 2,
+      "competicion": "Primera División",
+      "equipo_local": "FC Barcelona",
+      "equipo_visitante": "Athletic Club",
+      "fecha_hora": "2025-11-22T16:15:00",
+      "canal": null
+    },
+    {
+      "orden": 3,
+      "competicion": "Primera División",
+      "equipo_local": "Osasuna",
+      "equipo_visitante": "Real Sociedad",
+      "fecha_hora": "2025-11-22T18:30:00",
+      "canal": null
+    },
+    {
+      "orden": 4,
+      "competicion": "Primera División",
+      "equipo_local": "Villarreal",
+      "equipo_visitante": "Mallorca",
+      "fecha_hora": "2025-11-22T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 5,
+      "competicion": "Primera División",
+      "equipo_local": "Real Oviedo",
+      "equipo_visitante": "Rayo Vallecano",
+      "fecha_hora": "2025-11-23T14:00:00",
+      "canal": null
+    },
+    {
+      "orden": 6,
+      "competicion": "Primera División",
+      "equipo_local": "Real Betis",
+      "equipo_visitante": "Girona FC",
+      "fecha_hora": "2025-11-23T16:15:00",
+      "canal": null
+    },
+    {
+      "orden": 7,
+      "competicion": "Primera División",
+      "equipo_local": "Getafe",
+      "equipo_visitante": "Atlético de Madrid",
+      "fecha_hora": "2025-11-23T18:30:00",
+      "canal": null
+    },
+    {
+      "orden": 8,
+      "competicion": "Primera División",
+      "equipo_local": "Elche",
+      "equipo_visitante": "Real Madrid",
+      "fecha_hora": "2025-11-23T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 9,
+      "competicion": "Segunda División",
+      "equipo_local": "Leganés",
+      "equipo_visitante": "Almería",
+      "fecha_hora": "2025-11-22T18:30:00",
+      "canal": null
+    },
+    {
+      "orden": 10,
+      "competicion": "Segunda División",
+      "equipo_local": "Granada",
+      "equipo_visitante": "Córdoba",
+      "fecha_hora": "2025-11-22T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 11,
+      "competicion": "Segunda División",
+      "equipo_local": "RC Deportivo",
+      "equipo_visitante": "AD Ceuta FC",
+      "fecha_hora": "2025-11-23T14:00:00",
+      "canal": null
+    },
+    {
+      "orden": 12,
+      "competicion": "Segunda División",
+      "equipo_local": "Huesca",
+      "equipo_visitante": "Real Sporting",
+      "fecha_hora": "2025-11-23T16:15:00",
+      "canal": null
+    },
+    {
+      "orden": 13,
+      "competicion": "Segunda División",
+      "equipo_local": "Burgos CF",
+      "equipo_visitante": "Racing",
+      "fecha_hora": "2025-11-23T18:30:00",
+      "canal": null
+    },
+    {
+      "orden": 14,
+      "competicion": "Segunda División",
+      "equipo_local": "Málaga",
+      "equipo_visitante": "Mirandés",
+      "fecha_hora": "2025-11-23T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 15,
+      "competicion": "Primera División",
+      "equipo_local": "Espanyol",
+      "equipo_visitante": "Sevilla",
+      "fecha_hora": "2025-11-24T21:00:00",
+      "canal": null
+    }
+  ]
+}

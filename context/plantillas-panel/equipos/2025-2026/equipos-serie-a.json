@@ -1,0 +1,102 @@
+[
+  {
+    "nombre": "Inter",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "Napoli",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "Roma",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "Como",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "Milan",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "Juventus",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "Atalanta",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "Bologna",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "Lazio",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "Udinese",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "Sassuolo",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "Torino",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "Parma",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "Cagliari",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "Fiorentina",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "Genoa",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "Lecce",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "Cremonese",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "Hellas Verona",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "Pisa SC",
+    "pais": "Italia",
+    "es_club": true
+  }
+]

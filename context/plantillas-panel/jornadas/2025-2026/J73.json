@@ -1,0 +1,126 @@
+{
+  "nombre": "J73",
+  "fecha_cierre": "2026-07-17T19:00:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Liga Noruega",
+      "equipo_local": "FK Bodo Glimt",
+      "equipo_visitante": "Fredrikstad",
+      "fecha_hora": "2026-07-17T19:15:00",
+      "canal": null
+    },
+    {
+      "orden": 2,
+      "competicion": "Liga Noruega",
+      "equipo_local": "Hamkam",
+      "equipo_visitante": "Tromso IL",
+      "fecha_hora": "2026-07-18T14:00:00",
+      "canal": null
+    },
+    {
+      "orden": 3,
+      "competicion": "Liga Noruega",
+      "equipo_local": "Lillestrom SK",
+      "equipo_visitante": "Kfum Oslo",
+      "fecha_hora": "2026-07-18T16:00:00",
+      "canal": null
+    },
+    {
+      "orden": 4,
+      "competicion": "Liga Noruega",
+      "equipo_local": "Kristiansund BK",
+      "equipo_visitante": "Sarpsborg 08",
+      "fecha_hora": "2026-07-18T16:00:00",
+      "canal": null
+    },
+    {
+      "orden": 5,
+      "competicion": "Liga Noruega",
+      "equipo_local": "IK Start",
+      "equipo_visitante": "Rosenborg BK",
+      "fecha_hora": "2026-07-18T16:00:00",
+      "canal": null
+    },
+    {
+      "orden": 6,
+      "competicion": "Liga Noruega",
+      "equipo_local": "Molde FK",
+      "equipo_visitante": "SK Brann",
+      "fecha_hora": "2026-07-18T18:00:00",
+      "canal": null
+    },
+    {
+      "orden": 7,
+      "competicion": "Liga Noruega",
+      "equipo_local": "Viking Stavanger",
+      "equipo_visitante": "Sandefjord",
+      "fecha_hora": "2026-07-18T18:00:00",
+      "canal": null
+    },
+    {
+      "orden": 8,
+      "competicion": "Liga Sueca",
+      "equipo_local": "Mjällby AIF",
+      "equipo_visitante": "Västeras SK",
+      "fecha_hora": "2026-07-17T19:00:00",
+      "canal": null
+    },
+    {
+      "orden": 9,
+      "competicion": "Liga Sueca",
+      "equipo_local": "AIK Solna",
+      "equipo_visitante": "GAIS",
+      "fecha_hora": "2026-07-18T15:00:00",
+      "canal": null
+    },
+    {
+      "orden": 10,
+      "competicion": "Liga Sueca",
+      "equipo_local": "IFK Göteborg",
+      "equipo_visitante": "Brommapojkarna",
+      "fecha_hora": "2026-07-17T19:00:00",
+      "canal": null
+    },
+    {
+      "orden": 11,
+      "competicion": "Liga Sueca",
+      "equipo_local": "IF Elfsborg",
+      "equipo_visitante": "IK Sirius",
+      "fecha_hora": "2026-07-19T16:30:00",
+      "canal": null
+    },
+    {
+      "orden": 12,
+      "competicion": "Liga Sueca",
+      "equipo_local": "Hammarby IF",
+      "equipo_visitante": "Degerfors IF",
+      "fecha_hora": "2026-07-19T16:30:00",
+      "canal": null
+    },
+    {
+      "orden": 13,
+      "competicion": "Liga Sueca",
+      "equipo_local": "Halmstads",
+      "equipo_visitante": "Häcken",
+      "fecha_hora": "2026-07-19T16:30:00",
+      "canal": null
+    },
+    {
+      "orden": 14,
+      "competicion": "Liga Sueca",
+      "equipo_local": "Kalmar FF",
+      "equipo_visitante": "Malmö FF",
+      "fecha_hora": "2026-07-20T19:00:00",
+      "canal": null
+    },
+    {
+      "orden": 15,
+      "competicion": "Mundial",
+      "equipo_local": "España",
+      "equipo_visitante": "Argentina",
+      "fecha_hora": "2026-07-19T21:00:00",
+      "canal": null
+    }
+  ]
+}

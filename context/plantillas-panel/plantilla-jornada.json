@@ -1,0 +1,126 @@
+{
+  "nombre": "J1",
+  "fecha_cierre": "2026-08-15T21:00:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "LaLiga EA Sports",
+      "equipo_local": "Barcelona",
+      "equipo_visitante": "Espanyol",
+      "fecha_hora": "2026-08-19T21:00:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 2,
+      "competicion": "LaLiga EA Sports",
+      "equipo_local": "Atlético de Madrid",
+      "equipo_visitante": "Villarreal",
+      "fecha_hora": "2026-08-19T21:30:00",
+      "canal": null
+    },
+    {
+      "orden": 3,
+      "competicion": "LaLiga EA Sports",
+      "equipo_local": "Valencia",
+      "equipo_visitante": "Elche",
+      "fecha_hora": "2026-08-19T21:30:00",
+      "canal": null
+    },
+    {
+      "orden": 4,
+      "competicion": "LaLiga EA Sports",
+      "equipo_local": "Levante",
+      "equipo_visitante": "Racing Santander",
+      "fecha_hora": "2026-08-19T21:30:00",
+      "canal": null
+    },
+    {
+      "orden": 5,
+      "competicion": "LaLiga EA Sports",
+      "equipo_local": "Málaga",
+      "equipo_visitante": "Betis",
+      "fecha_hora": "2026-08-19T21:30:00",
+      "canal": null
+    },
+    {
+      "orden": 6,
+      "competicion": "LaLiga EA Sports",
+      "equipo_local": "Sevilla",
+      "equipo_visitante": "Athletic Club",
+      "fecha_hora": "2026-08-20T20:00:00",
+      "canal": null
+    },
+    {
+      "orden": 7,
+      "competicion": "LaLiga EA Sports",
+      "equipo_local": "Real Sociedad",
+      "equipo_visitante": "Alavés",
+      "fecha_hora": "2026-08-20T20:30:00",
+      "canal": null
+    },
+    {
+      "orden": 8,
+      "competicion": "LaLiga EA Sports",
+      "equipo_local": "Getafe",
+      "equipo_visitante": "Rayo Vallecano",
+      "fecha_hora": "2026-08-20T21:30:00",
+      "canal": null
+    },
+    {
+      "orden": 9,
+      "competicion": "LaLiga Hypermotion",
+      "equipo_local": "Tenerife",
+      "equipo_visitante": "Sporting",
+      "fecha_hora": "2026-08-19T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 10,
+      "competicion": "LaLiga Hypermotion",
+      "equipo_local": "Las Palmas",
+      "equipo_visitante": "Leganés",
+      "fecha_hora": "2026-08-19T21:30:00",
+      "canal": null
+    },
+    {
+      "orden": 11,
+      "competicion": "LaLiga Hypermotion",
+      "equipo_local": "Mallorca",
+      "equipo_visitante": "Ceuta",
+      "fecha_hora": "2026-08-19T21:30:00",
+      "canal": null
+    },
+    {
+      "orden": 12,
+      "competicion": "LaLiga Hypermotion",
+      "equipo_local": "Andorra",
+      "equipo_visitante": "Albacete",
+      "fecha_hora": "2026-08-20T20:30:00",
+      "canal": null
+    },
+    {
+      "orden": 13,
+      "competicion": "LaLiga Hypermotion",
+      "equipo_local": "Almería",
+      "equipo_visitante": "Burgos",
+      "fecha_hora": "2026-08-20T20:30:00",
+      "canal": null
+    },
+    {
+      "orden": 14,
+      "competicion": "LaLiga Hypermotion",
+      "equipo_local": "Sabadell",
+      "equipo_visitante": "Granada",
+      "fecha_hora": "2026-08-20T21:30:00",
+      "canal": null
+    },
+    {
+      "orden": 15,
+      "competicion": "LaLiga EA Sports",
+      "equipo_local": "Real Madrid",
+      "equipo_visitante": "Celta de Vigo",
+      "fecha_hora": "2026-08-20T21:00:00",
+      "canal": null
+    }
+  ]
+}

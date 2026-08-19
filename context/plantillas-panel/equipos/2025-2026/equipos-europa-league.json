@@ -1,0 +1,182 @@
+[
+  {
+    "nombre": "Olympique Lyonnais",
+    "pais": "Francia",
+    "es_club": true
+  },
+  {
+    "nombre": "Aston Villa",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "Midtjylland",
+    "pais": "Dinamarca",
+    "es_club": true
+  },
+  {
+    "nombre": "Real Betis",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Porto",
+    "pais": "Portugal",
+    "es_club": true
+  },
+  {
+    "nombre": "Sporting Braga",
+    "pais": "Portugal",
+    "es_club": true
+  },
+  {
+    "nombre": "SC Freiburg",
+    "pais": "Alemania",
+    "es_club": true
+  },
+  {
+    "nombre": "Roma",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "Genk",
+    "pais": "Bélgica",
+    "es_club": true
+  },
+  {
+    "nombre": "Bologna",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "Stuttgart",
+    "pais": "Alemania",
+    "es_club": true
+  },
+  {
+    "nombre": "Ferencvárosi",
+    "pais": "Hungría",
+    "es_club": true
+  },
+  {
+    "nombre": "Nottingham Forest",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "Viktoria Plzen",
+    "pais": "República Checa",
+    "es_club": true
+  },
+  {
+    "nombre": "Crvena Zvezda",
+    "pais": "Serbia",
+    "es_club": true
+  },
+  {
+    "nombre": "Celta",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "PAOK",
+    "pais": "Grecia",
+    "es_club": true
+  },
+  {
+    "nombre": "Lille",
+    "pais": "Francia",
+    "es_club": true
+  },
+  {
+    "nombre": "Fenerbahçe",
+    "pais": "Turquía",
+    "es_club": true
+  },
+  {
+    "nombre": "Panathinaikos",
+    "pais": "Grecia",
+    "es_club": true
+  },
+  {
+    "nombre": "Celtic",
+    "pais": "Escocia",
+    "es_club": true
+  },
+  {
+    "nombre": "Ludogorets",
+    "pais": "Bulgaria",
+    "es_club": true
+  },
+  {
+    "nombre": "Dinamo Zagreb",
+    "pais": "Croacia",
+    "es_club": true
+  },
+  {
+    "nombre": "SK Brann",
+    "pais": "Noruega",
+    "es_club": true
+  },
+  {
+    "nombre": "Young Boys",
+    "pais": "Suiza",
+    "es_club": true
+  },
+  {
+    "nombre": "Sturm Graz",
+    "pais": "Austria",
+    "es_club": true
+  },
+  {
+    "nombre": "FCSB",
+    "pais": "Rumanía",
+    "es_club": true
+  },
+  {
+    "nombre": "Go Ahead Eagles",
+    "pais": "Países Bajos",
+    "es_club": true
+  },
+  {
+    "nombre": "Feyenoord",
+    "pais": "Países Bajos",
+    "es_club": true
+  },
+  {
+    "nombre": "Basel",
+    "pais": "Suiza",
+    "es_club": true
+  },
+  {
+    "nombre": "Salzburg",
+    "pais": "Austria",
+    "es_club": true
+  },
+  {
+    "nombre": "Rangers",
+    "pais": "Escocia",
+    "es_club": true
+  },
+  {
+    "nombre": "Nice",
+    "pais": "Francia",
+    "es_club": true
+  },
+  {
+    "nombre": "Utrecht",
+    "pais": "Países Bajos",
+    "es_club": true
+  },
+  {
+    "nombre": "Malmö FF",
+    "pais": "Suecia",
+    "es_club": true
+  },
+  {
+    "nombre": "Maccabi Tel Aviv",
+    "pais": "Israel",
+    "es_club": true
+  }
+]

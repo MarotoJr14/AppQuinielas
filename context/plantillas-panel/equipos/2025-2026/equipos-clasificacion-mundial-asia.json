@@ -1,0 +1,22 @@
+[
+  {
+    "nombre": "Catar",
+    "pais": "Catar",
+    "es_club": false
+  },
+  {
+    "nombre": "Emiratos Árabes",
+    "pais": "Emiratos Árabes",
+    "es_club": false
+  },
+  {
+    "nombre": "Arabia Saudí",
+    "pais": "Arabia Saudí",
+    "es_club": false
+  },
+  {
+    "nombre": "Iraq",
+    "pais": "Iraq",
+    "es_club": false
+  }
+]

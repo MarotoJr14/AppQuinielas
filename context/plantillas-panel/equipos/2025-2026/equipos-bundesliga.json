@@ -1,0 +1,92 @@
+[
+  {
+    "nombre": "Bayern München",
+    "pais": "Alemania",
+    "es_club": true
+  },
+  {
+    "nombre": "B. Dortmund",
+    "pais": "Alemania",
+    "es_club": true
+  },
+  {
+    "nombre": "RB Leipzig",
+    "pais": "Alemania",
+    "es_club": true
+  },
+  {
+    "nombre": "Stuttgart",
+    "pais": "Alemania",
+    "es_club": true
+  },
+  {
+    "nombre": "Hoffenheim",
+    "pais": "Alemania",
+    "es_club": true
+  },
+  {
+    "nombre": "B. Leverkusen",
+    "pais": "Alemania",
+    "es_club": true
+  },
+  {
+    "nombre": "SC Freiburg",
+    "pais": "Alemania",
+    "es_club": true
+  },
+  {
+    "nombre": "Eintracht Frankfurt",
+    "pais": "Alemania",
+    "es_club": true
+  },
+  {
+    "nombre": "FC Augsburg",
+    "pais": "Alemania",
+    "es_club": true
+  },
+  {
+    "nombre": "Mainz 05",
+    "pais": "Alemania",
+    "es_club": true
+  },
+  {
+    "nombre": "Union Berlin",
+    "pais": "Alemania",
+    "es_club": true
+  },
+  {
+    "nombre": "B. Mönchengladbach",
+    "pais": "Alemania",
+    "es_club": true
+  },
+  {
+    "nombre": "Hamburger SV",
+    "pais": "Alemania",
+    "es_club": true
+  },
+  {
+    "nombre": "Köln",
+    "pais": "Alemania",
+    "es_club": true
+  },
+  {
+    "nombre": "Werder Bremen",
+    "pais": "Alemania",
+    "es_club": true
+  },
+  {
+    "nombre": "Wolfsburg",
+    "pais": "Alemania",
+    "es_club": true
+  },
+  {
+    "nombre": "Heidenheim",
+    "pais": "Alemania",
+    "es_club": true
+  },
+  {
+    "nombre": "FC St Pauli",
+    "pais": "Alemania",
+    "es_club": true
+  }
+]

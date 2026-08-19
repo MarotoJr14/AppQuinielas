@@ -1,0 +1,126 @@
+{
+  "nombre": "J21",
+  "fecha_cierre": "2025-11-18T20:45:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Austria",
+      "equipo_visitante": "Bosnia y Herzegovina",
+      "fecha_hora": "2025-11-18T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 2,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Bélgica",
+      "equipo_visitante": "Liechtenstein",
+      "fecha_hora": "2025-11-18T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 3,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Bielorrusia",
+      "equipo_visitante": "Grecia",
+      "fecha_hora": "2025-11-18T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 4,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Bulgaria",
+      "equipo_visitante": "Georgia",
+      "fecha_hora": "2025-11-18T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 5,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Escocia",
+      "equipo_visitante": "Dinamarca",
+      "fecha_hora": "2025-11-18T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 6,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Gales",
+      "equipo_visitante": "Macedonia del Norte",
+      "fecha_hora": "2025-11-18T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 7,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Kosovo",
+      "equipo_visitante": "Suiza",
+      "fecha_hora": "2025-11-18T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 8,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Rumanía",
+      "equipo_visitante": "San Marino",
+      "fecha_hora": "2025-11-18T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 9,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Suecia",
+      "equipo_visitante": "Eslovenia",
+      "fecha_hora": "2025-11-18T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 10,
+      "competicion": "Clasificación Mundial Concacaf",
+      "equipo_local": "Costa Rica",
+      "equipo_visitante": "Honduras",
+      "fecha_hora": "2025-11-19T02:00:00",
+      "canal": null
+    },
+    {
+      "orden": 11,
+      "competicion": "Clasificación Mundial Concacaf",
+      "equipo_local": "Guatemala",
+      "equipo_visitante": "Surinam",
+      "fecha_hora": "2025-11-19T02:00:00",
+      "canal": null
+    },
+    {
+      "orden": 12,
+      "competicion": "Clasificación Mundial Concacaf",
+      "equipo_local": "Jamaica",
+      "equipo_visitante": "Curazao",
+      "fecha_hora": "2025-11-19T02:00:00",
+      "canal": null
+    },
+    {
+      "orden": 13,
+      "competicion": "Clasificación Mundial Concacaf",
+      "equipo_local": "Panamá",
+      "equipo_visitante": "El Salvador",
+      "fecha_hora": "2025-11-19T02:00:00",
+      "canal": null
+    },
+    {
+      "orden": 14,
+      "competicion": "Clasificación Mundial Concacaf",
+      "equipo_local": "Trinidad y Tobago",
+      "equipo_visitante": "Bermudas",
+      "fecha_hora": "2025-11-19T02:00:00",
+      "canal": null
+    },
+    {
+      "orden": 15,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "España",
+      "equipo_visitante": "Turquía",
+      "fecha_hora": "2025-11-18T20:45:00",
+      "canal": null
+    }
+  ]
+}

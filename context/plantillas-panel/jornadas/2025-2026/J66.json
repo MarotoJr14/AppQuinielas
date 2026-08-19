@@ -1,0 +1,126 @@
+{
+  "nombre": "J66",
+  "fecha_cierre": "2026-06-06T15:00:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Segunda División",
+      "equipo_local": "CD Castellón",
+      "equipo_visitante": "Almería",
+      "fecha_hora": "2026-06-06T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 2,
+      "competicion": "Segunda División",
+      "equipo_local": "UD Las Palmas",
+      "equipo_visitante": "Málaga",
+      "fecha_hora": "2026-06-07T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 3,
+      "competicion": "Amistosos Selecciones",
+      "equipo_local": "Bélgica",
+      "equipo_visitante": "Túnez",
+      "fecha_hora": "2026-06-06T15:00:00",
+      "canal": null
+    },
+    {
+      "orden": 4,
+      "competicion": "Copa Báltica",
+      "equipo_local": "Lituania",
+      "equipo_visitante": "Letonia",
+      "fecha_hora": "2026-06-06T15:00:00",
+      "canal": null
+    },
+    {
+      "orden": 5,
+      "competicion": "Copa Báltica",
+      "equipo_local": "Estonia",
+      "equipo_visitante": "Islas Feroe",
+      "fecha_hora": "2026-06-06T17:00:00",
+      "canal": null
+    },
+    {
+      "orden": 6,
+      "competicion": "Amistosos Selecciones",
+      "equipo_local": "Portugal",
+      "equipo_visitante": "Chile",
+      "fecha_hora": "2026-06-06T19:45:00",
+      "canal": null
+    },
+    {
+      "orden": 7,
+      "competicion": "Amistosos Selecciones",
+      "equipo_local": "Rumanía",
+      "equipo_visitante": "Gales",
+      "fecha_hora": "2026-06-06T19:45:00",
+      "canal": null
+    },
+    {
+      "orden": 8,
+      "competicion": "Amistosos Selecciones",
+      "equipo_local": "Inglaterra",
+      "equipo_visitante": "Nueva Zelanda",
+      "fecha_hora": "2026-06-06T22:00:00",
+      "canal": null
+    },
+    {
+      "orden": 9,
+      "competicion": "Amistosos Selecciones",
+      "equipo_local": "Suiza",
+      "equipo_visitante": "Australia",
+      "fecha_hora": "2026-06-06T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 10,
+      "competicion": "Amistosos Selecciones",
+      "equipo_local": "Bolivia",
+      "equipo_visitante": "Escocia",
+      "fecha_hora": "2026-06-06T22:00:00",
+      "canal": null
+    },
+    {
+      "orden": 11,
+      "competicion": "Amistosos Selecciones",
+      "equipo_local": "Liechtenstein",
+      "equipo_visitante": "Chipre",
+      "fecha_hora": "2026-06-07T15:00:00",
+      "canal": null
+    },
+    {
+      "orden": 12,
+      "competicion": "Amistosos Selecciones",
+      "equipo_local": "Dinamarca",
+      "equipo_visitante": "Ucrania",
+      "fecha_hora": "2026-06-07T18:30:00",
+      "canal": null
+    },
+    {
+      "orden": 13,
+      "competicion": "Amistosos Selecciones",
+      "equipo_local": "Croacia",
+      "equipo_visitante": "Eslovenia",
+      "fecha_hora": "2026-06-07T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 14,
+      "competicion": "Amistosos Selecciones",
+      "equipo_local": "Marruecos",
+      "equipo_visitante": "Noruega",
+      "fecha_hora": "2026-06-07T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 15,
+      "competicion": "Amistosos Selecciones",
+      "equipo_local": "Grecia",
+      "equipo_visitante": "Italia",
+      "fecha_hora": "2026-06-07T21:00:00",
+      "canal": null
+    }
+  ]
+}

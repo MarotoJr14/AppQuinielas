@@ -1,0 +1,126 @@
+{
+  "nombre": "J48",
+  "fecha_cierre": "2026-03-14T14:00:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Primera División",
+      "equipo_local": "Girona FC",
+      "equipo_visitante": "Athletic Club",
+      "fecha_hora": "2026-03-14T14:00:00",
+      "canal": null
+    },
+    {
+      "orden": 2,
+      "competicion": "Primera División",
+      "equipo_local": "Atlético de Madrid",
+      "equipo_visitante": "Getafe",
+      "fecha_hora": "2026-03-14T16:15:00",
+      "canal": null
+    },
+    {
+      "orden": 3,
+      "competicion": "Primera División",
+      "equipo_local": "Real Oviedo",
+      "equipo_visitante": "Valencia",
+      "fecha_hora": "2026-03-14T18:30:00",
+      "canal": null
+    },
+    {
+      "orden": 4,
+      "competicion": "Primera División",
+      "equipo_local": "Real Madrid",
+      "equipo_visitante": "Elche",
+      "fecha_hora": "2026-03-14T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 5,
+      "competicion": "Primera División",
+      "equipo_local": "Mallorca",
+      "equipo_visitante": "Espanyol",
+      "fecha_hora": "2026-03-15T14:00:00",
+      "canal": null
+    },
+    {
+      "orden": 6,
+      "competicion": "Primera División",
+      "equipo_local": "FC Barcelona",
+      "equipo_visitante": "Sevilla",
+      "fecha_hora": "2026-03-15T16:15:00",
+      "canal": null
+    },
+    {
+      "orden": 7,
+      "competicion": "Primera División",
+      "equipo_local": "Real Betis",
+      "equipo_visitante": "Celta",
+      "fecha_hora": "2026-03-15T18:30:00",
+      "canal": null
+    },
+    {
+      "orden": 8,
+      "competicion": "Primera División",
+      "equipo_local": "Rayo Vallecano",
+      "equipo_visitante": "Levante",
+      "fecha_hora": "2026-03-16T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 9,
+      "competicion": "Segunda División",
+      "equipo_local": "Real Valladolid",
+      "equipo_visitante": "Leganés",
+      "fecha_hora": "2026-03-14T18:30:00",
+      "canal": null
+    },
+    {
+      "orden": 10,
+      "competicion": "Segunda División",
+      "equipo_local": "Real Zaragoza",
+      "equipo_visitante": "Almería",
+      "fecha_hora": "2026-03-14T18:30:00",
+      "canal": null
+    },
+    {
+      "orden": 11,
+      "competicion": "Segunda División",
+      "equipo_local": "AD Ceuta FC",
+      "equipo_visitante": "RC Deportivo",
+      "fecha_hora": "2026-03-14T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 12,
+      "competicion": "Segunda División",
+      "equipo_local": "Eibar",
+      "equipo_visitante": "Burgos CF",
+      "fecha_hora": "2026-03-15T18:30:00",
+      "canal": null
+    },
+    {
+      "orden": 13,
+      "competicion": "Segunda División",
+      "equipo_local": "Real Sporting",
+      "equipo_visitante": "CD Castellón",
+      "fecha_hora": "2026-03-15T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 14,
+      "competicion": "Segunda División",
+      "equipo_local": "Albacete",
+      "equipo_visitante": "UD Las Palmas",
+      "fecha_hora": "2026-03-16T20:30:00",
+      "canal": null
+    },
+    {
+      "orden": 15,
+      "competicion": "Primera División",
+      "equipo_local": "Real Sociedad",
+      "equipo_visitante": "Osasuna",
+      "fecha_hora": "2026-03-15T21:00:00",
+      "canal": null
+    }
+  ]
+}

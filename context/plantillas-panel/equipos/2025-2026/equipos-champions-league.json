@@ -1,0 +1,182 @@
+[
+  {
+    "nombre": "Arsenal",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "Bayern München",
+    "pais": "Alemania",
+    "es_club": true
+  },
+  {
+    "nombre": "Liverpool",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "Tottenham Hotspur",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "FC Barcelona",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Chelsea",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "Sporting CP",
+    "pais": "Portugal",
+    "es_club": true
+  },
+  {
+    "nombre": "Manchester City",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "Real Madrid",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Inter",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "PSG",
+    "pais": "Francia",
+    "es_club": true
+  },
+  {
+    "nombre": "Newcastle",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "Juventus",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "Atlético de Madrid",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Atalanta",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "B. Leverkusen",
+    "pais": "Alemania",
+    "es_club": true
+  },
+  {
+    "nombre": "B. Dortmund",
+    "pais": "Alemania",
+    "es_club": true
+  },
+  {
+    "nombre": "Olympiacos",
+    "pais": "Grecia",
+    "es_club": true
+  },
+  {
+    "nombre": "Club Brugge",
+    "pais": "Bélgica",
+    "es_club": true
+  },
+  {
+    "nombre": "Galatasaray SK",
+    "pais": "Turquía",
+    "es_club": true
+  },
+  {
+    "nombre": "Monaco",
+    "pais": "Mónaco",
+    "es_club": true
+  },
+  {
+    "nombre": "Qarabag",
+    "pais": "Azerbaiyán",
+    "es_club": true
+  },
+  {
+    "nombre": "FK Bodo Glimt",
+    "pais": "Noruega",
+    "es_club": true
+  },
+  {
+    "nombre": "Benfica",
+    "pais": "Portugal",
+    "es_club": true
+  },
+  {
+    "nombre": "Olympique Marseille",
+    "pais": "Francia",
+    "es_club": true
+  },
+  {
+    "nombre": "Pafos",
+    "pais": "Chipre",
+    "es_club": true
+  },
+  {
+    "nombre": "Union Saint-Gilloise",
+    "pais": "Bélgica",
+    "es_club": true
+  },
+  {
+    "nombre": "PSV",
+    "pais": "Países Bajos",
+    "es_club": true
+  },
+  {
+    "nombre": "Athletic Club",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Napoli",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "Kobenhavn",
+    "pais": "Dinamarca",
+    "es_club": true
+  },
+  {
+    "nombre": "Ajax",
+    "pais": "Países Bajos",
+    "es_club": true
+  },
+  {
+    "nombre": "Eintracht Frankfurt",
+    "pais": "Alemania",
+    "es_club": true
+  },
+  {
+    "nombre": "Slavia Praha",
+    "pais": "República Checa",
+    "es_club": true
+  },
+  {
+    "nombre": "Villarreal",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Kairat Almaty",
+    "pais": "Kazajistán",
+    "es_club": true
+  }
+]

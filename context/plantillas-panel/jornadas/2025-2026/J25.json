@@ -1,0 +1,126 @@
+{
+  "nombre": "J25",
+  "fecha_cierre": "2025-12-02T20:00:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Copa del Rey",
+      "equipo_local": "CD Guadalajara",
+      "equipo_visitante": "AD Ceuta FC",
+      "fecha_hora": "2025-12-02T20:00:00",
+      "canal": null
+    },
+    {
+      "orden": 2,
+      "competicion": "Copa del Rey",
+      "equipo_local": "CDA Navalcarnero",
+      "equipo_visitante": "Getafe",
+      "fecha_hora": "2025-12-02T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 3,
+      "competicion": "Copa del Rey",
+      "equipo_local": "Cultural Leonesa",
+      "equipo_visitante": "FC Andorra",
+      "fecha_hora": "2025-12-03T20:00:00",
+      "canal": null
+    },
+    {
+      "orden": 4,
+      "competicion": "Copa del Rey",
+      "equipo_local": "Mirandés",
+      "equipo_visitante": "Real Sporting",
+      "fecha_hora": "2025-12-03T20:00:00",
+      "canal": null
+    },
+    {
+      "orden": 5,
+      "competicion": "Copa del Rey",
+      "equipo_local": "Real Murcia",
+      "equipo_visitante": "Cádiz",
+      "fecha_hora": "2025-12-03T20:00:00",
+      "canal": null
+    },
+    {
+      "orden": 6,
+      "competicion": "Copa del Rey",
+      "equipo_local": "Ourense CF",
+      "equipo_visitante": "Girona FC",
+      "fecha_hora": "2025-12-03T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 7,
+      "competicion": "Copa del Rey",
+      "equipo_local": "Pontevedra",
+      "equipo_visitante": "Eibar",
+      "fecha_hora": "2025-12-03T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 8,
+      "competicion": "Copa del Rey",
+      "equipo_local": "Leganés",
+      "equipo_visitante": "Albacete",
+      "fecha_hora": "2025-12-04T19:00:00",
+      "canal": null
+    },
+    {
+      "orden": 9,
+      "competicion": "Copa del Rey",
+      "equipo_local": "Real Ávila",
+      "equipo_visitante": "Rayo Vallecano",
+      "fecha_hora": "2025-12-04T19:00:00",
+      "canal": null
+    },
+    {
+      "orden": 10,
+      "competicion": "Copa del Rey",
+      "equipo_local": "CD Extremadura",
+      "equipo_visitante": "Sevilla",
+      "fecha_hora": "2025-12-04T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 11,
+      "competicion": "Copa del Rey",
+      "equipo_local": "FC Cartagena",
+      "equipo_visitante": "Valencia",
+      "fecha_hora": "2025-12-04T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 12,
+      "competicion": "Copa del Rey",
+      "equipo_local": "Real Zaragoza",
+      "equipo_visitante": "Burgos CF",
+      "fecha_hora": "2025-12-04T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 13,
+      "competicion": "Copa del Rey",
+      "equipo_local": "CE Sabadell",
+      "equipo_visitante": "RC Deportivo",
+      "fecha_hora": "2025-12-04T19:00:00",
+      "canal": null
+    },
+    {
+      "orden": 14,
+      "competicion": "Primera División",
+      "equipo_local": "Athletic Club",
+      "equipo_visitante": "Real Madrid",
+      "fecha_hora": "2025-12-03T19:00:00",
+      "canal": null
+    },
+    {
+      "orden": 15,
+      "competicion": "Primera División",
+      "equipo_local": "FC Barcelona",
+      "equipo_visitante": "Atlético de Madrid",
+      "fecha_hora": "2025-12-02T21:00:00",
+      "canal": null
+    }
+  ]
+}

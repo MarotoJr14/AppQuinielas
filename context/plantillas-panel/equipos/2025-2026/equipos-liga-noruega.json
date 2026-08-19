@@ -1,0 +1,82 @@
+[
+  {
+    "nombre": "FK Bodo Glimt",
+    "pais": "Noruega",
+    "es_club": true
+  },
+  {
+    "nombre": "Viking Stavanger",
+    "pais": "Noruega",
+    "es_club": true
+  },
+  {
+    "nombre": "Tromso IL",
+    "pais": "Noruega",
+    "es_club": true
+  },
+  {
+    "nombre": "Lillestrom SK",
+    "pais": "Noruega",
+    "es_club": true
+  },
+  {
+    "nombre": "Molde FK",
+    "pais": "Noruega",
+    "es_club": true
+  },
+  {
+    "nombre": "SK Brann",
+    "pais": "Noruega",
+    "es_club": true
+  },
+  {
+    "nombre": "Sarpsborg 08",
+    "pais": "Noruega",
+    "es_club": true
+  },
+  {
+    "nombre": "HamKam",
+    "pais": "Noruega",
+    "es_club": true
+  },
+  {
+    "nombre": "Rosenborg BK",
+    "pais": "Noruega",
+    "es_club": true
+  },
+  {
+    "nombre": "Valerenga IF",
+    "pais": "Noruega",
+    "es_club": true
+  },
+  {
+    "nombre": "Fredrikstad",
+    "pais": "Noruega",
+    "es_club": true
+  },
+  {
+    "nombre": "Kfum Oslo",
+    "pais": "Noruega",
+    "es_club": true
+  },
+  {
+    "nombre": "Sandefjord",
+    "pais": "Noruega",
+    "es_club": true
+  },
+  {
+    "nombre": "Aalesunds FK",
+    "pais": "Noruega",
+    "es_club": true
+  },
+  {
+    "nombre": "Kristiansund BK",
+    "pais": "Noruega",
+    "es_club": true
+  },
+  {
+    "nombre": "IK Start",
+    "pais": "Noruega",
+    "es_club": true
+  }
+]

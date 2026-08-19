@@ -1,0 +1,126 @@
+{
+  "nombre": "J71",
+  "fecha_cierre": "2026-07-02T22:00:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Mundial",
+      "equipo_local": "Portugal",
+      "equipo_visitante": "Croacia",
+      "fecha_hora": "2026-07-03T01:00:00",
+      "canal": null
+    },
+    {
+      "orden": 2,
+      "competicion": "Mundial",
+      "equipo_local": "Suiza",
+      "equipo_visitante": "Argelia",
+      "fecha_hora": "2026-07-03T05:00:00",
+      "canal": null
+    },
+    {
+      "orden": 3,
+      "competicion": "Mundial",
+      "equipo_local": "Australia",
+      "equipo_visitante": "Egipto",
+      "fecha_hora": "2026-07-03T20:00:00",
+      "canal": null
+    },
+    {
+      "orden": 4,
+      "competicion": "Mundial",
+      "equipo_local": "Argentina",
+      "equipo_visitante": "Cabo Verde",
+      "fecha_hora": "2026-07-04T00:00:00",
+      "canal": null
+    },
+    {
+      "orden": 5,
+      "competicion": "Mundial",
+      "equipo_local": "Colombia",
+      "equipo_visitante": "Ghana",
+      "fecha_hora": "2026-07-04T03:30:00",
+      "canal": null
+    },
+    {
+      "orden": 6,
+      "competicion": "Liga Finlandia",
+      "equipo_local": "FC Lahti",
+      "equipo_visitante": "Gnistan",
+      "fecha_hora": "2026-07-04T14:00:00",
+      "canal": null
+    },
+    {
+      "orden": 7,
+      "competicion": "Liga Finlandia",
+      "equipo_local": "SJK",
+      "equipo_visitante": "TPS",
+      "fecha_hora": "2026-07-04T16:00:00",
+      "canal": null
+    },
+    {
+      "orden": 8,
+      "competicion": "Liga Finlandia",
+      "equipo_local": "FF Jaro",
+      "equipo_visitante": "Ilves",
+      "fecha_hora": "2026-07-04T16:00:00",
+      "canal": null
+    },
+    {
+      "orden": 9,
+      "competicion": "Liga Finlandia",
+      "equipo_local": "VPS Vaasa",
+      "equipo_visitante": "IFK Mariehamn",
+      "fecha_hora": "2026-07-04T17:00:00",
+      "canal": null
+    },
+    {
+      "orden": 10,
+      "competicion": "Liga Sueca",
+      "equipo_local": "IK Sirius",
+      "equipo_visitante": "Mjällby AIF",
+      "fecha_hora": "2026-07-03T19:00:00",
+      "canal": null
+    },
+    {
+      "orden": 11,
+      "competicion": "Liga Sueca",
+      "equipo_local": "Halmstads",
+      "equipo_visitante": "Västeras SK",
+      "fecha_hora": "2026-07-04T15:00:00",
+      "canal": null
+    },
+    {
+      "orden": 12,
+      "competicion": "Liga Sueca",
+      "equipo_local": "Degerfors IF",
+      "equipo_visitante": "Malmö FF",
+      "fecha_hora": "2026-07-04T15:00:00",
+      "canal": null
+    },
+    {
+      "orden": 13,
+      "competicion": "Liga Sueca",
+      "equipo_local": "IFK Göteborg",
+      "equipo_visitante": "AIK Solna",
+      "fecha_hora": "2026-07-05T14:00:00",
+      "canal": null
+    },
+    {
+      "orden": 14,
+      "competicion": "Liga Sueca",
+      "equipo_local": "Kalmar FF",
+      "equipo_visitante": "Örgryte",
+      "fecha_hora": "2026-07-05T14:00:00",
+      "canal": null
+    },
+    {
+      "orden": 15,
+      "competicion": "Liga Sueca",
+      "equipo_local": "IF Elfsborg",
+      "equipo_visitante": "Hammarby IF",
+      "fecha_hora": "2026-07-05T16:30:00",
+      "canal": null
+    }
+  ]
+}

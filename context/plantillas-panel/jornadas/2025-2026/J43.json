@@ -1,0 +1,126 @@
+{
+  "nombre": "J43",
+  "fecha_cierre": "2026-02-17T21:00:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Champions League",
+      "equipo_local": "B. Dortmund",
+      "equipo_visitante": "Atalanta",
+      "fecha_hora": "2026-02-17T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 2,
+      "competicion": "Champions League",
+      "equipo_local": "Monaco",
+      "equipo_visitante": "PSG",
+      "fecha_hora": "2026-02-17T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 3,
+      "competicion": "Champions League",
+      "equipo_local": "Qarabag",
+      "equipo_visitante": "Newcastle",
+      "fecha_hora": "2026-02-18T18:45:00",
+      "canal": null
+    },
+    {
+      "orden": 4,
+      "competicion": "Champions League",
+      "equipo_local": "FK Bodo Glimt",
+      "equipo_visitante": "Inter",
+      "fecha_hora": "2026-02-18T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 5,
+      "competicion": "Champions League",
+      "equipo_local": "Club Brugge",
+      "equipo_visitante": "Atlético de Madrid",
+      "fecha_hora": "2026-02-18T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 6,
+      "competicion": "Champions League",
+      "equipo_local": "Olympiacos",
+      "equipo_visitante": "B. Leverkusen",
+      "fecha_hora": "2026-02-18T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 7,
+      "competicion": "Europa League",
+      "equipo_local": "SK Brann",
+      "equipo_visitante": "Bologna",
+      "fecha_hora": "2026-02-19T18:45:00",
+      "canal": null
+    },
+    {
+      "orden": 8,
+      "competicion": "Europa League",
+      "equipo_local": "Dinamo Zagreb",
+      "equipo_visitante": "Genk",
+      "fecha_hora": "2026-02-19T18:45:00",
+      "canal": null
+    },
+    {
+      "orden": 9,
+      "competicion": "Europa League",
+      "equipo_local": "Fenerbahçe",
+      "equipo_visitante": "Nottingham Forest",
+      "fecha_hora": "2026-02-19T18:45:00",
+      "canal": null
+    },
+    {
+      "orden": 10,
+      "competicion": "Europa League",
+      "equipo_local": "PAOK",
+      "equipo_visitante": "Celta",
+      "fecha_hora": "2026-02-19T18:45:00",
+      "canal": null
+    },
+    {
+      "orden": 11,
+      "competicion": "Europa League",
+      "equipo_local": "Celtic",
+      "equipo_visitante": "Stuttgart",
+      "fecha_hora": "2026-02-19T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 12,
+      "competicion": "Europa League",
+      "equipo_local": "Lille",
+      "equipo_visitante": "Crvena Zvezda",
+      "fecha_hora": "2026-02-19T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 13,
+      "competicion": "Europa League",
+      "equipo_local": "Ludogorets",
+      "equipo_visitante": "Ferencvárosi",
+      "fecha_hora": "2026-02-19T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 14,
+      "competicion": "Europa League",
+      "equipo_local": "Panathinaikos",
+      "equipo_visitante": "Viktoria Plzen",
+      "fecha_hora": "2026-02-19T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 15,
+      "competicion": "Champions League",
+      "equipo_local": "Benfica",
+      "equipo_visitante": "Real Madrid",
+      "fecha_hora": "2026-02-17T21:00:00",
+      "canal": null
+    }
+  ]
+}

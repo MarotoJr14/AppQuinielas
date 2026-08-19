@@ -1,0 +1,62 @@
+[
+  {
+    "nombre": "Heart of Midlothian",
+    "pais": "Escocia",
+    "es_club": true
+  },
+  {
+    "nombre": "Rangers",
+    "pais": "Escocia",
+    "es_club": true
+  },
+  {
+    "nombre": "Celtic",
+    "pais": "Escocia",
+    "es_club": true
+  },
+  {
+    "nombre": "Motherwell",
+    "pais": "Escocia",
+    "es_club": true
+  },
+  {
+    "nombre": "Hibernian FC",
+    "pais": "Escocia",
+    "es_club": true
+  },
+  {
+    "nombre": "Falkirk",
+    "pais": "Escocia",
+    "es_club": true
+  },
+  {
+    "nombre": "Dundee United",
+    "pais": "Escocia",
+    "es_club": true
+  },
+  {
+    "nombre": "Aberdeen",
+    "pais": "Escocia",
+    "es_club": true
+  },
+  {
+    "nombre": "Dundee",
+    "pais": "Escocia",
+    "es_club": true
+  },
+  {
+    "nombre": "St. Mirren",
+    "pais": "Escocia",
+    "es_club": true
+  },
+  {
+    "nombre": "Kilmarnock",
+    "pais": "Escocia",
+    "es_club": true
+  },
+  {
+    "nombre": "Livingston",
+    "pais": "Escocia",
+    "es_club": true
+  }
+]

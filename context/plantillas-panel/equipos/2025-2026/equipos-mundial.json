@@ -1,0 +1,240 @@
+[
+  {
+    "nombre": "México",
+    "pais": "México",
+    "es_club": false
+  },
+  {
+    "nombre": "Sudáfrica",
+    "pais": "Sudáfrica",
+    "es_club": false
+  },
+  {
+    "nombre": "Corea del Sur",
+    "pais": "Corea del Sur",
+    "es_club": false
+  },
+  {
+    "nombre": "República Checa",
+    "pais": "República Checa",
+    "es_club": false
+  },
+  {
+    "nombre": "Suiza",
+    "pais": "Suiza",
+    "es_club": false
+  },
+  {
+    "nombre": "Canadá",
+    "pais": "Canadá",
+    "es_club": false
+  },
+  {
+    "nombre": "Catar",
+    "pais": "Catar",
+    "es_club": false
+  },
+  {
+    "nombre": "Bosnia y Herzegovina",
+    "pais": "Bosnia y Herzegovina",
+    "es_club": false
+  },
+  {
+    "nombre": "Brasil",
+    "pais": "Brasil",
+    "es_club": false
+  },
+  {
+    "nombre": "Marruecos",
+    "pais": "Marruecos",
+    "es_club": false
+  },
+  {
+    "nombre": "Escocia",
+    "pais": "Escocia",
+    "es_club": false
+  },
+  {
+    "nombre": "Haití",
+    "pais": "Haití",
+    "es_club": false
+  },
+  {
+    "nombre": "Estados Unidos",
+    "pais": "Estados Unidos",
+    "es_club": false
+  },
+  {
+    "nombre": "Australia",
+    "pais": "Australia",
+    "es_club": false
+  },
+  {
+    "nombre": "Paraguay",
+    "pais": "Paraguay",
+    "es_club": false
+  },
+  {
+    "nombre": "Turquía",
+    "pais": "Turquía",
+    "es_club": false
+  },{
+    "nombre": "Alemania",
+    "pais": "Alemania",
+    "es_club": false
+  },
+  {
+    "nombre": "Curazao",
+    "pais": "Curazao",
+    "es_club": false
+  },
+  {
+    "nombre": "Costa de Marfil",
+    "pais": "Costa de Marfil",
+    "es_club": false
+  },
+  {
+    "nombre": "Ecuador",
+    "pais": "Ecuador",
+    "es_club": false
+  },
+  {
+    "nombre": "Países Bajos",
+    "pais": "Países Bajos",
+    "es_club": false
+  },
+  {
+    "nombre": "Japón",
+    "pais": "Japón",
+    "es_club": false
+  },
+  {
+    "nombre": "Suecia",
+    "pais": "Suecia",
+    "es_club": false
+  },
+  {
+    "nombre": "Túnez",
+    "pais": "Túnez",
+    "es_club": false
+  },
+  {
+    "nombre": "Bélgica",
+    "pais": "Bélgica",
+    "es_club": false
+  },
+  {
+    "nombre": "Egipto",
+    "pais": "Egipto",
+    "es_club": false
+  },
+  {
+    "nombre": "Irán",
+    "pais": "Irán",
+    "es_club": false
+  },
+  {
+    "nombre": "Nueva Zelanda",
+    "pais": "Nueva Zelanda",
+    "es_club": false
+  },
+  {
+    "nombre": "España",
+    "pais": "España",
+    "es_club": false
+  },
+  {
+    "nombre": "Cabo Verde",
+    "pais": "Cabo Verde",
+    "es_club": false
+  },
+  {
+    "nombre": "Uruguay",
+    "pais": "Uruguay",
+    "es_club": false
+  },
+  {
+    "nombre": "Arabia Saudí",
+    "pais": "Arabia Saudí",
+    "es_club": false
+  },{
+    "nombre": "Francia",
+    "pais": "Francia",
+    "es_club": false
+  },
+  {
+    "nombre": "Noruega",
+    "pais": "Noruega",
+    "es_club": false
+  },
+  {
+    "nombre": "Senegal",
+    "pais": "Senegal",
+    "es_club": false
+  },
+  {
+    "nombre": "Iraq",
+    "pais": "Iraq",
+    "es_club": false
+  },
+  {
+    "nombre": "Argentina",
+    "pais": "Argentina",
+    "es_club": false
+  },
+  {
+    "nombre": "Argelia",
+    "pais": "Argelia",
+    "es_club": false
+  },
+  {
+    "nombre": "Austria",
+    "pais": "Austria",
+    "es_club": false
+  },
+  {
+    "nombre": "Jordania",
+    "pais": "Jordania",
+    "es_club": false
+  },
+  {
+    "nombre": "Portugal",
+    "pais": "Portugal",
+    "es_club": false
+  },
+  {
+    "nombre": "Uzbekistán",
+    "pais": "Uzbekistán",
+    "es_club": false
+  },
+  {
+    "nombre": "Colombia",
+    "pais": "Colombia",
+    "es_club": false
+  },
+  {
+    "nombre": "Inglaterra",
+    "pais": "Inglaterra",
+    "es_club": false
+  },
+  {
+    "nombre": "Croacia",
+    "pais": "Croacia",
+    "es_club": false
+  },
+  {
+    "nombre": "Panamá",
+    "pais": "Panamá",
+    "es_club": false
+  },
+  {
+    "nombre": "Ghana",
+    "pais": "Ghana",
+    "es_club": false
+  },
+  {
+    "nombre": "RD Congo",
+    "pais": "RD Congo",
+    "es_club": false
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "nombre": "Real Oviedo",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "CD Castellón",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Mallorca",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Eibar",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Granada",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Girona FC",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Cádiz",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "CE Sabadell",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Eldense",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Leganés",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "UD Las Palmas",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "FC Andorra",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "AD Ceuta FC",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Real Sporting",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Tenerife",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Burgos CF",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Celta Fortuna",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Almería",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Albacete",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Córdoba",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Real Valladolid",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Real Sociedad B",
+    "pais": "España",
+    "es_club": true
+  }
+]

@@ -1,0 +1,126 @@
+{
+  "nombre": "J51",
+  "fecha_cierre": "2026-03-28T14:00:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Segunda División",
+      "equipo_local": "AD Ceuta FC",
+      "equipo_visitante": "Cádiz",
+      "fecha_hora": "2026-03-28T14:00:00",
+      "canal": null
+    },
+    {
+      "orden": 2,
+      "competicion": "Segunda División",
+      "equipo_local": "Granada",
+      "equipo_visitante": "Huesca",
+      "fecha_hora": "2026-03-28T16:15:00",
+      "canal": null
+    },
+    {
+      "orden": 3,
+      "competicion": "Segunda División",
+      "equipo_local": "Real Valladolid",
+      "equipo_visitante": "Burgos CF",
+      "fecha_hora": "2026-03-28T16:15:00",
+      "canal": null
+    },
+    {
+      "orden": 4,
+      "competicion": "Segunda División",
+      "equipo_local": "Málaga",
+      "equipo_visitante": "Leganés",
+      "fecha_hora": "2026-03-28T18:30:00",
+      "canal": null
+    },
+    {
+      "orden": 5,
+      "competicion": "Segunda División",
+      "equipo_local": "Albacete",
+      "equipo_visitante": "CD Castellón",
+      "fecha_hora": "2026-03-28T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 6,
+      "competicion": "Segunda División",
+      "equipo_local": "Real Sporting",
+      "equipo_visitante": "RC Deportivo",
+      "fecha_hora": "2026-03-28T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 7,
+      "competicion": "Segunda División",
+      "equipo_local": "Eibar",
+      "equipo_visitante": "UD Las Palmas",
+      "fecha_hora": "2026-03-29T14:00:00",
+      "canal": null
+    },
+    {
+      "orden": 8,
+      "competicion": "Segunda División",
+      "equipo_local": "Cultural Leonesa",
+      "equipo_visitante": "FC Andorra",
+      "fecha_hora": "2026-03-29T16:15:00",
+      "canal": null
+    },
+    {
+      "orden": 9,
+      "competicion": "Segunda División",
+      "equipo_local": "Real Zaragoza",
+      "equipo_visitante": "Racing",
+      "fecha_hora": "2026-03-29T18:30:00",
+      "canal": null
+    },
+    {
+      "orden": 10,
+      "competicion": "Primera Federación",
+      "equipo_local": "Zamora CF",
+      "equipo_visitante": "Pontevedra",
+      "fecha_hora": "2026-03-28T16:15:00",
+      "canal": null
+    },
+    {
+      "orden": 11,
+      "competicion": "Primera Federación",
+      "equipo_local": "AD Mérida",
+      "equipo_visitante": "Racing Ferrol",
+      "fecha_hora": "2026-03-28T18:30:00",
+      "canal": null
+    },
+    {
+      "orden": 12,
+      "competicion": "Primera Federación",
+      "equipo_local": "Ourense CF",
+      "equipo_visitante": "Ponferradina",
+      "fecha_hora": "2026-03-29T12:00:00",
+      "canal": null
+    },
+    {
+      "orden": 13,
+      "competicion": "Primera Federación",
+      "equipo_local": "UD Ibiza",
+      "equipo_visitante": "Alcorcón",
+      "fecha_hora": "2026-03-29T12:00:00",
+      "canal": null
+    },
+    {
+      "orden": 14,
+      "competicion": "Primera Federación",
+      "equipo_local": "Hércules",
+      "equipo_visitante": "Marbella FC",
+      "fecha_hora": "2026-03-29T18:45:00",
+      "canal": null
+    },
+    {
+      "orden": 15,
+      "competicion": "Segunda División",
+      "equipo_local": "Almería",
+      "equipo_visitante": "Real Sociedad B",
+      "fecha_hora": "2026-03-29T21:00:00",
+      "canal": null
+    }
+  ]
+}

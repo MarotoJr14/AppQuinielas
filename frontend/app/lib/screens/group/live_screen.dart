@@ -36,31 +36,42 @@ class _LiveScreenState extends State<LiveScreen> {
       _cargando = true;
       _error = null;
       _enCurso.clear();
+      _jornadas.clear();
+      _competicionesPorJornada.clear();
     });
     try {
       final auth = context.read<AuthProvider>();
       final groupProvider = context.read<GroupProvider>();
-      final historial = await auth.apuestaService.listarHistorial(groupProvider.grupoActual!.id);
-      for (final apuesta in historial.where((a) => a.estado == EstadoApuesta.cerrada)) {
-        final completada = await apuestaCompletada(auth, apuesta);
-        if (!completada) {
-          _enCurso.add(apuesta);
-          final jornada = await auth.jornadaService.obtener(apuesta.jornadaId);
-          _jornadas[apuesta.jornadaId] = jornada;
-          final competiciones = await auth.partidoService
-              .listarCompeticionesPorTemporada(jornada.temporadaId);
-          final partidos = await auth.partidoService
-              .listarPorJornada(jornada.id);
-          final nombres = partidos
-              .map((p) => competiciones
-                  .firstWhere((c) => c.id == p.competicionTemporadaId)
-                  .competicion!
-                  .nombre)
-              .toSet()
-              .toList();
-          _competicionesPorJornada[jornada.id] = nombres.join(' · ');
+      final historial = await auth.apuestaService
+          .listarHistorial(groupProvider.grupoActual!.id);
+      for (final apuesta in historial) {
+        // Obtener la jornada asociada
+        final jornada = await auth.jornadaService.obtener(apuesta.jornadaId);
+        // Solo mostrar apuestas cuya jornada esté en curso
+        if (jornada.estado != EstadoJornada.enCurso) {
+          continue;
         }
+        _enCurso.add(apuesta);
+        _jornadas[apuesta.jornadaId] = jornada;
+        final competiciones = await auth.partidoService
+            .listarCompeticionesPorTemporada(jornada.temporadaId);
+        final partidos = await auth.partidoService
+            .listarPorJornada(jornada.id);
+        final nombres = partidos
+            .map(
+              (p) => competiciones
+                  .firstWhere(
+                    (c) => c.id == p.competicionTemporadaId,
+                  )
+                  .competicion!
+                  .nombre,
+            )
+            .toSet()
+            .toList();
+
+        _competicionesPorJornada[jornada.id] = nombres.join(' · ');
       }
+
       setState(() {});
     } catch (e) {
       setState(() => _error = e.toString());

@@ -1,0 +1,62 @@
+[
+  {
+    "nombre": "Honduras",
+    "pais": "Honduras",
+    "es_club": false
+  },
+  {
+    "nombre": "Haití",
+    "pais": "Haití",
+    "es_club": false
+  },
+  {
+    "nombre": "Costa Rica",
+    "pais": "Costa Rica",
+    "es_club": false
+  },
+  {
+    "nombre": "Nicaragua",
+    "pais": "Nicaragua",
+    "es_club": false
+  },
+  {
+    "nombre": "Curazao",
+    "pais": "Curazao",
+    "es_club": false
+  },
+  {
+    "nombre": "Trinidad y Tobago",
+    "pais": "Trinidad y Tobago",
+    "es_club": false
+  },
+  {
+    "nombre": "Jamaica",
+    "pais": "Jamaica",
+    "es_club": false
+  },
+  {
+    "nombre": "Bermudas",
+    "pais": "Bermudas",
+    "es_club": false
+  },
+  {
+    "nombre": "Panamá",
+    "pais": "Panamá",
+    "es_club": false
+  },
+  {
+    "nombre": "Surinam",
+    "pais": "Surinam",
+    "es_club": false
+  },
+  {
+    "nombre": "El Salvador",
+    "pais": "El Salvador",
+    "es_club": false
+  },
+  {
+    "nombre": "Guatemala",
+    "pais": "Guatemala",
+    "es_club": false
+  }
+]

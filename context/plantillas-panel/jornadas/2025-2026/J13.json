@@ -1,0 +1,126 @@
+{
+  "nombre": "J13",
+  "fecha_cierre": "2025-10-14T18:00:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Estonia",
+      "equipo_visitante": "Moldavia",
+      "fecha_hora": "2025-10-14T18:00:00",
+      "canal": null
+    },
+    {
+      "orden": 2,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Turquía",
+      "equipo_visitante": "Georgia",
+      "fecha_hora": "2025-10-14T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 3,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Portugal",
+      "equipo_visitante": "Hungría",
+      "fecha_hora": "2025-10-14T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 4,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Irlanda",
+      "equipo_visitante": "Armenia",
+      "fecha_hora": "2025-10-14T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 5,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Letonia",
+      "equipo_visitante": "Inglaterra",
+      "fecha_hora": "2025-10-14T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 6,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Andorra",
+      "equipo_visitante": "Serbia",
+      "fecha_hora": "2025-10-14T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 7,
+      "competicion": "Clasificación Mundial Asia",
+      "equipo_local": "Catar",
+      "equipo_visitante": "Emiratos Árabes",
+      "fecha_hora": "2025-10-14T19:00:00",
+      "canal": null
+    },
+    {
+      "orden": 8,
+      "competicion": "Clasificación Mundial Asia",
+      "equipo_local": "Arabia Saudí",
+      "equipo_visitante": "Iraq",
+      "fecha_hora": "2025-10-14T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 9,
+      "competicion": "Amistosos Selecciones",
+      "equipo_local": "Canadá",
+      "equipo_visitante": "Colombia",
+      "fecha_hora": "2025-10-15T02:00:00",
+      "canal": null
+    },
+    {
+      "orden": 10,
+      "competicion": "Amistosos Selecciones",
+      "equipo_local": "Estados Unidos",
+      "equipo_visitante": "Australia",
+      "fecha_hora": "2025-10-15T03:00:00",
+      "canal": null
+    },
+    {
+      "orden": 11,
+      "competicion": "Clasificación Mundial Concacaf",
+      "equipo_local": "Curazao",
+      "equipo_visitante": "Trinidad y Tobago",
+      "fecha_hora": "2025-10-15T01:00:00",
+      "canal": null
+    },
+    {
+      "orden": 12,
+      "competicion": "Clasificación Mundial Concacaf",
+      "equipo_local": "Jamaica",
+      "equipo_visitante": "Bermudas",
+      "fecha_hora": "2025-10-15T02:00:00",
+      "canal": null
+    },
+    {
+      "orden": 13,
+      "competicion": "Clasificación Mundial Concacaf",
+      "equipo_local": "Panamá",
+      "equipo_visitante": "Surinam",
+      "fecha_hora": "2025-10-15T03:00:00",
+      "canal": null
+    },
+    {
+      "orden": 14,
+      "competicion": "Clasificación Mundial Concacaf",
+      "equipo_local": "El Salvador",
+      "equipo_visitante": "Guatemala",
+      "fecha_hora": "2025-10-15T04:00:00",
+      "canal": null
+    },
+    {
+      "orden": 15,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "España",
+      "equipo_visitante": "Bulgaria",
+      "fecha_hora": "2025-10-14T20:45:00",
+      "canal": null
+    }
+  ]
+}

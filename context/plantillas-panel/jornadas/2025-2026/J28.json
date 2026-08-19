@@ -1,0 +1,126 @@
+{
+  "nombre": "J28",
+  "fecha_cierre": "2025-12-13T14:00:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Primera División",
+      "equipo_local": "Atlético de Madrid",
+      "equipo_visitante": "Valencia",
+      "fecha_hora": "2025-12-13T14:00:00",
+      "canal": null
+    },
+    {
+      "orden": 2,
+      "competicion": "Primera División",
+      "equipo_local": "Mallorca",
+      "equipo_visitante": "Elche",
+      "fecha_hora": "2025-12-13T16:15:00",
+      "canal": null
+    },
+    {
+      "orden": 3,
+      "competicion": "Primera División",
+      "equipo_local": "FC Barcelona",
+      "equipo_visitante": "Osasuna",
+      "fecha_hora": "2025-12-13T18:30:00",
+      "canal": null
+    },
+    {
+      "orden": 4,
+      "competicion": "Primera División",
+      "equipo_local": "Getafe",
+      "equipo_visitante": "Espanyol",
+      "fecha_hora": "2025-12-13T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 5,
+      "competicion": "Primera División",
+      "equipo_local": "Sevilla",
+      "equipo_visitante": "Real Oviedo",
+      "fecha_hora": "2025-12-14T14:00:00",
+      "canal": null
+    },
+    {
+      "orden": 6,
+      "competicion": "Primera División",
+      "equipo_local": "Celta",
+      "equipo_visitante": "Athletic Club",
+      "fecha_hora": "2025-12-14T16:15:00",
+      "canal": null
+    },
+    {
+      "orden": 7,
+      "competicion": "Primera División",
+      "equipo_local": "Levante",
+      "equipo_visitante": "Villarreal",
+      "fecha_hora": "2025-12-14T18:30:00",
+      "canal": null
+    },
+    {
+      "orden": 8,
+      "competicion": "Primera División",
+      "equipo_local": "Deportivo Alavés",
+      "equipo_visitante": "Real Madrid",
+      "fecha_hora": "2025-12-14T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 9,
+      "competicion": "Segunda División",
+      "equipo_local": "Real Sporting",
+      "equipo_visitante": "Granada",
+      "fecha_hora": "2025-12-13T16:15:00",
+      "canal": null
+    },
+    {
+      "orden": 10,
+      "competicion": "Segunda División",
+      "equipo_local": "Real Valladolid",
+      "equipo_visitante": "FC Andorra",
+      "fecha_hora": "2025-12-13T16:15:00",
+      "canal": null
+    },
+    {
+      "orden": 11,
+      "competicion": "Segunda División",
+      "equipo_local": "Racing",
+      "equipo_visitante": "Leganés",
+      "fecha_hora": "2025-12-13T18:30:00",
+      "canal": null
+    },
+    {
+      "orden": 12,
+      "competicion": "Segunda División",
+      "equipo_local": "Real Zaragoza",
+      "equipo_visitante": "Cádiz",
+      "fecha_hora": "2025-12-13T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 13,
+      "competicion": "Segunda División",
+      "equipo_local": "Almería",
+      "equipo_visitante": "Burgos CF",
+      "fecha_hora": "2025-12-14T18:30:00",
+      "canal": null
+    },
+    {
+      "orden": 14,
+      "competicion": "Segunda División",
+      "equipo_local": "AD Ceuta FC",
+      "equipo_visitante": "UD Las Palmas",
+      "fecha_hora": "2025-12-14T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 15,
+      "competicion": "Primera División",
+      "equipo_local": "Rayo Vallecano",
+      "equipo_visitante": "Real Betis",
+      "fecha_hora": "2025-12-15T21:00:00",
+      "canal": null
+    }
+  ]
+}

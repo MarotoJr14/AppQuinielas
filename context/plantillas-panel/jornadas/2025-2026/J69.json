@@ -1,0 +1,126 @@
+{
+  "nombre": "J69",
+  "fecha_cierre": "2026-06-22T22:00:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Mundial",
+      "equipo_local": "Noruega",
+      "equipo_visitante": "Senegal",
+      "fecha_hora": "2026-06-23T02:00:00",
+      "canal": null
+    },
+    {
+      "orden": 2,
+      "competicion": "Mundial",
+      "equipo_local": "Jordania",
+      "equipo_visitante": "Argelia",
+      "fecha_hora": "2026-06-23T05:00:00",
+      "canal": null
+    },
+    {
+      "orden": 3,
+      "competicion": "Mundial",
+      "equipo_local": "Portugal",
+      "equipo_visitante": "Uzbekistán",
+      "fecha_hora": "2026-06-23T19:00:00",
+      "canal": null
+    },
+    {
+      "orden": 4,
+      "competicion": "Mundial",
+      "equipo_local": "Inglaterra",
+      "equipo_visitante": "Ghana",
+      "fecha_hora": "2026-06-23T22:00:00",
+      "canal": null
+    },
+    {
+      "orden": 5,
+      "competicion": "Mundial",
+      "equipo_local": "Panamá",
+      "equipo_visitante": "Croacia",
+      "fecha_hora": "2026-06-24T01:00:00",
+      "canal": null
+    },
+    {
+      "orden": 6,
+      "competicion": "Mundial",
+      "equipo_local": "Colombia",
+      "equipo_visitante": "RD Congo",
+      "fecha_hora": "2026-06-24T04:00:00",
+      "canal": null
+    },
+    {
+      "orden": 7,
+      "competicion": "Mundial",
+      "equipo_local": "Suiza",
+      "equipo_visitante": "Canadá",
+      "fecha_hora": "2026-06-24T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 8,
+      "competicion": "Mundial",
+      "equipo_local": "Bosnia y Herzegovina",
+      "equipo_visitante": "Catar",
+      "fecha_hora": "2026-06-24T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 9,
+      "competicion": "Mundial",
+      "equipo_local": "Escocia",
+      "equipo_visitante": "Brasil",
+      "fecha_hora": "2026-06-25T00:00:00",
+      "canal": null
+    },
+    {
+      "orden": 10,
+      "competicion": "Mundial",
+      "equipo_local": "Marruecos",
+      "equipo_visitante": "Haití",
+      "fecha_hora": "2026-06-25T00:00:00",
+      "canal": null
+    },
+    {
+      "orden": 11,
+      "competicion": "Mundial",
+      "equipo_local": "Sudáfrica",
+      "equipo_visitante": "Corea del Sur",
+      "fecha_hora": "2026-06-25T03:00:00",
+      "canal": null
+    },
+    {
+      "orden": 12,
+      "competicion": "Mundial",
+      "equipo_local": "Curazao",
+      "equipo_visitante": "Costa De Marfil",
+      "fecha_hora": "2026-06-25T22:00:00",
+      "canal": null
+    },
+    {
+      "orden": 13,
+      "competicion": "Mundial",
+      "equipo_local": "Ecuador",
+      "equipo_visitante": "Alemania",
+      "fecha_hora": "2026-06-25T22:00:00",
+      "canal": null
+    },
+    {
+      "orden": 14,
+      "competicion": "Liga Finlandia",
+      "equipo_local": "Ifk Mariehamn",
+      "equipo_visitante": "HJK Helsinki",
+      "fecha_hora": "2026-06-23T19:00:00",
+      "canal": null
+    },
+    {
+      "orden": 15,
+      "competicion": "Mundial",
+      "equipo_local": "República Checa",
+      "equipo_visitante": "México",
+      "fecha_hora": "2026-06-25T03:00:00",
+      "canal": null
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "nombre": "FC Barcelona",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Real Madrid",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Villarreal",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Atlético de Madrid",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Real Betis",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Celta",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Getafe",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Rayo Vallecano",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Valencia",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Real Sociedad",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Espanyol",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Athletic Club",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Sevilla",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Deportivo Alavés",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Elche",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Levante",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Osasuna",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Mallorca",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Girona FC",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Real Oviedo",
+    "pais": "España",
+    "es_club": true
+  }
+]

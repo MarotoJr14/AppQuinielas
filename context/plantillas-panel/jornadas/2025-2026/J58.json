@@ -1,0 +1,126 @@
+{
+  "nombre": "J58",
+  "fecha_cierre": "2026-04-21T19:00:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Primera División",
+      "equipo_local": "Athletic Club",
+      "equipo_visitante": "Osasuna",
+      "fecha_hora": "2026-04-21T19:00:00",
+      "canal": null
+    },
+    {
+      "orden": 2,
+      "competicion": "Primera División",
+      "equipo_local": "FC Barcelona",
+      "equipo_visitante": "Celta",
+      "fecha_hora": "2026-04-22T21:30:00",
+      "canal": null
+    },
+    {
+      "orden": 3,
+      "competicion": "Primera División",
+      "equipo_local": "Levante",
+      "equipo_visitante": "Sevilla",
+      "fecha_hora": "2026-04-23T19:00:00",
+      "canal": null
+    },
+    {
+      "orden": 4,
+      "competicion": "Primera División",
+      "equipo_local": "Mallorca",
+      "equipo_visitante": "Valencia",
+      "fecha_hora": "2026-04-21T19:00:00",
+      "canal": null
+    },
+    {
+      "orden": 5,
+      "competicion": "Primera División",
+      "equipo_local": "Real Oviedo",
+      "equipo_visitante": "Villarreal",
+      "fecha_hora": "2026-04-23T21:30:00",
+      "canal": null
+    },
+    {
+      "orden": 6,
+      "competicion": "Primera División",
+      "equipo_local": "Real Madrid",
+      "equipo_visitante": "Deportivo Alavés",
+      "fecha_hora": "2026-04-21T21:30:00",
+      "canal": null
+    },
+    {
+      "orden": 7,
+      "competicion": "Primera División",
+      "equipo_local": "Elche",
+      "equipo_visitante": "Atlético de Madrid",
+      "fecha_hora": "2026-04-22T19:00:00",
+      "canal": null
+    },
+    {
+      "orden": 8,
+      "competicion": "Primera División",
+      "equipo_local": "Rayo Vallecano",
+      "equipo_visitante": "Espanyol",
+      "fecha_hora": "2026-04-23T20:00:00",
+      "canal": null
+    },
+    {
+      "orden": 9,
+      "competicion": "Primera División",
+      "equipo_local": "Real Sociedad",
+      "equipo_visitante": "Getafe",
+      "fecha_hora": "2026-04-22T20:00:00",
+      "canal": null
+    },
+    {
+      "orden": 10,
+      "competicion": "Championship",
+      "equipo_local": "Coventry City",
+      "equipo_visitante": "Portsmouth",
+      "fecha_hora": "2026-04-21T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 11,
+      "competicion": "Championship",
+      "equipo_local": "Queens Park Rangers",
+      "equipo_visitante": "Swansea City",
+      "fecha_hora": "2026-04-21T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 12,
+      "competicion": "Championship",
+      "equipo_local": "Southampton",
+      "equipo_visitante": "Bristol City",
+      "fecha_hora": "2026-04-21T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 13,
+      "competicion": "Championship",
+      "equipo_local": "Charlton Athletic",
+      "equipo_visitante": "Ipswich Town",
+      "fecha_hora": "2026-04-22T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 14,
+      "competicion": "Championship",
+      "equipo_local": "Leicester",
+      "equipo_visitante": "Hull City",
+      "fecha_hora": "2026-04-21T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 15,
+      "competicion": "Primera División",
+      "equipo_local": "Girona FC",
+      "equipo_visitante": "Real Betis",
+      "fecha_hora": "2026-04-21T21:30:00",
+      "canal": null
+    }
+  ]
+}

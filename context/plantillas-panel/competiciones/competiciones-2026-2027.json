@@ -1,0 +1,17 @@
+[
+  {
+    "nombre": "Primera División",
+    "ambito": "España",
+    "es_clubes": true
+  },
+  {
+    "nombre": "Segunda División",
+    "ambito": "España",
+    "es_clubes": true
+  },
+  {
+    "nombre": "Primera División Femenina",
+    "ambito": "España",
+    "es_clubes": true
+  }
+]

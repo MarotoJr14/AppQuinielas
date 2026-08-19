@@ -1,0 +1,126 @@
+{
+  "nombre": "J65",
+  "fecha_cierre": "2026-05-30T16:15:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Segunda División",
+      "equipo_local": "CD Castellón",
+      "equipo_visitante": "Eibar",
+      "fecha_hora": "2026-05-31T18:30:00",
+      "canal": null
+    },
+    {
+      "orden": 2,
+      "competicion": "Segunda División",
+      "equipo_local": "Córdoba",
+      "equipo_visitante": "Huesca",
+      "fecha_hora": "2026-05-31T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 3,
+      "competicion": "Segunda División",
+      "equipo_local": "RC Deportivo",
+      "equipo_visitante": "UD Las Palmas",
+      "fecha_hora": "2026-05-31T18:30:00",
+      "canal": null
+    },
+    {
+      "orden": 4,
+      "competicion": "Segunda División",
+      "equipo_local": "Granada",
+      "equipo_visitante": "Real Sporting",
+      "fecha_hora": "2026-05-30T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 5,
+      "competicion": "Segunda División",
+      "equipo_local": "Leganés",
+      "equipo_visitante": "Mirandés",
+      "fecha_hora": "2026-05-31T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 6,
+      "competicion": "Segunda División",
+      "equipo_local": "Almería",
+      "equipo_visitante": "Real Valladolid",
+      "fecha_hora": "2026-05-31T18:30:00",
+      "canal": null
+    },
+    {
+      "orden": 7,
+      "competicion": "Segunda División",
+      "equipo_local": "AD Ceuta FC",
+      "equipo_visitante": "Albacete",
+      "fecha_hora": "2026-05-30T16:15:00",
+      "canal": null
+    },
+    {
+      "orden": 8,
+      "competicion": "Segunda División",
+      "equipo_local": "Racing",
+      "equipo_visitante": "Cádiz",
+      "fecha_hora": "2026-05-31T18:30:00",
+      "canal": null
+    },
+    {
+      "orden": 9,
+      "competicion": "Segunda División",
+      "equipo_local": "Real Sociedad B",
+      "equipo_visitante": "Cultural Leonesa",
+      "fecha_hora": "2026-05-30T16:15:00",
+      "canal": null
+    },
+    {
+      "orden": 10,
+      "competicion": "Segunda División",
+      "equipo_local": "Real Zaragoza",
+      "equipo_visitante": "Málaga",
+      "fecha_hora": "2026-05-31T18:30:00",
+      "canal": null
+    },
+    {
+      "orden": 11,
+      "competicion": "Segunda División",
+      "equipo_local": "Burgos CF",
+      "equipo_visitante": "FC Andorra",
+      "fecha_hora": "2026-05-31T18:30:00",
+      "canal": null
+    },
+    {
+      "orden": 12,
+      "competicion": "Amistosos Selecciones",
+      "equipo_local": "México",
+      "equipo_visitante": "Australia",
+      "fecha_hora": "2026-05-31T04:00:00",
+      "canal": null
+    },
+    {
+      "orden": 13,
+      "competicion": "Amistosos Selecciones",
+      "equipo_local": "Japón",
+      "equipo_visitante": "Islandia",
+      "fecha_hora": "2026-05-31T12:25:00",
+      "canal": null
+    },
+    {
+      "orden": 14,
+      "competicion": "Amistosos Selecciones",
+      "equipo_local": "Alemania",
+      "equipo_visitante": "Finlandia",
+      "fecha_hora": "2026-05-31T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 15,
+      "competicion": "Champions League",
+      "equipo_local": "PSG",
+      "equipo_visitante": "Arsenal",
+      "fecha_hora": "2026-05-30T18:00:00",
+      "canal": null
+    }
+  ]
+}

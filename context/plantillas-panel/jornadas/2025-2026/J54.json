@@ -1,0 +1,126 @@
+{
+  "nombre": "J54",
+  "fecha_cierre": "2026-04-07T19:00:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Champions League",
+      "equipo_local": "Real Madrid",
+      "equipo_visitante": "Bayern München",
+      "fecha_hora": "2026-04-07T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 2,
+      "competicion": "Champions League",
+      "equipo_local": "Sporting CP",
+      "equipo_visitante": "Arsenal",
+      "fecha_hora": "2026-04-07T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 3,
+      "competicion": "Champions League",
+      "equipo_local": "PSG",
+      "equipo_visitante": "Liverpool",
+      "fecha_hora": "2026-04-08T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 4,
+      "competicion": "Europa League",
+      "equipo_local": "Sporting Braga",
+      "equipo_visitante": "Real Betis",
+      "fecha_hora": "2026-04-08T18:45:00",
+      "canal": null
+    },
+    {
+      "orden": 5,
+      "competicion": "Europa League",
+      "equipo_local": "Bologna",
+      "equipo_visitante": "Aston Villa",
+      "fecha_hora": "2026-04-09T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 6,
+      "competicion": "Europa League",
+      "equipo_local": "SC Freiburg",
+      "equipo_visitante": "Celta",
+      "fecha_hora": "2026-04-09T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 7,
+      "competicion": "Europa League",
+      "equipo_local": "Porto",
+      "equipo_visitante": "Nottingham Forest",
+      "fecha_hora": "2026-04-09T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 8,
+      "competicion": "Conference League",
+      "equipo_local": "Rayo Vallecano",
+      "equipo_visitante": "AEK Athens",
+      "fecha_hora": "2026-04-09T18:45:00",
+      "canal": null
+    },
+    {
+      "orden": 9,
+      "competicion": "Conference League",
+      "equipo_local": "Crystal Palace",
+      "equipo_visitante": "Fiorentina",
+      "fecha_hora": "2026-04-09T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 10,
+      "competicion": "Conference League",
+      "equipo_local": "Mainz 05",
+      "equipo_visitante": "Strasbourg",
+      "fecha_hora": "2026-04-09T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 11,
+      "competicion": "Conference League",
+      "equipo_local": "Shakhtar Donetsk",
+      "equipo_visitante": "AZ Alkmaar",
+      "fecha_hora": "2026-04-09T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 12,
+      "competicion": "Liga Noruega",
+      "equipo_local": "Aalesunds FK",
+      "equipo_visitante": "Fredrikstad",
+      "fecha_hora": "2026-04-07T19:00:00",
+      "canal": null
+    },
+    {
+      "orden": 13,
+      "competicion": "Liga Noruega",
+      "equipo_local": "Kfum Oslo",
+      "equipo_visitante": "Sandefjord",
+      "fecha_hora": "2026-04-07T19:00:00",
+      "canal": null
+    },
+    {
+      "orden": 14,
+      "competicion": "Championship",
+      "equipo_local": "Wrexham AFC",
+      "equipo_visitante": "Southampton",
+      "fecha_hora": "2026-04-07T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 15,
+      "competicion": "Champions League",
+      "equipo_local": "FC Barcelona",
+      "equipo_visitante": "Atlético de Madrid",
+      "fecha_hora": "2026-04-08T21:00:00",
+      "canal": null
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "nombre": "J10",
+  "fecha_cierre": "2025-09-30T18:45:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Champions League",
+      "equipo_local": "Kairat Almaty",
+      "equipo_visitante": "Real Madrid",
+      "fecha_hora": "2025-09-30T18:45:00",
+      "canal": null
+    },
+    {
+      "orden": 2,
+      "competicion": "Champions League",
+      "equipo_local": "Atlético de Madrid",
+      "equipo_visitante": "Eintracht Frankfurt",
+      "fecha_hora": "2025-09-30T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 3,
+      "competicion": "Champions League",
+      "equipo_local": "Chelsea",
+      "equipo_visitante": "Benfica",
+      "fecha_hora": "2025-09-30T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 4,
+      "competicion": "Champions League",
+      "equipo_local": "Galatasaray SK",
+      "equipo_visitante": "Liverpool",
+      "fecha_hora": "2025-09-30T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 5,
+      "competicion": "Champions League",
+      "equipo_local": "Inter",
+      "equipo_visitante": "Slavia Praha",
+      "fecha_hora": "2025-09-30T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 6,
+      "competicion": "Champions League",
+      "equipo_local": "Olympique MArseille",
+      "equipo_visitante": "Ajax",
+      "fecha_hora": "2025-09-30T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 7,
+      "competicion": "Champions League",
+      "equipo_local": "Arsenal",
+      "equipo_visitante": "Olympiacos",
+      "fecha_hora": "2025-10-01T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 8,
+      "competicion": "Champions League",
+      "equipo_local": "B. Leverkusen",
+      "equipo_visitante": "PSV",
+      "fecha_hora": "2025-10-01T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 9,
+      "competicion": "Champions League",
+      "equipo_local": "B. Dortmund",
+      "equipo_visitante": "Athletic Club",
+      "fecha_hora": "2025-10-01T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 10,
+      "competicion": "Champions League",
+      "equipo_local": "Monaco",
+      "equipo_visitante": "Manchester City",
+      "fecha_hora": "2025-10-01T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 11,
+      "competicion": "Champions League",
+      "equipo_local": "Napoli",
+      "equipo_visitante": "Sporting CP",
+      "fecha_hora": "2025-10-01T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 12,
+      "competicion": "Champions League",
+      "equipo_local": "Villarreal",
+      "equipo_visitante": "Juventus",
+      "fecha_hora": "2025-10-01T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 13,
+      "competicion": "Europa League",
+      "equipo_local": "Ludogorets",
+      "equipo_visitante": "Real Betis",
+      "fecha_hora": "2025-10-01T18:45:00",
+      "canal": null
+    },
+    {
+      "orden": 14,
+      "competicion": "Europa League",
+      "equipo_local": "Celta",
+      "equipo_visitante": "PAOK",
+      "fecha_hora": "2025-10-01T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 15,
+      "competicion": "Champions League",
+      "equipo_local": "FC Barcelona",
+      "equipo_visitante": "PSG",
+      "fecha_hora": "2025-10-01T21:00:00",
+      "canal": null
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "nombre": "J70",
+  "fecha_cierre": "2026-06-25T22:00:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Mundial",
+      "equipo_local": "Japón",
+      "equipo_visitante": "Suecia",
+      "fecha_hora": "2026-06-26T01:00:00",
+      "canal": null
+    },
+    {
+      "orden": 2,
+      "competicion": "Mundial",
+      "equipo_local": "Túnez",
+      "equipo_visitante": "Países Bajos",
+      "fecha_hora": "2026-06-26T01:00:00",
+      "canal": null
+    },
+    {
+      "orden": 3,
+      "competicion": "Mundial",
+      "equipo_local": "Turquía",
+      "equipo_visitante": "Estados Unidos",
+      "fecha_hora": "2026-06-26T04:00:00",
+      "canal": null
+    },
+    {
+      "orden": 4,
+      "competicion": "Mundial",
+      "equipo_local": "Paraguay",
+      "equipo_visitante": "Australia",
+      "fecha_hora": "2026-06-26T04:00:00",
+      "canal": null
+    },
+    {
+      "orden": 5,
+      "competicion": "Mundial",
+      "equipo_local": "Noruega",
+      "equipo_visitante": "Francia",
+      "fecha_hora": "2026-06-26T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 6,
+      "competicion": "Mundial",
+      "equipo_local": "Senegal",
+      "equipo_visitante": "Iraq",
+      "fecha_hora": "2026-06-26T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 7,
+      "competicion": "Mundial",
+      "equipo_local": "Cabo Verde",
+      "equipo_visitante": "Arabia Saudí",
+      "fecha_hora": "2026-06-27T02:00:00",
+      "canal": null
+    },
+    {
+      "orden": 8,
+      "competicion": "Mundial",
+      "equipo_local": "Egipto",
+      "equipo_visitante": "Irán",
+      "fecha_hora": "2026-06-27T05:00:00",
+      "canal": null
+    },
+    {
+      "orden": 9,
+      "competicion": "Mundial",
+      "equipo_local": "Nueva Zelanda",
+      "equipo_visitante": "Bélgica",
+      "fecha_hora": "2026-06-27T05:00:00",
+      "canal": null
+    },
+    {
+      "orden": 10,
+      "competicion": "Mundial",
+      "equipo_local": "Panamá",
+      "equipo_visitante": "Inglaterra",
+      "fecha_hora": "2026-06-27T23:00:00",
+      "canal": null
+    },
+    {
+      "orden": 11,
+      "competicion": "Mundial",
+      "equipo_local": "Croacia",
+      "equipo_visitante": "Ghana",
+      "fecha_hora": "2026-06-27T23:00:00",
+      "canal": null
+    },
+    {
+      "orden": 12,
+      "competicion": "Mundial",
+      "equipo_local": "Colombia",
+      "equipo_visitante": "Portugal",
+      "fecha_hora": "2026-06-28T01:30:00",
+      "canal": null
+    },
+    {
+      "orden": 13,
+      "competicion": "Mundial",
+      "equipo_local": "Argelia",
+      "equipo_visitante": "Austria",
+      "fecha_hora": "2026-06-28T04:00:00",
+      "canal": null
+    },
+    {
+      "orden": 14,
+      "competicion": "Mundial",
+      "equipo_local": "Jordania",
+      "equipo_visitante": "Argentina",
+      "fecha_hora": "2026-06-28T04:00:00",
+      "canal": null
+    },
+    {
+      "orden": 15,
+      "competicion": "Mundial",
+      "equipo_local": "Uruguay",
+      "equipo_visitante": "España",
+      "fecha_hora": "2026-06-27T02:00:00",
+      "canal": null
+    }
+  ]
+}

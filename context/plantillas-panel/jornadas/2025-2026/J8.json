@@ -1,0 +1,126 @@
+{
+  "nombre": "J8",
+  "fecha_cierre": "2025-09-23T19:00:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Primera División",
+      "equipo_local": "Athletic Club",
+      "equipo_visitante": "Girona FC",
+      "fecha_hora": "2025-09-23T19:00:00",
+      "canal": null
+    },
+    {
+      "orden": 2,
+      "competicion": "Primera División",
+      "equipo_local": "Espanyol",
+      "equipo_visitante": "Valencia",
+      "fecha_hora": "2025-09-23T19:00:00",
+      "canal": null
+    },
+    {
+      "orden": 3,
+      "competicion": "Primera División",
+      "equipo_local": "Levante",
+      "equipo_visitante": "Real Madrid",
+      "fecha_hora": "2025-09-23T21:30:00",
+      "canal": null
+    },
+    {
+      "orden": 4,
+      "competicion": "Primera División",
+      "equipo_local": "Sevilla",
+      "equipo_visitante": "Villarreal",
+      "fecha_hora": "2025-09-23T21:30:00",
+      "canal": null
+    },
+    {
+      "orden": 5,
+      "competicion": "Primera División",
+      "equipo_local": "Getafe",
+      "equipo_visitante": "Deportivo Alavés",
+      "fecha_hora": "2025-09-24T19:30:00",
+      "canal": null
+    },
+    {
+      "orden": 6,
+      "competicion": "Primera División",
+      "equipo_local": "Real Oviedo",
+      "equipo_visitante": "FC Barcelona",
+      "fecha_hora": "2025-09-25T21:30:00",
+      "canal": null
+    },
+    {
+      "orden": 7,
+      "competicion": "Primera División",
+      "equipo_local": "Osasuna",
+      "equipo_visitante": "Elche",
+      "fecha_hora": "2025-09-25T19:30:00",
+      "canal": null
+    },
+    {
+      "orden": 8,
+      "competicion": "Primera División",
+      "equipo_local": "Real Sociedad",
+      "equipo_visitante": "Mallorca",
+      "fecha_hora": "2025-09-24T21:30:00",
+      "canal": null
+    },
+    {
+      "orden": 9,
+      "competicion": "Europa League",
+      "equipo_local": "Crvena Zvezda",
+      "equipo_visitante": "Celtic",
+      "fecha_hora": "2025-09-24T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 10,
+      "competicion": "Europa League",
+      "equipo_local": "Real Betis",
+      "equipo_visitante": "Nottingham Forest",
+      "fecha_hora": "2025-09-24T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 11,
+      "competicion": "Europa League",
+      "equipo_local": "Nice",
+      "equipo_visitante": "Roma",
+      "fecha_hora": "2025-09-24T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 12,
+      "competicion": "Europa League",
+      "equipo_local": "Aston Villa",
+      "equipo_visitante": "Bologna",
+      "fecha_hora": "2025-09-25T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 13,
+      "competicion": "Europa League",
+      "equipo_local": "Salzburg",
+      "equipo_visitante": "Porto",
+      "fecha_hora": "2025-09-25T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 14,
+      "competicion": "Europa League",
+      "equipo_local": "Stuttgart",
+      "equipo_visitante": "Celta",
+      "fecha_hora": "2025-09-25T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 15,
+      "competicion": "Primera División",
+      "equipo_local": "Atlético de Madrid",
+      "equipo_visitante": "Rayo Vallecano",
+      "fecha_hora": "2025-09-24T21:30:00",
+      "canal": null
+    }
+  ]
+}

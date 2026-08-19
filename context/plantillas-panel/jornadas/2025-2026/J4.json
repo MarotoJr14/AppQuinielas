@@ -1,0 +1,126 @@
+{
+  "nombre": "J4",
+  "fecha_cierre": "2025-09-06T15:00:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Segunda División",
+      "equipo_local": "RC Deportivo",
+      "equipo_visitante": "Real Sporting",
+      "fecha_hora": "2025-09-06T16:15:00",
+      "canal": null
+    },
+    {
+      "orden": 2,
+      "competicion": "Segunda División",
+      "equipo_local": "Real Zaragoza",
+      "equipo_visitante": "Real Valladolid",
+      "fecha_hora": "2025-09-06T18:30:00",
+      "canal": null
+    },
+    {
+      "orden": 3,
+      "competicion": "Segunda División",
+      "equipo_local": "Málaga",
+      "equipo_visitante": "Granada",
+      "fecha_hora": "2025-09-06T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 4,
+      "competicion": "Segunda División",
+      "equipo_local": "AD Ceuta FC",
+      "equipo_visitante": "Huesca",
+      "fecha_hora": "2025-09-07T14:00:00",
+      "canal": null
+    },
+    {
+      "orden": 5,
+      "competicion": "Segunda División",
+      "equipo_local": "Burgos CF",
+      "equipo_visitante": "UD Las Palmas",
+      "fecha_hora": "2025-09-07T16:15:00",
+      "canal": null
+    },
+    {
+      "orden": 6,
+      "competicion": "Segunda División",
+      "equipo_local": "Real Sociedad B",
+      "equipo_visitante": "Cádiz",
+      "fecha_hora": "2025-09-07T16:15:00",
+      "canal": null
+    },
+    {
+      "orden": 7,
+      "competicion": "Segunda División",
+      "equipo_local": "Almería",
+      "equipo_visitante": "Racing",
+      "fecha_hora": "2025-09-07T18:30:00",
+      "canal": null
+    },
+    {
+      "orden": 8,
+      "competicion": "Segunda División",
+      "equipo_local": "Cultural Leonesa",
+      "equipo_visitante": "Leganés",
+      "fecha_hora": "2025-09-07T18:30:00",
+      "canal": null
+    },
+    {
+      "orden": 9,
+      "competicion": "Segunda División",
+      "equipo_local": "Eibar",
+      "equipo_visitante": "FC Andorra",
+      "fecha_hora": "2025-09-08T20:30:00",
+      "canal": null
+    },
+    {
+      "orden": 10,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Letonia",
+      "equipo_visitante": "Serbia",
+      "fecha_hora": "2025-09-06T15:00:00",
+      "canal": null
+    },
+    {
+      "orden": 11,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Irlanda",
+      "equipo_visitante": "Hungría",
+      "fecha_hora": "2025-09-06T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 12,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Alemania",
+      "equipo_visitante": "Irlanda del Norte",
+      "fecha_hora": "2025-09-07T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 13,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Luxemburgo",
+      "equipo_visitante": "Eslovaquia",
+      "fecha_hora": "2025-09-07T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 14,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Polonia",
+      "equipo_visitante": "Finlandia",
+      "fecha_hora": "2025-09-07T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 15,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Turquía",
+      "equipo_visitante": "España",
+      "fecha_hora": "2025-09-07T20:45:00",
+      "canal": null
+    }
+  ]
+}

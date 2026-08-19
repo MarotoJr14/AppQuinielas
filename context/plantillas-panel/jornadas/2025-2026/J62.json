@@ -1,0 +1,126 @@
+{
+  "nombre": "J62",
+  "fecha_cierre": "2026-05-12T19:00:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Primera División",
+      "equipo_local": "Celta",
+      "equipo_visitante": "Levante",
+      "fecha_hora": "2026-05-12T19:00:00",
+      "canal": null
+    },
+    {
+      "orden": 2,
+      "competicion": "Primera División",
+      "equipo_local": "Real Betis",
+      "equipo_visitante": "Elche",
+      "fecha_hora": "2026-05-12T20:00:00",
+      "canal": null
+    },
+    {
+      "orden": 3,
+      "competicion": "Primera División",
+      "equipo_local": "Osasuna",
+      "equipo_visitante": "Atlético de Madrid",
+      "fecha_hora": "2026-05-12T21:30:00",
+      "canal": null
+    },
+    {
+      "orden": 4,
+      "competicion": "Primera División",
+      "equipo_local": "Espanyol",
+      "equipo_visitante": "Athletic Club",
+      "fecha_hora": "2026-05-13T19:00:00",
+      "canal": null
+    },
+    {
+      "orden": 5,
+      "competicion": "Primera División",
+      "equipo_local": "Villarreal",
+      "equipo_visitante": "Sevilla",
+      "fecha_hora": "2026-05-13T19:00:00",
+      "canal": null
+    },
+    {
+      "orden": 6,
+      "competicion": "Primera División",
+      "equipo_local": "Deportivo Alavés",
+      "equipo_visitante": "FC Barcelona",
+      "fecha_hora": "2026-05-13T21:30:00",
+      "canal": null
+    },
+    {
+      "orden": 7,
+      "competicion": "Primera División",
+      "equipo_local": "Getafe",
+      "equipo_visitante": "Mallorca",
+      "fecha_hora": "2026-05-13T21:30:00",
+      "canal": null
+    },
+    {
+      "orden": 8,
+      "competicion": "Primera División",
+      "equipo_local": "Valencia",
+      "equipo_visitante": "Rayo Vallecano",
+      "fecha_hora": "2026-05-14T19:00:00",
+      "canal": null
+    },
+    {
+      "orden": 9,
+      "competicion": "Primera División",
+      "equipo_local": "Girona FC",
+      "equipo_visitante": "Real Sociedad",
+      "fecha_hora": "2026-05-14T20:00:00",
+      "canal": null
+    },
+    {
+      "orden": 10,
+      "competicion": "Liga Escocia",
+      "equipo_local": "Kilmarnock",
+      "equipo_visitante": "Dundee",
+      "fecha_hora": "2026-05-12T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 11,
+      "competicion": "Liga Escocia",
+      "equipo_local": "Aberdeen",
+      "equipo_visitante": "St. Mirren",
+      "fecha_hora": "2026-05-12T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 12,
+      "competicion": "Liga Escocia",
+      "equipo_local": "Heart of Midlothian",
+      "equipo_visitante": "Falkirk",
+      "fecha_hora": "2026-05-13T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 13,
+      "competicion": "Liga Escocia",
+      "equipo_local": "Motherwell",
+      "equipo_visitante": "Celtic",
+      "fecha_hora": "2026-05-13T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 14,
+      "competicion": "Liga Escocia",
+      "equipo_local": "Rangers",
+      "equipo_visitante": "Hibernian FC",
+      "fecha_hora": "2026-05-13T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 15,
+      "competicion": "Primera División",
+      "equipo_local": "Real Madrid",
+      "equipo_visitante": "Real Oviedo",
+      "fecha_hora": "2026-05-14T21:30:00",
+      "canal": null
+    }
+  ]
+}

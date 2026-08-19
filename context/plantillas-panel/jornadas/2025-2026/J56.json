@@ -1,0 +1,126 @@
+{
+  "nombre": "J56",
+  "fecha_cierre": "2026-04-14T20:45:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Champions League",
+      "equipo_local": "Liverpool",
+      "equipo_visitante": "PSG",
+      "fecha_hora": "2026-04-14T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 2,
+      "competicion": "Champions League",
+      "equipo_local": "Atlético de Madrid",
+      "equipo_visitante": "FC Barcelona",
+      "fecha_hora": "2026-04-14T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 3,
+      "competicion": "Champions League",
+      "equipo_local": "Arsenal",
+      "equipo_visitante": "Sporting CP",
+      "fecha_hora": "2026-04-15T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 4,
+      "competicion": "Europa League",
+      "equipo_local": "Celta",
+      "equipo_visitante": "SC Freiburg",
+      "fecha_hora": "2026-04-16T18:45:00",
+      "canal": null
+    },
+    {
+      "orden": 5,
+      "competicion": "Europa League",
+      "equipo_local": "Real Betis",
+      "equipo_visitante": "Sporting Braga",
+      "fecha_hora": "2026-04-16T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 6,
+      "competicion": "Europa League",
+      "equipo_local": "Nottingham Forest",
+      "equipo_visitante": "Porto",
+      "fecha_hora": "2026-04-16T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 7,
+      "competicion": "Europa League",
+      "equipo_local": "Aston Villa",
+      "equipo_visitante": "Bologna",
+      "fecha_hora": "2026-04-16T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 8,
+      "competicion": "Conference League",
+      "equipo_local": "AZ Alkmaar",
+      "equipo_visitante": "Shakhtar Donetsk",
+      "fecha_hora": "2026-04-16T18:45:00",
+      "canal": null
+    },
+    {
+      "orden": 9,
+      "competicion": "Conference League",
+      "equipo_local": "Fiorentina",
+      "equipo_visitante": "Crystal Palace",
+      "fecha_hora": "2026-04-16T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 10,
+      "competicion": "Conference League",
+      "equipo_local": "AEK Athens",
+      "equipo_visitante": "Rayo Vallecano",
+      "fecha_hora": "2026-04-16T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 11,
+      "competicion": "Conference League",
+      "equipo_local": "Strasbourg",
+      "equipo_visitante": "Mainz 05",
+      "fecha_hora": "2026-04-16T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 12,
+      "competicion": "Championship Escocia",
+      "equipo_local": "Airdrieonians",
+      "equipo_visitante": "Dunfermline Athletic FC",
+      "fecha_hora": "2026-04-14T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 13,
+      "competicion": "Championship Escocia",
+      "equipo_local": "Queen's Park",
+      "equipo_visitante": "Raith Rovers",
+      "fecha_hora": "2026-04-14T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 14,
+      "competicion": "Championship",
+      "equipo_local": "Portsmouth",
+      "equipo_visitante": "Ipswich Town",
+      "fecha_hora": "2026-04-14T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 15,
+      "competicion": "Champions League",
+      "equipo_local": "Bayern München",
+      "equipo_visitante": "Real Madrid",
+      "fecha_hora": "2026-04-15T21:00:00",
+      "canal": null
+    }
+  ]
+}

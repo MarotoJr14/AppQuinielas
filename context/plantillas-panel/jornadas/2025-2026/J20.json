@@ -1,0 +1,126 @@
+{
+  "nombre": "J20",
+  "fecha_cierre": "2025-11-15T18:00:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Chipre",
+      "equipo_visitante": "Austria",
+      "fecha_hora": "2025-11-15T18:00:00",
+      "canal": null
+    },
+    {
+      "orden": 2,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Liechtenstein",
+      "equipo_visitante": "Gales",
+      "fecha_hora": "2025-11-15T18:00:00",
+      "canal": null
+    },
+    {
+      "orden": 3,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Turquía",
+      "equipo_visitante": "Bulgaria",
+      "fecha_hora": "2025-11-15T18:00:00",
+      "canal": null
+    },
+    {
+      "orden": 4,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Bosnia y Herzegovina",
+      "equipo_visitante": "Rumanía",
+      "fecha_hora": "2025-11-15T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 5,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Dinamarca",
+      "equipo_visitante": "Bielorrusia",
+      "fecha_hora": "2025-11-15T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 6,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Grecia",
+      "equipo_visitante": "Escocia",
+      "fecha_hora": "2025-11-15T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 7,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Suiza",
+      "equipo_visitante": "Suecia",
+      "fecha_hora": "2025-11-15T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 8,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Hungría",
+      "equipo_visitante": "Irlanda",
+      "fecha_hora": "2025-11-16T15:00:00",
+      "canal": null
+    },
+    {
+      "orden": 9,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Portugal",
+      "equipo_visitante": "Armenia",
+      "fecha_hora": "2025-11-16T15:00:00",
+      "canal": null
+    },
+    {
+      "orden": 10,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Albania",
+      "equipo_visitante": "Inglaterra",
+      "fecha_hora": "2025-11-16T18:00:00",
+      "canal": null
+    },
+    {
+      "orden": 11,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Azerbaiyán",
+      "equipo_visitante": "Francia",
+      "fecha_hora": "2025-11-16T18:00:00",
+      "canal": null
+    },
+    {
+      "orden": 12,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Serbia",
+      "equipo_visitante": "Letonia",
+      "fecha_hora": "2025-11-16T18:00:00",
+      "canal": null
+    },
+    {
+      "orden": 13,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Ucrania",
+      "equipo_visitante": "Islandia",
+      "fecha_hora": "2025-11-16T18:00:00",
+      "canal": null
+    },
+    {
+      "orden": 14,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Italia",
+      "equipo_visitante": "Noruega",
+      "fecha_hora": "2025-11-16T20:45:00",
+      "canal": null
+    },
+    {
+      "orden": 15,
+      "competicion": "Clasificación Mundial Europa",
+      "equipo_local": "Georgia",
+      "equipo_visitante": "España",
+      "fecha_hora": "2025-11-15T18:00:00",
+      "canal": null
+    }
+  ]
+}

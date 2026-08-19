@@ -1,0 +1,126 @@
+{
+  "nombre": "J38",
+  "fecha_cierre": "2026-01-28T21:00:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Champions League",
+      "equipo_local": "Ajax",
+      "equipo_visitante": "Olympiacos",
+      "fecha_hora": "2026-01-28T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 2,
+      "competicion": "Champions League",
+      "equipo_local": "Athletic Club",
+      "equipo_visitante": "Sporting CP",
+      "fecha_hora": "2026-01-28T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 3,
+      "competicion": "Champions League",
+      "equipo_local": "Atlético de Madrid",
+      "equipo_visitante": "FK Bodo Glimt",
+      "fecha_hora": "2026-01-28T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 4,
+      "competicion": "Champions League",
+      "equipo_local": "FC Barcelona",
+      "equipo_visitante": "Kobenhavn",
+      "fecha_hora": "2026-01-28T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 5,
+      "competicion": "Champions League",
+      "equipo_local": "B. Leverkusen",
+      "equipo_visitante": "Villarreal",
+      "fecha_hora": "2026-01-28T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 6,
+      "competicion": "Champions League",
+      "equipo_local": "B. Dortmund",
+      "equipo_visitante": "Inter",
+      "fecha_hora": "2026-01-28T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 7,
+      "competicion": "Champions League",
+      "equipo_local": "Liverpool",
+      "equipo_visitante": "Qarabag",
+      "fecha_hora": "2026-01-28T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 8,
+      "competicion": "Champions League",
+      "equipo_local": "Manchester City",
+      "equipo_visitante": "Galatasaray SK",
+      "fecha_hora": "2026-01-28T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 9,
+      "competicion": "Champions League",
+      "equipo_local": "Monaco",
+      "equipo_visitante": "Juventus",
+      "fecha_hora": "2026-01-28T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 10,
+      "competicion": "Champions League",
+      "equipo_local": "Napoli",
+      "equipo_visitante": "Chelsea",
+      "fecha_hora": "2026-01-28T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 11,
+      "competicion": "Champions League",
+      "equipo_local": "PSV",
+      "equipo_visitante": "Bayern München",
+      "fecha_hora": "2026-01-28T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 12,
+      "competicion": "Champions League",
+      "equipo_local": "PSG",
+      "equipo_visitante": "Newcastle",
+      "fecha_hora": "2026-01-28T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 13,
+      "competicion": "Europa League",
+      "equipo_local": "Crvena Zvezda",
+      "equipo_visitante": "Celta",
+      "fecha_hora": "2026-01-29T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 14,
+      "competicion": "Europa League",
+      "equipo_local": "Real Betis",
+      "equipo_visitante": "Feyenoord",
+      "fecha_hora": "2026-01-29T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 15,
+      "competicion": "Champions League",
+      "equipo_local": "Benfica",
+      "equipo_visitante": "Real Madrid",
+      "fecha_hora": "2026-01-28T21:00:00",
+      "canal": null
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "nombre": "Primera División",
+    "ambito": "España",
+    "es_clubes": true
+  },
+  {
+    "nombre": "Segunda División",
+    "ambito": "España",
+    "es_clubes": true
+  },
+  {
+    "nombre": "Clasificación Mundial Europa",
+    "ambito": "Europa",
+    "es_clubes": false
+  },
+  {
+    "nombre": "Champions League",
+    "ambito": "Europa",
+    "es_clubes": true
+  },
+  {
+    "nombre": "Europa League",
+    "ambito": "Europa",
+    "es_clubes": true
+  },
+  {
+    "nombre": "Clasificación Mundial Asia",
+    "ambito": "Asia",
+    "es_clubes": false
+  },
+  {
+    "nombre": "Clasificación Mundial Concacaf",
+    "ambito": "Norteamérica",
+    "es_clubes": false
+  },
+  {
+    "nombre": "Amistosos Selecciones",
+    "ambito": "Internacional",
+    "es_clubes": false
+  },
+  {
+    "nombre": "Copa del Rey",
+    "ambito": "España",
+    "es_clubes": true
+  },
+  {
+    "nombre": "Conference League",
+    "ambito": "Europa",
+    "es_clubes": true
+  },
+  {
+    "nombre": "Premier League",
+    "ambito": "Inglaterra",
+    "es_clubes": true
+  },
+  {
+    "nombre": "Serie A",
+    "ambito": "Italia",
+    "es_clubes": true
+  },
+  {
+    "nombre": "Bundesliga",
+    "ambito": "Alemania",
+    "es_clubes": true
+  },
+  {
+    "nombre": "Liga Escocia",
+    "ambito": "Escocia",
+    "es_clubes": true
+  },
+  {
+    "nombre": "Primera Federación",
+    "ambito": "Nacional",
+    "es_clubes": true
+  },
+  {
+    "nombre": "Championship",
+    "ambito": "Inglaterra",
+    "es_clubes": true
+  },
+  {
+    "nombre": "Liga Noruega",
+    "ambito": "Noruega",
+    "es_clubes": true
+  },
+  {
+    "nombre": "Championship Escocia",
+    "ambito": "Escocia",
+    "es_clubes": true
+  },
+  {
+    "nombre": "Copa Báltica",
+    "ambito": "Europa",
+    "es_clubes": false
+  },
+  {
+    "nombre": "Mundial",
+    "ambito": "Internacional",
+    "es_clubes": false
+  },
+  {
+    "nombre": "Liga Finlandia",
+    "ambito": "Finlandia",
+    "es_clubes": true
+  },
+  {
+    "nombre": "Liga Sueca",
+    "ambito": "Suecia",
+    "es_clubes": true
+  }
+]

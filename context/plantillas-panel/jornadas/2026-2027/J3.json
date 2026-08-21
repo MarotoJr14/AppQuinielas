@@ -1,0 +1,126 @@
+{
+  "nombre": "J3",
+  "fecha_cierre": "2026-08-29T17:00:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Primera División",
+      "equipo_local": "Levante",
+      "equipo_visitante": "Real Betis",
+      "fecha_hora": "2026-08-29T17:00:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 2,
+      "competicion": "Primera División",
+      "equipo_local": "Real Sociedad",
+      "equipo_visitante": "Espanyol",
+      "fecha_hora": "2026-08-29T19:00:00",
+      "canal": "M+ LaLiga"
+    },
+    {
+      "orden": 3,
+      "competicion": "Primera División",
+      "equipo_local": "Sevilla",
+      "equipo_visitante": "Atlético de Madrid",
+      "fecha_hora": "2026-08-29T21:30:00",
+      "canal": "M+ LaLiga"
+    },
+    {
+      "orden": 4,
+      "competicion": "Primera División",
+      "equipo_local": "Real Madrid",
+      "equipo_visitante": "Málaga",
+      "fecha_hora": "2026-08-30T17:00:00",
+      "canal": "M+ LaLiga"
+    },
+    {
+      "orden": 5,
+      "competicion": "Primera División",
+      "equipo_local": "RC Deportivo",
+      "equipo_visitante": "Valencia",
+      "fecha_hora": "2026-08-30T19:30:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 6,
+      "competicion": "Primera División",
+      "equipo_local": "Celta",
+      "equipo_visitante": "Athletic Club",
+      "fecha_hora": "2026-08-30T21:30:00",
+      "canal": "M+ LaLiga"
+    },
+    {
+      "orden": 7,
+      "competicion": "Primera División",
+      "equipo_local": "Osasuna",
+      "equipo_visitante": "Getafe",
+      "fecha_hora": "2026-08-31T19:30:00",
+      "canal": "M+ LaLiga"
+    },
+    {
+      "orden": 8,
+      "competicion": "Segunda División",
+      "equipo_local": "Albacete",
+      "equipo_visitante": "Real Oviedo",
+      "fecha_hora": "2026-08-29T19:00:00",
+      "canal": "LaLiga Hypermotion TV"
+    },
+    {
+      "orden": 9,
+      "competicion": "Segunda División",
+      "equipo_local": "Cádiz",
+      "equipo_visitante": "Real Valladolid",
+      "fecha_hora": "2026-08-30T19:00:00",
+      "canal": "LaLiga Hypermotion TV"
+    },
+    {
+      "orden": 10,
+      "competicion": "Segunda División",
+      "equipo_local": "Córdoba",
+      "equipo_visitante": "Granada",
+      "fecha_hora": "2026-08-30T21:30:00",
+      "canal": "LaLiga Hypermotion TV"
+    },
+    {
+      "orden": 11,
+      "competicion": "Primera División Femenina",
+      "equipo_local": "Athletic Club Fem",
+      "equipo_visitante": "FC Badalona Fem",
+      "fecha_hora": "2026-08-30T12:00:00",
+      "canal": null
+    },
+    {
+      "orden": 12,
+      "competicion": "Primera División Femenina",
+      "equipo_local": "Eibar Fem",
+      "equipo_visitante": "Espanyol Fem",
+      "fecha_hora": "2026-08-29T17:00:00",
+      "canal": null
+    },
+    {
+      "orden": 13,
+      "competicion": "Primera División Femenina",
+      "equipo_local": "Deportivo Alavés Fem",
+      "equipo_visitante": "Valencia Fem",
+      "fecha_hora": "2026-08-30T17:00:00",
+      "canal": null
+    },
+    {
+      "orden": 14,
+      "competicion": "Primera División Femenina",
+      "equipo_local": "Real Madrid Fem",
+      "equipo_visitante": "Atlético Fem",
+      "fecha_hora": "2026-08-30T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 15,
+      "competicion": "Primera División",
+      "equipo_local": "FC Barcelona",
+      "equipo_visitante": "Rayo Vallecano",
+      "fecha_hora": "2026-08-31T21:30:00",
+      "canal": "DAZN"
+    }
+  ]
+}

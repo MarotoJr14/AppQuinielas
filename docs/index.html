@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#121212">
+    <title>App Quinielas</title>
+    <style>
+      :root {
+        --fondo: #f8f7f4;
+        --superficie: #ffffff;
+        --oscuro: #121212;
+        --texto: #1b1b18;
+        --secundario: #6b685f;
+        --borde: #e3e1d9;
+        --acento: #c9a227;
+        --acento-oscuro: #9f7f1d;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        min-height: 100vh;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        padding: 32px 20px;
+        background: var(--fondo);
+        color: var(--texto);
+        font-family: Roboto, Arial, sans-serif;
+      }
+
+      main {
+        width: min(100%, 860px);
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+        margin-bottom: 42px;
+      }
+
+      .brand img {
+        width: 54px;
+        height: 54px;
+        object-fit: contain;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(28px, 5vw, 40px);
+        font-weight: 700;
+      }
+
+      .intro {
+        max-width: 540px;
+        margin: 0 auto 30px;
+        color: var(--secundario);
+        text-align: center;
+        font-size: 17px;
+        line-height: 1.5;
+      }
+
+      .platforms {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 14px;
+      }
+
+      .platform {
+        display: flex;
+        min-height: 210px;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 22px;
+        border: 1px solid var(--borde);
+        border-radius: 8px;
+        background: var(--superficie);
+      }
+
+      .platform-label {
+        margin: 0;
+        color: var(--secundario);
+        font-size: 14px;
+        font-weight: 600;
+      }
+
+      h2 {
+        margin: 7px 0 0;
+        font-size: 25px;
+      }
+
+      .format {
+        margin: 3px 0 22px;
+        color: var(--secundario);
+        font-size: 14px;
+      }
+
+      .download {
+        display: inline-flex;
+        min-height: 46px;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 14px;
+        border-radius: 6px;
+        background: var(--acento);
+        color: var(--oscuro);
+        font-weight: 700;
+        text-decoration: none;
+        transition: background-color 160ms ease, transform 160ms ease;
+      }
+
+      .download:hover,
+      .download:focus-visible {
+        background: var(--acento-oscuro);
+        color: #ffffff;
+      }
+
+      .download:hover { transform: translateY(-1px); }
+
+      .download:focus-visible {
+        outline: 3px solid var(--oscuro);
+        outline-offset: 3px;
+      }
+
+      footer {
+        margin-top: 24px;
+        color: var(--secundario);
+        text-align: center;
+        font-size: 13px;
+      }
+
+      @media (max-width: 680px) {
+        body { padding: 28px 16px; }
+        .brand { margin-bottom: 30px; }
+        .platforms { grid-template-columns: 1fr; }
+        .platform { min-height: 174px; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="brand">
+        <img src="../frontend/app/assets/images/app_icon_oscuro_dorado_removebg.png" alt="">
+        <h1>App Quinielas</h1>
+      </div>
+
+      <p class="intro">Elige tu plataforma para descargar la ultima version.</p>
+
+      <section class="platforms" aria-label="Descargas disponibles">
+        <article class="platform">
+          <div>
+            <p class="platform-label">Movil</p>
+            <h2>Android</h2>
+            <p class="format">Archivo APK</p>
+          </div>
+          <a class="download" href="https://github.com/MarotoJr14/AppQuinielas/releases/latest/download/app_quinielas-1.0.0.apk">Descargar Android</a>
+        </article>
+
+        <article class="platform">
+          <div>
+            <p class="platform-label">Movil</p>
+            <h2>iOS</h2>
+            <p class="format">Archivo IPA</p>
+          </div>
+          <a class="download" href="https://github.com/MarotoJr14/AppQuinielas/releases/latest/download/app_quinielas-1.0.0.ipa">Descargar iOS</a>
+        </article>
+
+        <article class="platform">
+          <div>
+            <p class="platform-label">Escritorio</p>
+            <h2>Windows</h2>
+            <p class="format">Archivo ZIP</p>
+          </div>
+          <a class="download" href="https://github.com/MarotoJr14/AppQuinielas/releases/latest/download/app_quinielas-1.0.0.zip">Descargar Windows</a>
+        </article>
+      </section>
+
+      <footer>Version 1.0.0</footer>
+    </main>
+  </body>
+</html>

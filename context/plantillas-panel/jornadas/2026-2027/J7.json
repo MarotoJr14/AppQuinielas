@@ -1,0 +1,126 @@
+{
+  "nombre": "J7",
+  "fecha_cierre": "2026-09-15T19:00:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Primera División",
+      "equipo_local": "Rayo Vallecano",
+      "equipo_visitante": "Espanyol",
+      "fecha_hora": "2026-09-15T19:00:00",
+      "canal": "M+ LaLiga"
+    },
+    {
+      "orden": 2,
+      "competicion": "Primera División",
+      "equipo_local": "Deportivo Alavés",
+      "equipo_visitante": "Valencia",
+      "fecha_hora": "2026-09-15T20:00:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 3,
+      "competicion": "Primera División",
+      "equipo_local": "Elche",
+      "equipo_visitante": "Real Madrid",
+      "fecha_hora": "2026-09-15T21:30:00",
+      "canal": "M+ LaLiga"
+    },
+    {
+      "orden": 4,
+      "competicion": "Primera División",
+      "equipo_local": "Atlético de Madrid",
+      "equipo_visitante": "Osasuna",
+      "fecha_hora": "2026-09-16T19:00:00",
+      "canal": "M+ LaLiga"
+    },
+    {
+      "orden": 5,
+      "competicion": "Primera División",
+      "equipo_local": "RC Deportivo",
+      "equipo_visitante": "Sevilla",
+      "fecha_hora": "2026-09-16T19:00:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 6,
+      "competicion": "Primera División",
+      "equipo_local": "FC Barcelona",
+      "equipo_visitante": "Racing",
+      "fecha_hora": "2026-09-16T21:30:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 7,
+      "competicion": "Primera División",
+      "equipo_local": "Levante",
+      "equipo_visitante": "Athletic Club",
+      "fecha_hora": "2026-09-16T21:30:00",
+      "canal": "M+ LaLiga"
+    },
+    {
+      "orden": 8,
+      "competicion": "Primera División",
+      "equipo_local": "Real Betis",
+      "equipo_visitante": "Getafe",
+      "fecha_hora": "2026-09-17T19:00:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 9,
+      "competicion": "Europa League",
+      "equipo_local": "Omonia Nicosia",
+      "equipo_visitante": "Celta",
+      "fecha_hora": "2026-09-16T18:45:00",
+      "canal": "LaLiga Hypermotion TV"
+    },
+    {
+      "orden": 10,
+      "competicion": "Europa League",
+      "equipo_local": "Milan",
+      "equipo_visitante": "Benfica",
+      "fecha_hora": "2026-09-16T21:00:00",
+      "canal": "LaLiga Hypermotion TV"
+    },
+    {
+      "orden": 11,
+      "competicion": "Europa League",
+      "equipo_local": "Anderlecht",
+      "equipo_visitante": "Olympique Lyonnais",
+      "fecha_hora": "2026-09-16T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 12,
+      "competicion": "Europa League",
+      "equipo_local": "Celtic",
+      "equipo_visitante": "Ferencvárosi",
+      "fecha_hora": "2026-09-17T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 13,
+      "competicion": "Europa League",
+      "equipo_local": "Viktoria Plzen",
+      "equipo_visitante": "Union Saint-Gilloise",
+      "fecha_hora": "2026-09-17T21:00:00",
+      "canal": null
+    },
+    {
+      "orden": 14,
+      "competicion": "Europa League",
+      "equipo_local": "Real Sociedad",
+      "equipo_visitante": "AFC Bournemouth",
+      "fecha_hora": "2026-09-17T21:00:00",
+      "canal": "Teledeporte"
+    },
+    {
+      "orden": 15,
+      "competicion": "Primera División",
+      "equipo_local": "Málaga",
+      "equipo_visitante": "Villarreal",
+      "fecha_hora": "2026-09-17T21:30:00",
+      "canal": "DAZN"
+    }
+  ]
+}

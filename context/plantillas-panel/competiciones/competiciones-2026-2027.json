@@ -13,5 +13,15 @@
     "nombre": "Primera División Femenina",
     "ambito": "España",
     "es_clubes": true
+  },
+  {
+    "nombre": "Champions League",
+    "ambito": "Europa",
+    "es_clubes": true
+  },
+  {
+    "nombre": "Europa League",
+    "ambito": "Europa",
+    "es_clubes": true
   }
 ]

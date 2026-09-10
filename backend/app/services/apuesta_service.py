@@ -136,6 +136,49 @@ class ApuestaService:
         db.refresh(apuesta)
         return apuesta
 
+    def eliminar(self, db: Session, usuario_id: int, apuesta_id: int) -> None:
+        apuesta = apuesta_repository.get_or_404(db, apuesta_id)
+        grupo_service.comprobar_lider(db, apuesta.grupo_id, usuario_id)
+        if apuesta.estado != EstadoApuestaEnum.abierta:
+            raise HTTPException(
+                status_code=status.HTTP_409_CONFLICT,
+                detail="Solo se pueden eliminar quinielas abiertas.",
+            )
+        db.delete(apuesta)
+        db.commit()
+
+    def cambiar_usuario_elige8(
+        self,
+        db: Session,
+        usuario_id: int,
+        apuesta_id: int,
+        nuevo_usuario_id: int,
+    ) -> Apuesta:
+        apuesta = apuesta_repository.get_or_404(db, apuesta_id)
+        grupo_service.comprobar_lider(db, apuesta.grupo_id, usuario_id)
+        if apuesta.estado != EstadoApuestaEnum.abierta:
+            raise HTTPException(
+                status_code=status.HTTP_409_CONFLICT,
+                detail="Solo se puede cambiar Elige 8 en una quiniela abierta.",
+            )
+        grupo_service.comprobar_pertenece(db, apuesta.grupo_id, nuevo_usuario_id)
+
+        if apuesta.usuario_elige8_id == nuevo_usuario_id:
+            return apuesta
+
+        columna_elige8 = columna_repository.get_elige8(db, apuesta.id)
+        if columna_elige8 is not None:
+            db.delete(columna_elige8)
+            db.flush()
+
+        apuesta.usuario_elige8_id = nuevo_usuario_id
+        apuesta.precio = self.calcular_precio(db, apuesta)
+        apuesta.beneficio = self.calcular_beneficio(db, apuesta)
+        db.add(apuesta)
+        db.commit()
+        db.refresh(apuesta)
+        return apuesta
+
     def ranking(self, db: Session, apuesta_id: int) -> list[RankingFila]:
         apuesta = apuesta_repository.get_or_404(db, apuesta_id)
         columnas = columna_repository.list_por_apuesta(db, apuesta.id)

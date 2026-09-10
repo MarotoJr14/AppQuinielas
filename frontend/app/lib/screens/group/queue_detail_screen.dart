@@ -10,6 +10,7 @@ import '../../state/auth_provider.dart';
 import '../../state/group_provider.dart';
 import '../../utils/apuesta_utils.dart';
 import '../../widgets/common.dart';
+import '../../widgets/partido_details_sheet.dart';
 import '../../widgets/pronostico_chip.dart';
 
 class _EdicionColumna {
@@ -370,6 +371,98 @@ class _QueueDetailScreenState extends State<QueueDetailScreen> {
     }
   }
 
+  Future<void> _cambiarUsuarioElige8() async {
+    final groupProvider = context.read<GroupProvider>();
+    if (groupProvider.miembros.isEmpty) {
+      await groupProvider.recargarMiembros();
+      if (!mounted) return;
+    }
+
+    final apuesta = _detalle!.apuesta;
+    final miembros = List.of(groupProvider.miembros)
+      ..sort((a, b) {
+        final nombreA = _nombres[a.usuarioId] ?? 'Usuario #${a.usuarioId}';
+        final nombreB = _nombres[b.usuarioId] ?? 'Usuario #${b.usuarioId}';
+        return nombreA.compareTo(nombreB);
+      });
+    final nuevoUsuarioId = await showModalBottomSheet<int>(
+      context: context,
+      showDragHandle: true,
+      builder: (context) => SafeArea(
+        child: ListView(
+          shrinkWrap: true,
+          children: [
+            Padding(
+              padding: const EdgeInsets.fromLTRB(16, 0, 16, 8),
+              child: Text('Asignar Elige 8', style: Theme.of(context).textTheme.titleMedium),
+            ),
+            for (final miembro in miembros)
+              ListTile(
+                leading: const Icon(Icons.person_outline),
+                title: Text(_nombres[miembro.usuarioId] ?? 'Usuario #${miembro.usuarioId}'),
+                trailing: miembro.usuarioId == apuesta.usuarioElige8Id ? const Icon(Icons.check) : null,
+                enabled: miembro.usuarioId != apuesta.usuarioElige8Id,
+                onTap: miembro.usuarioId == apuesta.usuarioElige8Id
+                    ? null
+                    : () => Navigator.pop(context, miembro.usuarioId),
+              ),
+          ],
+        ),
+      ),
+    );
+    if (nuevoUsuarioId == null || !mounted) return;
+
+    if (_existeColumnaElige8) {
+      final confirmado = await showDialog<bool>(
+        context: context,
+        builder: (context) => AlertDialog(
+          title: const Text('Cambiar Elige 8'),
+          content: const Text('La columna Elige 8 actual se eliminara al asignarla a otro usuario. Continuar?'),
+          actions: [
+            TextButton(onPressed: () => Navigator.pop(context, false), child: const Text('Cancelar')),
+            ElevatedButton(onPressed: () => Navigator.pop(context, true), child: const Text('Cambiar')),
+          ],
+        ),
+      );
+      if (confirmado != true || !mounted) return;
+    }
+
+    try {
+      await context.read<AuthProvider>().apuestaService.cambiarUsuarioElige8(widget.apuestaId, nuevoUsuarioId);
+      if (!mounted) return;
+      mostrarExitoSnackbar(context, 'Usuario de Elige 8 actualizado.');
+      await _cargar();
+    } catch (e) {
+      if (mounted) mostrarErrorSnackbar(context, e);
+    }
+  }
+
+  Future<void> _eliminarApuesta() async {
+    final confirmado = await showDialog<bool>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Eliminar apuesta'),
+        content: const Text('Se eliminara la quiniela y todas sus columnas. Esta accion no se puede deshacer.'),
+        actions: [
+          TextButton(onPressed: () => Navigator.pop(context, false), child: const Text('Cancelar')),
+          ElevatedButton(
+            onPressed: () => Navigator.pop(context, true),
+            style: ElevatedButton.styleFrom(backgroundColor: AppColors.errores),
+            child: const Text('Eliminar'),
+          ),
+        ],
+      ),
+    );
+    if (confirmado != true || !mounted) return;
+
+    try {
+      await context.read<AuthProvider>().apuestaService.eliminar(widget.apuestaId);
+      if (mounted) Navigator.of(context).pop();
+    } catch (e) {
+      if (mounted) mostrarErrorSnackbar(context, e);
+    }
+  }
+
   void _cambiarSigno(_ColumnaPantalla col, Partido partido, Signo signo) {
     if (_edicion == null) return;
     if (!_edicion!.esElige8 && partido.esPlenoAl15) return;
@@ -607,6 +700,11 @@ class _QueueDetailScreenState extends State<QueueDetailScreen> {
         icon: const Icon(Icons.group_add_outlined),
         label: const Text('Rellenar otra columna'),
       ));
+      botones.add(OutlinedButton.icon(
+        onPressed: _cambiarUsuarioElige8,
+        icon: const Icon(Icons.swap_horiz_outlined),
+        label: const Text('Cambiar Elige 8'),
+      ));
     }
 
     return Column(
@@ -616,10 +714,21 @@ class _QueueDetailScreenState extends State<QueueDetailScreen> {
         const SizedBox(height: 8),
         Align(
           alignment: Alignment.centerRight,
-          child: TextButton.icon(
-            onPressed: _cerrarQuiniela,
-            icon: const Icon(Icons.lock_outline, color: AppColors.errores),
-            label: const Text('Cerrar quiniela', style: TextStyle(color: AppColors.errores)),
+          child: Wrap(
+            spacing: 8,
+            children: [
+              if (_soyLider)
+                TextButton.icon(
+                  onPressed: _eliminarApuesta,
+                  icon: const Icon(Icons.delete_outline, color: AppColors.errores),
+                  label: const Text('Eliminar apuesta', style: TextStyle(color: AppColors.errores)),
+                ),
+              TextButton.icon(
+                onPressed: _cerrarQuiniela,
+                icon: const Icon(Icons.lock_outline, color: AppColors.errores),
+                label: const Text('Cerrar quiniela', style: TextStyle(color: AppColors.errores)),
+              ),
+            ],
           ),
         ),
       ],
@@ -698,24 +807,31 @@ class _QueueDetailScreenState extends State<QueueDetailScreen> {
                 children: [
                   SizedBox(width: 20, child: Text('${partido.orden}', style: Theme.of(context).textTheme.bodySmall)),
                   Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Text(
-                          '${auth.equiposCache.nombreDe(partido.equipoLocalId)} - ${auth.equiposCache.nombreDe(partido.equipoVisitanteId)}',
-                          style: Theme.of(context).textTheme.bodySmall,
-                          overflow: TextOverflow.ellipsis,
-                          maxLines: 2,
+                    child: Material(
+                      color: Colors.transparent,
+                      child: InkWell(
+                        onTap: partido.estado == 'finalizado'
+                            ? null
+                            : () => mostrarDetallesPartido(
+                                  context,
+                                  partido: partido,
+                                  equipoLocal: auth.equiposCache.nombreDe(partido.equipoLocalId),
+                                  equipoVisitante: auth.equiposCache.nombreDe(partido.equipoVisitanteId),
+                                  competicion: _competicionPorId[partido.competicionTemporadaId] ?? 'Sin competicion',
+                                ),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Text(
+                              '${auth.equiposCache.nombreDe(partido.equipoLocalId)} - ${auth.equiposCache.nombreDe(partido.equipoVisitanteId)}',
+                              style: Theme.of(context).textTheme.bodySmall,
+                              overflow: TextOverflow.ellipsis,
+                              maxLines: 2,
+                            ),
+                          ],
                         ),
-                        /** if (_competicionPorId.containsKey(partido.competicionTemporadaId))
-                          Text(
-                            _competicionPorId[partido.competicionTemporadaId]!,
-                            style: Theme.of(context).textTheme.bodySmall?.copyWith(fontStyle: FontStyle.italic),
-                            overflow: TextOverflow.ellipsis,
-                            maxLines: 1,
-                          ), */
-                      ],
+                      ),
                     ),
                   ),
                   if (partido.estado == 'en_juego')

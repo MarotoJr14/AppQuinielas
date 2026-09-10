@@ -1,0 +1,126 @@
+{
+  "nombre": "J4",
+  "fecha_cierre": "2026-09-05T14:00:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Primera División",
+      "equipo_local": "Athletic Club",
+      "equipo_visitante": "Atlético de Madrid",
+      "fecha_hora": "2026-09-05T16:15:00",
+      "canal": "M+ LaLiga"
+    },
+    {
+      "orden": 2,
+      "competicion": "Primera División",
+      "equipo_local": "Rayo Vallecano",
+      "equipo_visitante": "Racing",
+      "fecha_hora": "2026-09-05T18:30:00",
+      "canal": "M+ LaLiga"
+    },
+    {
+      "orden": 3,
+      "competicion": "Primera División",
+      "equipo_local": "Villarreal",
+      "equipo_visitante": "RC Deportivo",
+      "fecha_hora": "2026-09-05T21:00:00",
+      "canal": "M+ LaLiga"
+    },
+    {
+      "orden": 4,
+      "competicion": "Primera División",
+      "equipo_local": "Valencia",
+      "equipo_visitante": "FC Barcelona",
+      "fecha_hora": "2026-09-06T16:15:00",
+      "canal": "M+ LaLiga"
+    },
+    {
+      "orden": 5,
+      "competicion": "Primera División",
+      "equipo_local": "Deportivo Alavés",
+      "equipo_visitante": "Osasuna",
+      "fecha_hora": "2026-09-06T18:30:00",
+      "canal": "M+ LaLiga"
+    },
+    {
+      "orden": 6,
+      "competicion": "Primera División",
+      "equipo_local": "Málaga",
+      "equipo_visitante": "Levante",
+      "fecha_hora": "2026-09-06T18:30:00",
+      "canal": "M+ LaLiga"
+    },
+    {
+      "orden": 7,
+      "competicion": "Primera División",
+      "equipo_local": "Espanyol",
+      "equipo_visitante": "Sevilla",
+      "fecha_hora": "2026-09-06T21:00:00",
+      "canal": "M+ LaLiga"
+    },
+    {
+      "orden": 8,
+      "competicion": "Segunda División",
+      "equipo_local": "Real Sociedad B",
+      "equipo_visitante": "Tenerife",
+      "fecha_hora": "2026-09-05T14:00:00",
+      "canal": "LaLiga Hypermotion TV"
+    },
+    {
+      "orden": 9,
+      "competicion": "Segunda División",
+      "equipo_local": "Real Sporting",
+      "equipo_visitante": "Girona FC",
+      "fecha_hora": "2026-09-05T16:15:00",
+      "canal": "LaLiga Hypermotion TV"
+    },
+    {
+      "orden": 10,
+      "competicion": "Segunda División",
+      "equipo_local": "Almería",
+      "equipo_visitante": "Cádiz",
+      "fecha_hora": "2026-09-06T21:00:00",
+      "canal": "LaLiga Hypermotion TV"
+    },
+    {
+      "orden": 11,
+      "competicion": "Primera División Femenina",
+      "equipo_local": "Sevilla FC Fem",
+      "equipo_visitante": "Barcelona Fem",
+      "fecha_hora": "2026-09-05T20:30:00",
+      "canal": null
+    },
+    {
+      "orden": 12,
+      "competicion": "Primera División Femenina",
+      "equipo_local": "Logroño United Fem",
+      "equipo_visitante": "Athletic Club Fem",
+      "fecha_hora": "2026-09-06T18:30:00",
+      "canal": null
+    },
+    {
+      "orden": 13,
+      "competicion": "Primera División Femenina",
+      "equipo_local": "Atlético Fem",
+      "equipo_visitante": "Deportivo Alavés Fem",
+      "fecha_hora": "2026-09-06T12:00:00",
+      "canal": null
+    },
+    {
+      "orden": 14,
+      "competicion": "Primera División Femenina",
+      "equipo_local": "Real Madrid Fem",
+      "equipo_visitante": "Eibar Fem",
+      "fecha_hora": "2026-09-06T20:30:00",
+      "canal": "Teledeporte"
+    },
+    {
+      "orden": 15,
+      "competicion": "Primera División",
+      "equipo_local": "Getafe",
+      "equipo_visitante": "Celta",
+      "fecha_hora": "2026-09-07T19:00:00",
+      "canal": "M+ LaLiga"
+    }
+  ]
+}

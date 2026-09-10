@@ -52,4 +52,16 @@ class ApuestaService {
     final data = await client.post('/apuestas/$apuestaId/cerrar');
     return Apuesta.fromJson(data as Map<String, dynamic>);
   }
+
+  Future<Apuesta> cambiarUsuarioElige8(int apuestaId, int usuarioId) async {
+    final data = await client.patch(
+      '/apuestas/$apuestaId/usuario-elige8',
+      body: {'usuario_elige8_id': usuarioId},
+    );
+    return Apuesta.fromJson(data as Map<String, dynamic>);
+  }
+
+  Future<void> eliminar(int apuestaId) async {
+    await client.delete('/apuestas/$apuestaId');
+  }
 }

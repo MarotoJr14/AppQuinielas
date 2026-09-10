@@ -5,7 +5,7 @@ from sqlalchemy.orm import Session
 
 from app.api.v1.deps import get_current_user_id
 from app.db.deps import get_db
-from app.schemas.apuesta import ApuestaCreate, ApuestaRead, ApuestaReadDetalle, RankingFila
+from app.schemas.apuesta import ApuestaCreate, ApuestaRead, ApuestaReadDetalle, ApuestaUsuarioElige8Update, RankingFila
 from app.services.apuesta_service import apuesta_service
 
 router = APIRouter(prefix="/apuestas", tags=["Apuestas (quinielas)"])
@@ -49,3 +49,18 @@ def recalcular_precio_beneficio(apuesta_id: int, db: Session = Depends(get_db)):
 @router.post("/{apuesta_id}/cerrar", response_model=ApuestaRead)
 def cerrar_apuesta(apuesta_id: int, usuario_id: int = Depends(get_current_user_id), db: Session = Depends(get_db)):
     return apuesta_service.cerrar(db, usuario_id, apuesta_id)
+
+
+@router.patch("/{apuesta_id}/usuario-elige8", response_model=ApuestaRead)
+def cambiar_usuario_elige8(
+    apuesta_id: int,
+    datos: ApuestaUsuarioElige8Update,
+    usuario_id: int = Depends(get_current_user_id),
+    db: Session = Depends(get_db),
+):
+    return apuesta_service.cambiar_usuario_elige8(db, usuario_id, apuesta_id, datos.usuario_elige8_id)
+
+
+@router.delete("/{apuesta_id}", status_code=status.HTTP_204_NO_CONTENT)
+def eliminar_apuesta(apuesta_id: int, usuario_id: int = Depends(get_current_user_id), db: Session = Depends(get_db)):
+    apuesta_service.eliminar(db, usuario_id, apuesta_id)

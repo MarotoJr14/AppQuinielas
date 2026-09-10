@@ -18,6 +18,10 @@ class ApuestaUpdate(BaseModel):
     usuario_elige8_id: int | None = None
 
 
+class ApuestaUsuarioElige8Update(BaseModel):
+    usuario_elige8_id: int
+
+
 class ApuestaRead(TimestampedSchema):
     jornada_id: int
     grupo_id: int

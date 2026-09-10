@@ -1,0 +1,182 @@
+[
+  {
+    "nombre": "AFC Bournemouth",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "Anderlecht",
+    "pais": "Bélgica",
+    "es_club": true
+  },
+  {
+    "nombre": "Ararat-Armenia",
+    "pais": "Armenia",
+    "es_club": true
+  },
+  {
+    "nombre": "AZ Alkmaar",
+    "pais": "Países Bajos",
+    "es_club": true
+  },
+  {
+    "nombre": "B. Leverkusen",
+    "pais": "Alemania",
+    "es_club": true
+  },
+  {
+    "nombre": "Benfica",
+    "pais": "Portugal",
+    "es_club": true
+  },
+  {
+    "nombre": "Besiktas",
+    "pais": "Turquía",
+    "es_club": true
+  },
+  {
+    "nombre": "Celje",
+    "pais": "Eslovenia",
+    "es_club": true
+  },
+  {
+    "nombre": "Celta",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Celtic",
+    "pais": "Escocia",
+    "es_club": true
+  },
+  {
+    "nombre": "Crystal Palace",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "Dinamo Zagreb",
+    "pais": "Croacia",
+    "es_club": true
+  },
+  {
+    "nombre": "Ferencvárosi",
+    "pais": "Hungría",
+    "es_club": true
+  },
+  {
+    "nombre": "Hapoel Beer Sheva",
+    "pais": "Israel",
+    "es_club": true
+  },
+  {
+    "nombre": "Hoffenheim",
+    "pais": "Alemania",
+    "es_club": true
+  },
+  {
+    "nombre": "Jagiellonia Bialystok",
+    "pais": "Polonia",
+    "es_club": true
+  },
+  {
+    "nombre": "Juventus",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "Lech Poznan",
+    "pais": "Polonia",
+    "es_club": true
+  },
+  {
+    "nombre": "Levski Sofia",
+    "pais": "Bulgaria",
+    "es_club": true
+  },
+  {
+    "nombre": "Lillestrom SK",
+    "pais": "Noruega",
+    "es_club": true
+  },
+  {
+    "nombre": "Milan",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "NEC Nijmegen",
+    "pais": "Países Bajos",
+    "es_club": true
+  },
+  {
+    "nombre": "OFI",
+    "pais": "Grecia",
+    "es_club": true
+  },
+  {
+    "nombre": "Olympiacos",
+    "pais": "Grecia",
+    "es_club": true
+  },
+  {
+    "nombre": "Olympique Lyonnais",
+    "pais": "Francia",
+    "es_club": true
+  },
+  {
+    "nombre": "Olympique Marseille",
+    "pais": "Francia",
+    "es_club": true
+  },
+  {
+    "nombre": "Omonia Nicosia",
+    "pais": "Chipre",
+    "es_club": true
+  },
+  {
+    "nombre": "Real Sociedad",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Salzburg",
+    "pais": "Austria",
+    "es_club": true
+  },
+  {
+    "nombre": "Sparta Praha",
+    "pais": "República Checa",
+    "es_club": true
+  },
+  {
+    "nombre": "Stade Rennais",
+    "pais": "Francia",
+    "es_club": true
+  },
+  {
+    "nombre": "Sturm Graz",
+    "pais": "Austria",
+    "es_club": true
+  },
+  {
+    "nombre": "Sunderland",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "Torreense",
+    "pais": "Portugal",
+    "es_club": true
+  },
+  {
+    "nombre": "Union Saint-Gilloise",
+    "pais": "Bélgica",
+    "es_club": true
+  },
+  {
+    "nombre": "Viktoria Plzen",
+    "pais": "República Checa",
+    "es_club": true
+  }
+]

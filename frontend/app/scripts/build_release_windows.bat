@@ -1,90 +1,50 @@
 @echo off
-setlocal EnableDelayedExpansion
+setlocal EnableExtensions
 
-echo ======================================
-echo    BUILD RELEASE - APP QUINIELAS
-echo    WINDOWS
-echo ======================================
-echo.
+set "SCRIPT_DIR=%~dp0"
+for %%I in ("%SCRIPT_DIR%..") do set "PROJECT_DIR=%%~fI"
 
-REM --------------------------------------
-REM Obtener version desde pubspec.yaml
-REM --------------------------------------
-for /f "tokens=2 delims=: " %%A in ('findstr /B "version:" pubspec.yaml') do set VERSION_LINE=%%A
+for /f "tokens=2 delims=:" %%A in ('findstr /R /C:"^[ ]*version:" "%PROJECT_DIR%\pubspec.yaml"') do set "VERSION_LINE=%%A"
+for /f "tokens=1 delims=+ " %%A in ("%VERSION_LINE%") do set "VERSION=%%A"
 
-REM Eliminar el build number (+1)
-for /f "tokens=1 delims=+" %%A in ("%VERSION_LINE%") do set VERSION=%%A
+if not defined VERSION (
+    echo ERROR: No se ha podido obtener la version de pubspec.yaml.
+    exit /b 1
+)
 
+set "EXE_SOURCE=%PROJECT_DIR%\build\windows\x64\runner\Release\app_quinielas.exe"
+set "EXE_DESTINATION=%SCRIPT_DIR%app_quinielas-%VERSION%.exe"
+
+echo BUILD RELEASE - APP QUINIELAS WINDOWS
 echo Version: %VERSION%
 echo.
 
-REM --------------------------------------
-REM Limpiar proyecto y obtener dependencias
-REM --------------------------------------
-echo --------------------------------------
+pushd "%PROJECT_DIR%" || goto error
+set "PUSHED_DIR=1"
+
 echo Limpiando proyecto...
-echo --------------------------------------
+call flutter clean || goto error
 
-flutter clean
-if errorlevel 1 goto error
+echo Obteniendo dependencias...
+call flutter pub get || goto error
 
-flutter pub get
-if errorlevel 1 goto error
+echo Construyendo EXE...
+call flutter build windows --release || goto error
 
-REM --------------------------------------
-REM Construir Windows
-REM --------------------------------------
-echo.
-echo --------------------------------------
-echo Construyendo Windows...
-echo --------------------------------------
-
-flutter build windows --release
-if errorlevel 1 goto error
-
-REM --------------------------------------
-REM Crear ZIP con la aplicacion
-REM --------------------------------------
-set BUILD_DIR=build\windows\x64\runner\Release
-set ZIP_NAME=build\windows\app_quinielas-%VERSION%.zip
-
-if not exist "%BUILD_DIR%" (
-    echo ERROR: No se ha encontrado la carpeta Release de Windows.
+if not exist "%EXE_SOURCE%" (
+    echo ERROR: No se ha encontrado el EXE generado.
     goto error
 )
 
-if exist "%ZIP_NAME%" del "%ZIP_NAME%"
+copy /Y "%EXE_SOURCE%" "%EXE_DESTINATION%" >nul || goto error
 
+popd
 echo.
-echo --------------------------------------
-echo Creando archivo ZIP...
-echo --------------------------------------
-
-powershell -NoProfile -Command "Compress-Archive -Path '%BUILD_DIR%\*' -DestinationPath '%ZIP_NAME%' -Force"
-
-if errorlevel 1 goto error
-
-echo.
-echo ======================================
-echo BUILD WINDOWS COMPLETADO
-echo ======================================
-echo.
-echo Archivo generado:
-echo %ZIP_NAME%
-echo.
-echo NOTA:
-echo El ejecutable .exe se encuentra dentro del ZIP.
-echo.
-
-pause
+echo EXE generado: %EXE_DESTINATION%
 exit /b 0
 
 :error
+if defined PUSHED_DIR popd
 echo.
-echo ======================================
 echo ERROR DURANTE LA COMPILACION
-echo ======================================
-echo.
-
-pause
 exit /b 1

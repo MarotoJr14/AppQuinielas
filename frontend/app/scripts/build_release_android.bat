@@ -1,80 +1,50 @@
 @echo off
-setlocal EnableDelayedExpansion
+setlocal EnableExtensions
 
-echo ======================================
-echo    BUILD RELEASE - APP QUINIELAS
-echo    ANDROID
-echo ======================================
-echo.
+set "SCRIPT_DIR=%~dp0"
+for %%I in ("%SCRIPT_DIR%..") do set "PROJECT_DIR=%%~fI"
 
-REM --------------------------------------
-REM Obtener version desde pubspec.yaml
-REM --------------------------------------
-for /f "tokens=2 delims=: " %%A in ('findstr /B "version:" pubspec.yaml') do set VERSION_LINE=%%A
+for /f "tokens=2 delims=:" %%A in ('findstr /R /C:"^[ ]*version:" "%PROJECT_DIR%\pubspec.yaml"') do set "VERSION_LINE=%%A"
+for /f "tokens=1 delims=+ " %%A in ("%VERSION_LINE%") do set "VERSION=%%A"
 
-REM Eliminar el build number (+1)
-for /f "tokens=1 delims=+" %%A in ("%VERSION_LINE%") do set VERSION=%%A
+if not defined VERSION (
+    echo ERROR: No se ha podido obtener la version de pubspec.yaml.
+    exit /b 1
+)
 
+set "APK_SOURCE=%PROJECT_DIR%\build\app\outputs\flutter-apk\app-release.apk"
+set "APK_DESTINATION=%SCRIPT_DIR%app_quinielas-%VERSION%.apk"
+
+echo BUILD RELEASE - APP QUINIELAS ANDROID
 echo Version: %VERSION%
 echo.
 
-REM --------------------------------------
-REM Limpiar y obtener dependencias
-REM --------------------------------------
-echo --------------------------------------
+pushd "%PROJECT_DIR%" || goto error
+set "PUSHED_DIR=1"
+
 echo Limpiando proyecto...
-echo --------------------------------------
+call flutter clean || goto error
 
-flutter clean
-if errorlevel 1 goto error
+echo Obteniendo dependencias...
+call flutter pub get || goto error
 
-flutter pub get
-if errorlevel 1 goto error
+echo Construyendo APK...
+call flutter build apk --release || goto error
 
-REM --------------------------------------
-REM Construir APK
-REM --------------------------------------
-echo.
-echo --------------------------------------
-echo Construyendo Android...
-echo --------------------------------------
-
-flutter build apk --release
-if errorlevel 1 goto error
-
-REM --------------------------------------
-REM Renombrar APK
-REM --------------------------------------
-set ORIGEN=build\app\outputs\flutter-apk\app-release.apk
-set DESTINO=build\app\outputs\flutter-apk\app_quinielas-%VERSION%.apk
-
-if not exist "%ORIGEN%" (
+if not exist "%APK_SOURCE%" (
     echo ERROR: No se ha encontrado el APK generado.
     goto error
 )
 
-if exist "%DESTINO%" del "%DESTINO%"
+copy /Y "%APK_SOURCE%" "%APK_DESTINATION%" >nul || goto error
 
-rename "%ORIGEN%" "app_quinielas-%VERSION%.apk"
-
+popd
 echo.
-echo ======================================
-echo BUILD ANDROID COMPLETADO
-echo ======================================
-echo.
-echo Archivo generado:
-echo %DESTINO%
-echo.
-
-pause
+echo APK generado: %APK_DESTINATION%
 exit /b 0
 
 :error
+if defined PUSHED_DIR popd
 echo.
-echo ======================================
 echo ERROR DURANTE LA COMPILACION
-echo ======================================
-echo.
-
-pause
 exit /b 1

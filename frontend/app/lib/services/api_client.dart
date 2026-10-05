@@ -21,7 +21,7 @@ class ApiClient {
 
   final FlutterSecureStorage _storage;
   String? token;
-  Future<void>? _refreshFuture;
+  Future<bool>? _refreshFuture;
 
   Future<void> saveSession({required String accessToken, required String refreshToken}) async {
     token = accessToken;
@@ -122,7 +122,7 @@ class ApiClient {
 
   Future<dynamic> get(String path, {Map<String, dynamic>? query}) async {
     final resp = await http.get(_uri(path, query), headers: _headers);
-    return _handleResponse(resp, path);
+    return _handleResponse(resp, path, () => http.get(_uri(path, query), headers: _headers));
   }
 
   Future<dynamic> post(String path, {Object? body, Map<String, dynamic>? query}) async {
@@ -131,29 +131,40 @@ class ApiClient {
       headers: _headers,
       body: body != null ? jsonEncode(body) : null,
     );
-    return _handleResponse(resp, path);
+    return _handleResponse(
+      resp,
+      path,
+      () => http.post(
+        _uri(path, query),
+        headers: _headers,
+        body: body != null ? jsonEncode(body) : null,
+      ),
+    );
   }
 
   Future<dynamic> patch(String path, {Object? body}) async {
     final resp = await http.patch(_uri(path), headers: _headers, body: body != null ? jsonEncode(body) : null);
-    return _handleResponse(resp, path);
+    return _handleResponse(
+      resp,
+      path,
+      () => http.patch(_uri(path), headers: _headers, body: body != null ? jsonEncode(body) : null),
+    );
   }
 
   Future<dynamic> delete(String path) async {
     final resp = await http.delete(_uri(path), headers: _headers);
-    return _handleResponse(resp, path);
+    return _handleResponse(resp, path, () => http.delete(_uri(path), headers: _headers));
   }
 
-  Future<dynamic> _handleResponse(http.Response resp, String path) async {
+  Future<dynamic> _handleResponse(
+    http.Response resp,
+    String path,
+    Future<http.Response> Function() retryRequest,
+  ) async {
     if (resp.statusCode == 401 && !path.startsWith('/auth/login') && !path.startsWith('/auth/refresh') && !path.startsWith('/auth/logout')) {
       final refreshed = await refreshSession();
       if (refreshed) {
-        final retryResp = await http.request(
-          _uri(path).toString(),
-          method: resp.request?.method ?? 'GET',
-          headers: _headers,
-          body: resp.request?.body,
-        );
+        final retryResp = await retryRequest();
         return _procesar(retryResp);
       }
       throw ApiException(401, 'La sesión ha expirado.');

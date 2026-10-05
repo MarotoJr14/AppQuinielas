@@ -332,6 +332,11 @@ class _QueueDetailScreenState extends State<QueueDetailScreen> {
   }
 
   Future<void> _cerrarQuiniela() async {
+    if (!_soyLider) {
+      if (mounted) mostrarErrorSnackbar(context, 'Solo el líder del grupo puede cerrar la quiniela.');
+      return;
+    }
+
     final confirmado = await showDialog<bool>(
       context: context,
       builder: (context) => AlertDialog(
@@ -723,11 +728,12 @@ class _QueueDetailScreenState extends State<QueueDetailScreen> {
                   icon: const Icon(Icons.delete_outline, color: AppColors.errores),
                   label: const Text('Eliminar apuesta', style: TextStyle(color: AppColors.errores)),
                 ),
-              TextButton.icon(
-                onPressed: _cerrarQuiniela,
-                icon: const Icon(Icons.lock_outline, color: AppColors.errores),
-                label: const Text('Cerrar quiniela', style: TextStyle(color: AppColors.errores)),
-              ),
+              if (_soyLider)
+                TextButton.icon(
+                  onPressed: _cerrarQuiniela,
+                  icon: const Icon(Icons.lock_outline, color: AppColors.errores),
+                  label: const Text('Cerrar quiniela', style: TextStyle(color: AppColors.errores)),
+                ),
             ],
           ),
         ),

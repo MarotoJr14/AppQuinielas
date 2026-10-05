@@ -27,6 +27,11 @@ class EstadoJornadaEnum(str, enum.Enum):
     finalizada = "finalizada"
 
 
+class EstadoTemporadaEnum(str, enum.Enum):
+    actual = "actual"
+    finalizada = "finalizada"
+
+
 class CategoriaPremioEnum(str, enum.Enum):
     ACIERTOS_15 = "15 aciertos"
     ACIERTOS_14 = "14 aciertos"

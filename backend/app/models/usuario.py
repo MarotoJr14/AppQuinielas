@@ -13,6 +13,7 @@ if TYPE_CHECKING:
     from app.models.columna import Columna
     from app.models.mensaje import Mensaje
     from app.models.audit_log import AuditLog
+    from app.models.refresh_token import RefreshToken
 
 
 class Usuario(Base, TimestampMixin):
@@ -30,6 +31,7 @@ class Usuario(Base, TimestampMixin):
     columnas: Mapped[list["Columna"]] = relationship(back_populates="usuario")
     mensajes: Mapped[list["Mensaje"]] = relationship(back_populates="usuario")
     audit_logs: Mapped[list["AuditLog"]] = relationship(back_populates="usuario")
+    refresh_tokens: Mapped[list["RefreshToken"]] = relationship(back_populates="user", cascade="all, delete-orphan")
 
     def __repr__(self) -> str:
         return f"<Usuario id={self.id} nombre_usuario={self.nombre_usuario!r}>"

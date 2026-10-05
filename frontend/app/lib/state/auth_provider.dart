@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
-import '../core/constants.dart';
 import '../models/usuario.dart';
 import '../services/api_client.dart';
 import '../services/auth_service.dart';
@@ -39,31 +37,41 @@ class AuthProvider extends ChangeNotifier {
   Usuario? usuarioActual;
 
   Future<void> inicializar() async {
-    estado = EstadoSesion.invitado;
-    notifyListeners();
-    /** final prefs = await SharedPreferences.getInstance();
-    final token = prefs.getString(AppConstants.prefsTokenKey);
-    if (token == null) {
+    final accessToken = await _client.readAccessToken();
+    if (accessToken == null || accessToken.isEmpty) {
       estado = EstadoSesion.invitado;
       notifyListeners();
       return;
     }
-    _client.token = token;
+
+    _client.token = accessToken;
     try {
       usuarioActual = await usuarioService.obtenerMiUsuario();
       estado = EstadoSesion.autenticado;
     } catch (_) {
-      await _borrarToken();
-      estado = EstadoSesion.invitado;
+      final refreshed = await _client.refreshSession();
+      if (!refreshed) {
+        await _borrarToken();
+        estado = EstadoSesion.invitado;
+      } else {
+        try {
+          usuarioActual = await usuarioService.obtenerMiUsuario();
+          estado = EstadoSesion.autenticado;
+        } catch (_) {
+          await _borrarToken();
+          estado = EstadoSesion.invitado;
+        }
+      }
     }
-    notifyListeners(); **/
+    notifyListeners();
   }
 
   Future<void> login(String nombreUsuario, String password) async {
-    final token = await authService.login(nombreUsuario: nombreUsuario, password: password);
-    _client.token = token;
-    // final prefs = await SharedPreferences.getInstance();
-    // await prefs.setString(AppConstants.prefsTokenKey, token);
+    final tokens = await authService.login(nombreUsuario: nombreUsuario, password: password);
+    await _client.saveSession(
+      accessToken: tokens['access_token']!,
+      refreshToken: tokens['refresh_token']!,
+    );
     usuarioActual = await usuarioService.obtenerMiUsuario();
     estado = EstadoSesion.autenticado;
     notifyListeners();
@@ -79,6 +87,14 @@ class AuthProvider extends ChangeNotifier {
   }
 
   Future<void> logout() async {
+    final refreshToken = await _client.readRefreshToken();
+    try {
+      if (refreshToken != null && refreshToken.isNotEmpty) {
+        await authService.logout(refreshToken: refreshToken);
+      }
+    } catch (_) {
+      // Se limpia la sesión local aunque el backend falle.
+    }
     await _borrarToken();
     usuarioActual = null;
     estado = EstadoSesion.invitado;
@@ -86,9 +102,8 @@ class AuthProvider extends ChangeNotifier {
   }
 
   Future<void> _borrarToken() async {
+    await _client.clearSession();
     _client.token = null;
-    // final prefs = await SharedPreferences.getInstance();
-    // await prefs.remove(AppConstants.prefsTokenKey);
   }
 
   Future<void> refrescarUsuario() async {

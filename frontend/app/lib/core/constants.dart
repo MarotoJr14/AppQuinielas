@@ -13,4 +13,6 @@ class AppConstants {
 
   static const String prefsTokenKey = 'auth_token';
   static const String prefsThemeKey = 'theme_mode';
+  static const String accessTokenKey = 'access_token';
+  static const String refreshTokenKey = 'refresh_token';
 }

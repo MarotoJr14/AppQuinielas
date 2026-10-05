@@ -18,13 +18,21 @@ class AuthService {
     return Usuario.fromJson(data as Map<String, dynamic>);
   }
 
-  /// Devuelve el token de acceso JWT.
-  Future<String> login({required String nombreUsuario, required String password}) async {
+  Future<Map<String, String>> login({required String nombreUsuario, required String password}) async {
     final data = await client.post('/auth/login', body: {
       'nombre_usuario': nombreUsuario,
       'password': password,
     });
-    return (data as Map<String, dynamic>)['access_token'] as String;
+    final json = data as Map<String, dynamic>;
+    return {
+      'access_token': json['access_token'] as String,
+      'refresh_token': json['refresh_token'] as String,
+    };
+  }
+
+  Future<void> logout({String? refreshToken}) async {
+    final payload = refreshToken == null ? <String, dynamic>{} : {'refresh_token': refreshToken};
+    await client.post('/auth/logout', body: payload);
   }
 
   Future<void> solicitarRecuperacion(String email) async {

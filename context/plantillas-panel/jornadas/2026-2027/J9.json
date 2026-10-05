@@ -1,0 +1,126 @@
+{
+  "nombre": "J9",
+  "fecha_cierre": "2026-09-26T14:00:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Segunda División",
+      "equipo_local": "AD Ceuta FC",
+      "equipo_visitante": "Real Sociedad B",
+      "fecha_hora": "2026-09-26T14:00:00",
+      "canal": "LaLiga Hypermotion TV"
+    },
+    {
+      "orden": 2,
+      "competicion": "Segunda División",
+      "equipo_local": "Granada",
+      "equipo_visitante": "FC Andorra",
+      "fecha_hora": "2026-09-26T16:15:00",
+      "canal": "LaLiga Hypermotion TV"
+    },
+    {
+      "orden": 3,
+      "competicion": "Segunda División",
+      "equipo_local": "Celta Fortuna",
+      "equipo_visitante": "CE Sabadell",
+      "fecha_hora": "2026-09-26T18:30:00",
+      "canal": "LaLiga Hypermotion TV"
+    },
+    {
+      "orden": 4,
+      "competicion": "Segunda División",
+      "equipo_local": "Tenerife",
+      "equipo_visitante": "Cádiz",
+      "fecha_hora": "2026-09-26T18:30:00",
+      "canal": "LaLiga Hypermotion TV"
+    },
+    {
+      "orden": 5,
+      "competicion": "Segunda División",
+      "equipo_local": "Real Valladolid",
+      "equipo_visitante": "Córdoba",
+      "fecha_hora": "2026-09-27T14:00:00",
+      "canal": "LaLiga Hypermotion TV"
+    },
+    {
+      "orden": 6,
+      "competicion": "Segunda División",
+      "equipo_local": "Mallorca",
+      "equipo_visitante": "Almería",
+      "fecha_hora": "2026-09-27T16:15:00",
+      "canal": "LaLiga Hypermotion TV"
+    },
+    {
+      "orden": 7,
+      "competicion": "Segunda División",
+      "equipo_local": "Burgos CF",
+      "equipo_visitante": "Eldense",
+      "fecha_hora": "2026-09-27T18:30:00",
+      "canal": "LaLiga Hypermotion TV"
+    },
+    {
+      "orden": 8,
+      "competicion": "Segunda División",
+      "equipo_local": "Eibar",
+      "equipo_visitante": "UD Las Palmas",
+      "fecha_hora": "2026-09-27T18:30:00",
+      "canal": "LaLiga Hypermotion TV"
+    },
+    {
+      "orden": 9,
+      "competicion": "Segunda División",
+      "equipo_local": "Real Oviedo",
+      "equipo_visitante": "Real Sporting",
+      "fecha_hora": "2026-09-27T21:00:00",
+      "canal": "LaLiga Hypermotion TV"
+    },
+    {
+      "orden": 10,
+      "competicion": "Segunda División",
+      "equipo_local": "Leganés",
+      "equipo_visitante": "CD Castellón",
+      "fecha_hora": "2026-09-28T20:30:00",
+      "canal": "LaLiga Hypermotion TV"
+    },
+    {
+      "orden": 11,
+      "competicion": "Primera División Femenina",
+      "equipo_local": "Athletic Club Fem",
+      "equipo_visitante": "Atlético Fem",
+      "fecha_hora": "2026-09-27T12:00:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 12,
+      "competicion": "Primera División Femenina",
+      "equipo_local": "Valencia Fem",
+      "equipo_visitante": "Tenerife Fem",
+      "fecha_hora": "2026-09-27T12:00:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 13,
+      "competicion": "Primera División Femenina",
+      "equipo_local": "Sevilla FC Fem",
+      "equipo_visitante": "Eibar Fem",
+      "fecha_hora": "2026-09-27T16:00:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 14,
+      "competicion": "Primera División Femenina",
+      "equipo_local": "Deportivo Abanca Fem",
+      "equipo_visitante": "Espanyol Fem",
+      "fecha_hora": "2026-09-27T18:00:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 15,
+      "competicion": "Liga de las Naciones de la UEFA",
+      "equipo_local": "Inglaterra",
+      "equipo_visitante": "España",
+      "fecha_hora": "2026-09-26T20:45:00",
+      "canal": "La 1"
+    }
+  ]
+}

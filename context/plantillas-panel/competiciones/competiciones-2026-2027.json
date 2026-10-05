@@ -23,5 +23,10 @@
     "nombre": "Europa League",
     "ambito": "Europa",
     "es_clubes": true
+  },
+  {
+    "nombre": "Liga de las Naciones de la UEFA",
+    "ambito": "Europa",
+    "es_clubes": false
   }
 ]

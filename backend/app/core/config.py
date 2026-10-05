@@ -17,7 +17,8 @@ class Settings(BaseSettings):
 
     SECRET_KEY: str = "change-this-secret-key-in-production"
     ALGORITHM: str = "HS256"
-    ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24 * 7
+    ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
+    REFRESH_TOKEN_EXPIRE_DAYS: int = 30
 
     API_V1_PREFIX: str = "/api/v1"
     PROJECT_NAME: str = "Quinielas API"

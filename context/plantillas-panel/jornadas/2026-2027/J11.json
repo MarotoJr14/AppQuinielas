@@ -1,0 +1,126 @@
+{
+  "nombre": "J11",
+  "fecha_cierre": "2026-10-03T14:00:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Segunda División",
+      "equipo_local": "Albacete",
+      "equipo_visitante": "Eibar",
+      "fecha_hora": "2026-10-03T14:00:00",
+      "canal": "LaLiga Hypermotion TV"
+    },
+    {
+      "orden": 2,
+      "competicion": "Segunda División",
+      "equipo_local": "Almería",
+      "equipo_visitante": "Burgos CF",
+      "fecha_hora": "2026-10-03T16:15:00",
+      "canal": "LaLiga Hypermotion TV"
+    },
+    {
+      "orden": 3,
+      "competicion": "Segunda División",
+      "equipo_local": "Cádiz",
+      "equipo_visitante": "Leganés",
+      "fecha_hora": "2026-10-03T18:30:00",
+      "canal": "LaLiga Hypermotion TV"
+    },
+    {
+      "orden": 4,
+      "competicion": "Segunda División",
+      "equipo_local": "CE Sabadell",
+      "equipo_visitante": "FC Andorra",
+      "fecha_hora": "2026-10-03T21:00:00",
+      "canal": "LaLiga Hypermotion TV"
+    },
+    {
+      "orden": 5,
+      "competicion": "Segunda División",
+      "equipo_local": "Real Sociedad B",
+      "equipo_visitante": "Granada",
+      "fecha_hora": "2026-10-04T14:00:00",
+      "canal": "LaLiga Hypermotion TV"
+    },
+    {
+      "orden": 6,
+      "competicion": "Segunda División",
+      "equipo_local": "Real Sporting",
+      "equipo_visitante": "Celta Fortuna",
+      "fecha_hora": "2026-10-04T16:15:00",
+      "canal": "LaLiga Hypermotion TV"
+    },
+    {
+      "orden": 7,
+      "competicion": "Segunda División",
+      "equipo_local": "CD Castellón",
+      "equipo_visitante": "AD Ceuta FC",
+      "fecha_hora": "2026-10-04T18:30:00",
+      "canal": "LaLiga Hypermotion TV"
+    },
+    {
+      "orden": 8,
+      "competicion": "Segunda División",
+      "equipo_local": "UD Las Palmas",
+      "equipo_visitante": "Real Valladolid",
+      "fecha_hora": "2026-10-04T18:30:00",
+      "canal": "LaLiga Hypermotion TV"
+    },
+    {
+      "orden": 9,
+      "competicion": "Segunda División",
+      "equipo_local": "Girona FC",
+      "equipo_visitante": "Mallorca",
+      "fecha_hora": "2026-10-04T21:00:00",
+      "canal": "LaLiga Hypermotion TV"
+    },
+    {
+      "orden": 10,
+      "competicion": "Segunda División",
+      "equipo_local": "Córdoba CF",
+      "equipo_visitante": "Tenerife",
+      "fecha_hora": "2026-10-05T20:30:00",
+      "canal": "LaLiga Hypermotion TV"
+    },
+    {
+      "orden": 11,
+      "competicion": "Primera División Femenina",
+      "equipo_local": "Barcelona Fem",
+      "equipo_visitante": "Real Madrid Fem",
+      "fecha_hora": "2026-10-04T17:00:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 12,
+      "competicion": "Primera División Femenina",
+      "equipo_local": "Deportivo Abanca Fem",
+      "equipo_visitante": "Atlético Fem",
+      "fecha_hora": "2026-10-03T16:00:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 13,
+      "competicion": "Primera División Femenina",
+      "equipo_local": "Madrid CFF Fem",
+      "equipo_visitante": "Athletic Club Fem",
+      "fecha_hora": "2026-10-03T18:00:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 14,
+      "competicion": "Primera División Femenina",
+      "equipo_local": "Tenerife Fem",
+      "equipo_visitante": "Logroño United Fem",
+      "fecha_hora": "2026-10-04T12:00:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 15,
+      "competicion": "Liga de las Naciones de la UEFA",
+      "equipo_local": "España",
+      "equipo_visitante": "República Checa",
+      "fecha_hora": "2026-10-03T20:45:00",
+      "canal": "La 1"
+    }
+  ]
+}

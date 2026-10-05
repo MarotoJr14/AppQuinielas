@@ -1,0 +1,126 @@
+{
+  "nombre": "J10",
+  "fecha_cierre": "2026-09-29T20:45:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Liga de las Naciones de la UEFA",
+      "equipo_local": "Luxemburgo",
+      "equipo_visitante": "Islandia",
+      "fecha_hora": "2026-09-29T20:45:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 2,
+      "competicion": "Liga de las Naciones de la UEFA",
+      "equipo_local": "Eslovaquia",
+      "equipo_visitante": "Kazajistán",
+      "fecha_hora": "2026-09-29T20:45:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 3,
+      "competicion": "Liga de las Naciones de la UEFA",
+      "equipo_local": "República Checa",
+      "equipo_visitante": "Inglaterra",
+      "fecha_hora": "2026-09-29T20:45:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 4,
+      "competicion": "Liga de las Naciones de la UEFA",
+      "equipo_local": "Eslovenia",
+      "equipo_visitante": "Macedonia del Norte",
+      "fecha_hora": "2026-09-29T20:45:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 5,
+      "competicion": "Liga de las Naciones de la UEFA",
+      "equipo_local": "Bulgaria",
+      "equipo_visitante": "Estonia",
+      "fecha_hora": "2026-09-29T20:45:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 6,
+      "competicion": "Liga de las Naciones de la UEFA",
+      "equipo_local": "San Marino",
+      "equipo_visitante": "Albania",
+      "fecha_hora": "2026-09-29T20:45:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 7,
+      "competicion": "Liga de las Naciones de la UEFA",
+      "equipo_local": "Escocia",
+      "equipo_visitante": "Suiza",
+      "fecha_hora": "2026-09-29T20:45:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 8,
+      "competicion": "Liga de las Naciones de la UEFA",
+      "equipo_local": "Azerbaiyán",
+      "equipo_visitante": "Liechtenstein",
+      "fecha_hora": "2026-10-01T18:00:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 9,
+      "competicion": "Liga de las Naciones de la UEFA",
+      "equipo_local": "Grecia",
+      "equipo_visitante": "Países Bajos",
+      "fecha_hora": "2026-10-01T20:45:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 10,
+      "competicion": "Liga de las Naciones de la UEFA",
+      "equipo_local": "Alemania",
+      "equipo_visitante": "Serbia",
+      "fecha_hora": "2026-10-01T20:45:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 11,
+      "competicion": "Liga de las Naciones de la UEFA",
+      "equipo_local": "Irlanda",
+      "equipo_visitante": "Austria",
+      "fecha_hora": "2026-10-01T20:45:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 12,
+      "competicion": "Liga de las Naciones de la UEFA",
+      "equipo_local": "Gales",
+      "equipo_visitante": "Noruega",
+      "fecha_hora": "2026-10-01T20:45:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 13,
+      "competicion": "Liga de las Naciones de la UEFA",
+      "equipo_local": "Malta",
+      "equipo_visitante": "Gibraltar",
+      "fecha_hora": "2026-10-01T20:45:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 14,
+      "competicion": "Liga de las Naciones de la UEFA",
+      "equipo_local": "Dinamarca",
+      "equipo_visitante": "Portugal",
+      "fecha_hora": "2026-10-01T20:45:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 15,
+      "competicion": "Liga de las Naciones de la UEFA",
+      "equipo_local": "España",
+      "equipo_visitante": "Croacia",
+      "fecha_hora": "2026-09-29T20:45:00",
+      "canal": "La 1"
+    }
+  ]
+}

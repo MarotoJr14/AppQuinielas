@@ -26,9 +26,15 @@ class EquiposCache {
 
   Future<void> asegurarCargado() async {
     if (_cargado) return;
-    final equipos = await _service.listar();
-    for (final e in equipos) {
-      _porId[e.id] = e;
+    const pageSize = 100;
+    var skip = 0;
+    while (true) {
+      final equipos = await _service.listar(skip: skip, limit: pageSize);
+      for (final equipo in equipos) {
+        _porId[equipo.id] = equipo;
+      }
+      if (equipos.length < pageSize) break;
+      skip += equipos.length;
     }
     _cargado = true;
   }

@@ -1,0 +1,126 @@
+{
+  "nombre": "J18",
+  "fecha_cierre": "2026-10-31T14:00:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Primera División",
+      "equipo_local": "Levante",
+      "equipo_visitante": "Atlético de Madrid",
+      "fecha_hora": "2026-10-31T14:00:00",
+      "canal": "M+ LaLiga"
+    },
+    {
+      "orden": 2,
+      "competicion": "Primera División",
+      "equipo_local": "Rayo Vallecano",
+      "equipo_visitante": "Celta",
+      "fecha_hora": "2026-10-31T16:15:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 3,
+      "competicion": "Primera División",
+      "equipo_local": "Real Betis",
+      "equipo_visitante": "Málaga",
+      "fecha_hora": "2026-10-31T18:30:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 4,
+      "competicion": "Primera División",
+      "equipo_local": "FC Barcelona",
+      "equipo_visitante": "Deportivo Alavés",
+      "fecha_hora": "2026-10-31T21:00:00",
+      "canal": "M+ LaLiga"
+    },
+    {
+      "orden": 5,
+      "competicion": "Primera División",
+      "equipo_local": "Getafe",
+      "equipo_visitante": "Sevilla",
+      "fecha_hora": "2026-11-01T14:00:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 6,
+      "competicion": "Primera División",
+      "equipo_local": "Racing",
+      "equipo_visitante": "Real Madrid",
+      "fecha_hora": "2026-11-01T16:15:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 7,
+      "competicion": "Primera División",
+      "equipo_local": "Elche",
+      "equipo_visitante": "Valencia",
+      "fecha_hora": "2026-11-01T18:30:00",
+      "canal": "M+ LaLiga"
+    },
+    {
+      "orden": 8,
+      "competicion": "Segunda División",
+      "equipo_local": "Eibar",
+      "equipo_visitante": "Almería",
+      "fecha_hora": "2026-10-31T16:15:00",
+      "canal": "LaLiga Hypermotion TV"
+    },
+    {
+      "orden": 9,
+      "competicion": "Segunda División",
+      "equipo_local": "Eldense",
+      "equipo_visitante": "Granada",
+      "fecha_hora": "2026-11-01T14:00:00",
+      "canal": "LaLiga Hypermotion TV"
+    },
+    {
+      "orden": 10,
+      "competicion": "Segunda División",
+      "equipo_local": "Burgos CF",
+      "equipo_visitante": "CD Castellón",
+      "fecha_hora": "2026-11-01T18:30:00",
+      "canal": "LaLiga Hypermotion TV"
+    },
+    {
+      "orden": 11,
+      "competicion": "Primera División Femenina",
+      "equipo_local": "Deportivo Alavés Fem",
+      "equipo_visitante": "Real Sociedad Fem",
+      "fecha_hora": "2026-11-01T12:00:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 12,
+      "competicion": "Primera División Femenina",
+      "equipo_local": "Madrid CFF Fem",
+      "equipo_visitante": "Deportivo Abanca Fem",
+      "fecha_hora": "2026-10-31T18:00:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 13,
+      "competicion": "Primera División Femenina",
+      "equipo_local": "Sevilla FC Fem",
+      "equipo_visitante": "Real Madrid Fem",
+      "fecha_hora": "2026-11-01T19:00:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 14,
+      "competicion": "Primera División Femenina",
+      "equipo_local": "Tenerife Fem",
+      "equipo_visitante": "Athletic Club Fem",
+      "fecha_hora": "2026-11-02T20:00:00",
+      "canal": "DAZN"
+    },
+    {
+      "orden": 15,
+      "competicion": "Primera División",
+      "equipo_local": "Athletic Club",
+      "equipo_visitante": "Real Sociedad",
+      "fecha_hora": "2026-11-01T21:00:00",
+      "canal": "DAZN"
+    }
+  ]
+}

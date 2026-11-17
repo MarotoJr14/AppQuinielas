@@ -1,0 +1,126 @@
+{
+  "nombre": "J19",
+  "fecha_cierre": "2026-11-03T21:00:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Champions League",
+      "equipo_local": "FC Barcelona",
+      "equipo_visitante": "Aston Villa",
+      "fecha_hora": "2026-11-03T21:00:00",
+      "canal": "M+ Liga de Campeones"
+    },
+    {
+      "orden": 2,
+      "competicion": "Champions League",
+      "equipo_local": "FK Bodo Glimt",
+      "equipo_visitante": "Lille",
+      "fecha_hora": "2026-11-03T21:00:00",
+      "canal": "M+ Liga de Campeones"
+    },
+    {
+      "orden": 3,
+      "competicion": "Champions League",
+      "equipo_local": "Manchester United",
+      "equipo_visitante": "Roma",
+      "fecha_hora": "2026-11-03T21:00:00",
+      "canal": "M+ Liga de Campeones"
+    },
+    {
+      "orden": 4,
+      "competicion": "Champions League",
+      "equipo_local": "Villarreal",
+      "equipo_visitante": "PSG",
+      "fecha_hora": "2026-11-03T21:00:00",
+      "canal": "M+ Liga de Campeones"
+    },
+    {
+      "orden": 5,
+      "competicion": "Champions League",
+      "equipo_local": "AEK Athens",
+      "equipo_visitante": "Real Madrid",
+      "fecha_hora": "2026-11-04T18:45:00",
+      "canal": "M+ Liga de Campeones"
+    },
+    {
+      "orden": 6,
+      "competicion": "Champions League",
+      "equipo_local": "Fenerbahçe",
+      "equipo_visitante": "Liverpool",
+      "fecha_hora": "2026-11-04T18:45:00",
+      "canal": "M+ Liga de Campeones"
+    },
+    {
+      "orden": 7,
+      "competicion": "Champions League",
+      "equipo_local": "B. Dortmund",
+      "equipo_visitante": "Real Betis",
+      "fecha_hora": "2026-11-04T21:00:00",
+      "canal": "M+ Liga de Campeones"
+    },
+    {
+      "orden": 8,
+      "competicion": "Champions League",
+      "equipo_local": "Porto",
+      "equipo_visitante": "Napoli",
+      "fecha_hora": "2026-11-04T21:00:00",
+      "canal": "M+ Liga de Campeones"
+    },
+    {
+      "orden": 9,
+      "competicion": "Champions League",
+      "equipo_local": "Lens",
+      "equipo_visitante": "Como",
+      "fecha_hora": "2026-11-04T21:00:00",
+      "canal": "M+ Liga de Campeones"
+    },
+    {
+      "orden": 10,
+      "competicion": "Champions League",
+      "equipo_local": "RB Leipzig",
+      "equipo_visitante": "Manchester City",
+      "fecha_hora": "2026-11-04T21:00:00",
+      "canal": "M+ Liga de Campeones"
+    },
+    {
+      "orden": 11,
+      "competicion": "Champions League",
+      "equipo_local": "Slavia Praha",
+      "equipo_visitante": "Arsenal",
+      "fecha_hora": "2026-11-04T21:00:00",
+      "canal": "M+ Liga de Campeones"
+    },
+    {
+      "orden": 12,
+      "competicion": "Europa League",
+      "equipo_local": "Real Sociedad",
+      "equipo_visitante": "Olympique Lyonnais",
+      "fecha_hora": "2026-11-05T18:45:00",
+      "canal": "M+ Liga de Campeones"
+    },
+    {
+      "orden": 13,
+      "competicion": "Europa League",
+      "equipo_local": "Celta",
+      "equipo_visitante": "Union Saint-Gilloise",
+      "fecha_hora": "2026-11-05T21:00:00",
+      "canal": "M+ Liga de Campeones"
+    },
+    {
+      "orden": 14,
+      "competicion": "Conference League",
+      "equipo_local": "Getafe",
+      "equipo_visitante": "Brighton & Hove Albion",
+      "fecha_hora": "2026-11-05T21:00:00",
+      "canal": "M+ Liga de Campeones"
+    },
+    {
+      "orden": 15,
+      "competicion": "Champions League",
+      "equipo_local": "Atlético de Madrid",
+      "equipo_visitante": "Bayern München",
+      "fecha_hora": "2026-11-03T21:00:00",
+      "canal": "M+ Liga de Campeones"
+    }
+  ]
+}

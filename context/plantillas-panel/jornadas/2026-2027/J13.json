@@ -1,0 +1,126 @@
+{
+  "nombre": "J13",
+  "fecha_cierre": "2026-10-13T21:00:00",
+  "partidos": [
+    {
+      "orden": 1,
+      "competicion": "Champions League",
+      "equipo_local": "Villarreal",
+      "equipo_visitante": "Napoli",
+      "fecha_hora": "2026-10-13T21:00:00",
+      "canal": "M+ Liga de Campeones"
+    },
+    {
+      "orden": 2,
+      "competicion": "Champions League",
+      "equipo_local": "Atlético de Madrid",
+      "equipo_visitante": "Manchester United",
+      "fecha_hora": "2026-10-13T21:00:00",
+      "canal": "M+ Liga de Campeones"
+    },
+    {
+      "orden": 3,
+      "competicion": "Champions League",
+      "equipo_local": "Arsenal",
+      "equipo_visitante": "Lille",
+      "fecha_hora": "2026-10-13T21:00:00",
+      "canal": "M+ Liga de Campeones"
+    },
+    {
+      "orden": 4,
+      "competicion": "Champions League",
+      "equipo_local": "Galatasaray SK",
+      "equipo_visitante": "FC Barcelona",
+      "fecha_hora": "2026-10-13T21:00:00",
+      "canal": "M+ Liga de Campeones"
+    },
+    {
+      "orden": 5,
+      "competicion": "Champions League",
+      "equipo_local": "Inter",
+      "equipo_visitante": "Club Brugge",
+      "fecha_hora": "2026-10-13T21:00:00",
+      "canal": "M+ Liga de Campeones"
+    },
+    {
+      "orden": 6,
+      "competicion": "Champions League",
+      "equipo_local": "Viking Stavanger",
+      "equipo_visitante": "Bayern München",
+      "fecha_hora": "2026-10-13T21:00:00",
+      "canal": "M+ Liga de Campeones"
+    },
+    {
+      "orden": 7,
+      "competicion": "Champions League",
+      "equipo_local": "Feyenoord",
+      "equipo_visitante": "Como",
+      "fecha_hora": "2026-10-14T18:45:00",
+      "canal": "M+ Liga de Campeones"
+    },
+    {
+      "orden": 8,
+      "competicion": "Champions League",
+      "equipo_local": "LASK",
+      "equipo_visitante": "Liverpool",
+      "fecha_hora": "2026-10-14T18:45:00",
+      "canal": "M+ Liga de Campeones"
+    },
+    {
+      "orden": 9,
+      "competicion": "Champions League",
+      "equipo_local": "Real Betis",
+      "equipo_visitante": "Porto",
+      "fecha_hora": "2026-10-14T21:00:00",
+      "canal": "M+ Liga de Campeones"
+    },
+    {
+      "orden": 10,
+      "competicion": "Champions League",
+      "equipo_local": "FK Bodo Glimt",
+      "equipo_visitante": "B. Dortmund",
+      "fecha_hora": "2026-10-14T21:00:00",
+      "canal": "M+ Liga de Campeones"
+    },
+    {
+      "orden": 11,
+      "competicion": "Champions League",
+      "equipo_local": "Manchester City",
+      "equipo_visitante": "PSG",
+      "fecha_hora": "2026-10-14T21:00:00",
+      "canal": "M+ Liga de Campeones"
+    },
+    {
+      "orden": 12,
+      "competicion": "Europa League",
+      "equipo_local": "Union Saint-Gilloise",
+      "equipo_visitante": "Real Sociedad",
+      "fecha_hora": "2026-10-15T18:45:00",
+      "canal": "M+ Liga de Campeones"
+    },
+    {
+      "orden": 13,
+      "competicion": "Europa League",
+      "equipo_local": "Celta",
+      "equipo_visitante": "Juventus",
+      "fecha_hora": "2026-10-15T21:00:00",
+      "canal": "M+ Liga de Campeones"
+    },
+    {
+      "orden": 14,
+      "competicion": "Conference League",
+      "equipo_local": "Universitatea Craiova",
+      "equipo_visitante": "Getafe",
+      "fecha_hora": "2026-10-15T18:45:00",
+      "canal": "M+ Liga de Campeones"
+    },
+    {
+      "orden": 15,
+      "competicion": "Champions League",
+      "equipo_local": "Roma",
+      "equipo_visitante": "Real Madrid",
+      "fecha_hora": "2026-10-14T21:00:00",
+      "canal": "M+ Liga de Campeones"
+    }
+  ]
+}

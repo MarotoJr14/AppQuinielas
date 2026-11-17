@@ -1,0 +1,92 @@
+[
+  {
+    "nombre": "Arsenal Fem",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "Bayern München Fem",
+    "pais": "Alemania",
+    "es_club": true
+  },
+  {
+    "nombre": "Barcelona Fem",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Manchester City Fem",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "Real Madrid Fem",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Inter Fem",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "PSG Fem",
+    "pais": "Francia",
+    "es_club": true
+  },
+  {
+    "nombre": "Benfica Fem",
+    "pais": "Portugal",
+    "es_club": true
+  },
+  {
+    "nombre": "OH Leuven Fem",
+    "pais": "Bélgica",
+    "es_club": true
+  },
+  {
+    "nombre": "Servette Fem",
+    "pais": "Suiza",
+    "es_club": true
+  },
+  {
+    "nombre": "Häcken Fem",
+    "pais": "Suecia",
+    "es_club": true
+  },
+  {
+    "nombre": "Paris FC Fem",
+    "pais": "Francia",
+    "es_club": true
+  },
+  {
+    "nombre": "Austria Wien Fem",
+    "pais": "Austria",
+    "es_club": true
+  },
+  {
+    "nombre": "Roma Fem",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "HB Koge Fem",
+    "pais": "Dinamarca",
+    "es_club": true
+  },
+  {
+    "nombre": "OL Lyonnes Fem",
+    "pais": "Francia",
+    "es_club": true
+  },
+  {
+    "nombre": "Juventus Fem",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "Chelsea Fem",
+    "pais": "Inglaterra",
+    "es_club": true
+  }
+]

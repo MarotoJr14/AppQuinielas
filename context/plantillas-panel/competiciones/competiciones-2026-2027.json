@@ -28,5 +28,20 @@
     "nombre": "Liga de las Naciones de la UEFA",
     "ambito": "Europa",
     "es_clubes": false
+  },
+  {
+    "nombre": "Conference League",
+    "ambito": "Europa",
+    "es_clubes": true
+  },
+  {
+    "nombre": "Copa del Rey",
+    "ambito": "España",
+    "es_clubes": true
+  },
+  {
+    "nombre": "Champions League Femenina",
+    "ambito": "Europa",
+    "es_clubes": true
   }
 ]

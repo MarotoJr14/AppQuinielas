@@ -1,0 +1,182 @@
+[
+  {
+    "nombre": "AGF Aarhus",
+    "pais": "Dinamarca",
+    "es_club": true
+  },
+  {
+    "nombre": "Ajax",
+    "pais": "Países Bajos",
+    "es_club": true
+  },
+  {
+    "nombre": "Atalanta",
+    "pais": "Italia",
+    "es_club": true
+  },
+  {
+    "nombre": "Borac Banja Luka",
+    "pais": "Bosnia y Herzegovina",
+    "es_club": true
+  },
+  {
+    "nombre": "Brighton & Hove Albion",
+    "pais": "Inglaterra",
+    "es_club": true
+  },
+  {
+    "nombre": "Crvena Zvezda",
+    "pais": "Serbia",
+    "es_club": true
+  },
+  {
+    "nombre": "CSKA Sofia",
+    "pais": "Bulgaria",
+    "es_club": true
+  },
+  {
+    "nombre": "FC Iberia 1999",
+    "pais": "Georgia",
+    "es_club": true
+  },
+  {
+    "nombre": "FC Lugano",
+    "pais": "Suiza",
+    "es_club": true
+  },
+  {
+    "nombre": "Getafe",
+    "pais": "España",
+    "es_club": true
+  },
+  {
+    "nombre": "Heart of Midlothian",
+    "pais": "Escocia",
+    "es_club": true
+  },
+  {
+    "nombre": "HNK Hajduk Split",
+    "pais": "Croacia",
+    "es_club": true
+  },
+  {
+    "nombre": "Inter Escaldes",
+    "pais": "Andorra",
+    "es_club": true
+  },
+  {
+    "nombre": "Jablonec",
+    "pais": "República Checa",
+    "es_club": true
+  },
+  {
+    "nombre": "KAA Gent",
+    "pais": "Bélgica",
+    "es_club": true
+  },
+  {
+    "nombre": "Kairat Almaty",
+    "pais": "Kazajistán",
+    "es_club": true
+  },
+  {
+    "nombre": "Kauno Žalgiris",
+    "pais": "Letonia",
+    "es_club": true
+  },
+  {
+    "nombre": "KF Egnatia",
+    "pais": "Albania",
+    "es_club": true
+  },
+  {
+    "nombre": "Kobenhavn",
+    "pais": "Dinamarca",
+    "es_club": true
+  },
+  {
+    "nombre": "KuPS Kuopio",
+    "pais": "Finlandia",
+    "es_club": true
+  },
+  {
+    "nombre": "Lincoln Red Imps",
+    "pais": "Gibraltar",
+    "es_club": true
+  },
+  {
+    "nombre": "Midtjylland",
+    "pais": "Dinamarca",
+    "es_club": true
+  },
+  {
+    "nombre": "Mjallby AIF",
+    "pais": "Suecia",
+    "es_club": true
+  },
+  {
+    "nombre": "Monaco",
+    "pais": "Francia",
+    "es_club": true
+  },
+  {
+    "nombre": "Nordsjaelland",
+    "pais": "Dinamarca",
+    "es_club": true
+  },
+  {
+    "nombre": "Pafos",
+    "pais": "Chipre",
+    "es_club": true
+  },
+  {
+    "nombre": "Panathinaikos",
+    "pais": "Grecia",
+    "es_club": true
+  },
+  {
+    "nombre": "Riga FC",
+    "pais": "Letonia",
+    "es_club": true
+  },
+  {
+    "nombre": "SC Freiburg",
+    "pais": "Alemania",
+    "es_club": true
+  },
+  {
+    "nombre": "Sint-Truidense VV",
+    "pais": "Bélgica",
+    "es_club": true
+  },
+  {
+    "nombre": "SK Brann",
+    "pais": "Noruega",
+    "es_club": true
+  },
+  {
+    "nombre": "Sporting Braga",
+    "pais": "Portugal",
+    "es_club": true
+  },
+  {
+    "nombre": "Thun",
+    "pais": "Suiza",
+    "es_club": true
+  },
+  {
+    "nombre": "Trabzonspor",
+    "pais": "Turquía",
+    "es_club": true
+  },
+  {
+    "nombre": "Twente",
+    "pais": "Países Bajos",
+    "es_club": true
+  },
+  {
+    "nombre": "Universitatea Craiova",
+    "pais": "Rumania",
+    "es_club": true
+  }
+]
